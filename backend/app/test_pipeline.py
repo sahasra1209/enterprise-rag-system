@@ -1,47 +1,73 @@
 
+from pathlib import Path
+
 from ingestion import extract_pages_from_pdf
 from chunking import split_text_into_chunks
 from embeddings import load_embedding_model
+from vector_store import create_vector_store, store_chunks
 
-# Step 1: Extract pages from the PDF
-pdf_path = "data/raw/test policy.pdf"
-pages = extract_pages_from_pdf(pdf_path)
 
-# Step 2: Split each page into chunks and preserve metadata
-all_chunks = []
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
+RAW_DATA_DIR = PROJECT_ROOT / "data" / "raw"
 
-for page in pages:
-    chunks = split_text_into_chunks(
-        page["text"],
-        chunk_size=500,
-        overlap=100
-    )
 
-    for chunk_number, chunk_text in enumerate(chunks, start=1):
-        all_chunks.append({
-            "source": "test policy.pdf",
-            "page_number": page["page_number"],
-            "chunk_number": chunk_number,
-            "text": chunk_text
-        })
+def ingest_all_pdfs():
+    """Ingest every PDF in data/raw into ChromaDB."""
 
-# Step 3: Load the embedding model
-model = load_embedding_model()
+    pdf_files = sorted(RAW_DATA_DIR.glob("*.pdf"))
 
-# Step 4: Generate one embedding per chunk
-texts = [chunk["text"] for chunk in all_chunks]
-vectors = model.encode(texts)
+    if not pdf_files:
+        print(f"No PDF files found in: {RAW_DATA_DIR}")
+        return
 
-# Step 5: Display results
-print("Total pages:", len(pages))
-print("Total chunks:", len(all_chunks))
-print("Number of embeddings:", len(vectors))
+    all_chunks = []
 
-if len(vectors) > 0:
-    print("Dimensions per embedding:", len(vectors[0]))
-    print("\nFirst chunk metadata:")
-    print(all_chunks[0]["source"])
-    print(all_chunks[0]["page_number"])
-    print(all_chunks[0]["chunk_number"])
-    print("\nFirst 10 embedding values:")
-    print(vectors[0][:10].tolist())
+    for pdf_path in pdf_files:
+        print(f"\nProcessing: {pdf_path.name}")
+
+        pages = extract_pages_from_pdf(str(pdf_path))
+        source_chunks = []
+
+        for page in pages:
+            chunks = split_text_into_chunks(
+                page["text"],
+                chunk_size=500,
+                overlap=100
+            )
+
+            for chunk_number, chunk_text in enumerate(
+                chunks, start=1
+            ):
+                source_chunks.append({
+                    "source": pdf_path.name,
+                    "page_number": page["page_number"],
+                    "chunk_number": chunk_number,
+                    "text": chunk_text
+                })
+
+        print(f"Pages extracted: {len(pages)}")
+        print(f"Chunks created: {len(source_chunks)}")
+
+        all_chunks.extend(source_chunks)
+
+    if not all_chunks:
+        print("No text chunks were extracted from the PDFs.")
+        return
+
+    model = load_embedding_model()
+
+    texts = [chunk["text"] for chunk in all_chunks]
+    embeddings = model.encode(texts)
+
+    print(f"\nPDF files processed: {len(pdf_files)}")
+    print(f"Total chunks: {len(all_chunks)}")
+    print(f"Total embeddings: {len(embeddings)}")
+
+    collection = create_vector_store()
+    store_chunks(collection, all_chunks, embeddings)
+
+    print("\nMulti-PDF ingestion completed successfully!")
+
+
+if __name__ == "__main__":
+    ingest_all_pdfs()

@@ -1,0 +1,48 @@
+
+import unittest
+from claim_validation import validate_claim
+
+
+class TestClaimValidation(unittest.TestCase):
+
+    def test_matching_evidence(self):
+        self.assertTrue(
+            validate_claim(
+                "Managers must approve leave requests.",
+                "Managers must approve leave requests."
+            )
+        )
+
+    def test_conflicting_number(self):
+        self.assertFalse(
+            validate_claim(
+                "Employees receive 30 days of annual leave.",
+                "Employees receive 20 days of annual leave."
+            )
+        )
+
+    def test_missing_evidence(self):
+        self.assertFalse(
+            validate_claim(
+                "Maternity leave is 12 weeks.",
+                "Employees can request leave through the HR portal."
+            )
+        )
+
+    def test_negation_conflict(self):
+        self.assertFalse(
+            validate_claim(
+                "Managers must approve leave requests.",
+                "Managers do not approve leave requests."
+            )
+        )
+
+    def test_empty_claim(self):
+        self.assertFalse(validate_claim("", "Some evidence exists."))
+
+    def test_empty_evidence(self):
+        self.assertFalse(validate_claim("Some claim exists.", ""))
+
+
+if __name__ == "__main__":
+    unittest.main(verbosity=2)
