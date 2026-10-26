@@ -48,7 +48,8 @@ class TestRAGPipeline(unittest.TestCase):
         printed = " ".join(
             str(call) for call in mock_print.call_args_list
         )
-        self.assertIn("Managers must approve leave requests.", printed)
+        self.assertIn(
+            "Managers must approve leave requests [E1].",printed)
         self.assertIn("Cited sources:", printed)
 
     @patch("builtins.print")
