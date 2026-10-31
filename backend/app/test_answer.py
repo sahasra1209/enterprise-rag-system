@@ -6,20 +6,20 @@ from answer import generate_answer
 def run_test(question, expected_text, test_name):
     print(f"\nTest: {test_name}")
 
-    with patch("builtins.print") as mock_print:
-        generate_answer(question)
+    with patch("builtins.print"):
+        result = generate_answer(question)
 
-    output = " ".join(
-        str(call) for call in mock_print.call_args_list
-    ).lower()
+    # Check the returned answer instead of terminal output.
+    answer = result.get("answer", "").lower()
 
-    if expected_text.lower() in output:
+    if expected_text.lower() in answer:
         print("PASS")
         return True
 
     print("FAIL")
     print("Expected:", expected_text)
-    print("Check the answer-generation output.")
+    print("Actual:", answer)
+    print("Status:", result.get("overall_status"))
     return False
 
 

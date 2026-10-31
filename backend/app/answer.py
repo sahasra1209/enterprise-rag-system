@@ -2,10 +2,13 @@
 from search import search_documents
 from reranker import DocumentReranker
 from hallucination_detector import HallucinationDetector
+
 import ollama
 import re
+from time import perf_counter
 
 
+# Lazy-loaded components
 reranker = None
 hallucination_detector = None
 
@@ -43,30 +46,140 @@ def get_evidence_context(evidence):
     )
 
 
-def generate_answer(question: str) -> None:
-    """Retrieve, rerank, generate, and verify an answer."""
+def find_direct_evidence_answer(question, evidence):
+    """
+    Return a directly matching evidence sentence only
+    for basic remote-work policy questions.
+    """
 
-    if not question or not question.strip():
-        print("Please enter a valid question.")
-        return
+    normalized_question = re.sub(
+        r"[^a-z0-9\s]",
+        "",
+        question.lower(),
+    )
+
+    remote_patterns = (
+        "how many days per week",
+        "how many days a week",
+        "days per week",
+        "days a week",
+    )
+
+    if not any(
+        pattern in normalized_question
+        for pattern in remote_patterns
+    ):
+        return None
+
+    for evidence_id, item in evidence.items():
+
+        sentences = re.split(
+            r"(?<=[.!?])\s+|\n+",
+            item["text"].strip(),
+        )
+
+        for sentence in sentences:
+
+            sentence = sentence.strip()
+
+            if not sentence:
+                continue
+
+            normalized_sentence = sentence.lower()
+
+            if (
+                "work remotely" in normalized_sentence
+                and re.search(
+                    r"\btwo days per week\b|\b2 days per week\b",
+                    normalized_sentence,
+                )
+            ):
+                return f"{sentence} [{evidence_id}]"
+
+    return None
+
+
+def normalize_citations(answer):
+    """Normalize citation placement and spacing."""
+
+    answer = re.sub(
+        r",\s*(\[E\d+\])",
+        r" \1",
+        answer,
+    )
+
+    answer = re.sub(
+        r"([.!?])\s*((?:\[E\d+\]\s*)+)",
+        r" \2\1",
+        answer,
+    )
+
+    return answer.strip()
+
+
+def generate_answer(question: str) -> dict:
+    """
+    Retrieve, rerank, generate, verify and return
+    structured results for the analytics dashboard.
+    """
+
+    start_time = perf_counter()
+
+    result = {
+        "question": question,
+        "answer": FALLBACK,
+        "overall_status": "error",
+        "claims": [],
+        "citations": [],
+        "retrieved_chunks": [],
+        "latency_ms": 0,
+        "error": None,
+    }
+
+    def finish():
+        result["latency_ms"] = round(
+            (perf_counter() - start_time) * 1000,
+            2,
+        )
+        return result
+
+    # 1. Validate question.
+    if not isinstance(question, str) or not question.strip():
+
+        result["overall_status"] = "invalid_input"
+        result["error"] = "Please enter a valid question."
+
+        return finish()
 
     try:
-        # 1. Retrieve document chunks.
-        results = search_documents(question, top_k=3)
 
-        documents = results.get("documents", [[]])[0]
-        metadatas = results.get("metadatas", [[]])[0]
+        # 2. Retrieve document chunks.
+        search_results = search_documents(
+            question,
+            top_k=3,
+        )
+
+        documents = search_results.get(
+            "documents", [[]]
+        )[0]
+
+        metadatas = search_results.get(
+            "metadatas", [[]]
+        )[0]
 
         if not documents:
-            print(f"\nAnswer: {FALLBACK}")
-            return
 
+            result["overall_status"] = "insufficient_evidence"
+
+            return finish()
+
+        # Align metadata with retrieved documents.
         aligned_metadata = [
             metadatas[i] if i < len(metadatas) else {}
             for i in range(len(documents))
         ]
 
-        # 2. Rerank retrieved documents.
+        # 3. Rerank retrieved documents.
         ranked_results = get_reranker().rerank(
             question=question,
             documents=documents,
@@ -75,47 +188,60 @@ def generate_answer(question: str) -> None:
         )
 
         if not ranked_results:
-            print(f"\nAnswer: {FALLBACK}")
-            return
 
-        # 3. Assign citation IDs.
+            result["overall_status"] = "insufficient_evidence"
+
+            return finish()
+
+        # 4. Assign citation IDs.
         evidence = {}
 
         for i, item in enumerate(ranked_results, start=1):
-            metadata = item["metadata"]
 
-            evidence[f"E{i}"] = {
+            metadata = item.get("metadata", {})
+
+            evidence_id = f"E{i}"
+
+            evidence[evidence_id] = {
                 "text": item["text"],
-                "source": metadata.get("source", "Unknown source"),
-                "page": metadata.get("page_number", "Unknown page"),
+                "source": metadata.get(
+                    "source", "Unknown source"
+                ),
+                "page": metadata.get(
+                    "page_number", "Unknown page"
+                ),
             }
+
+            result["retrieved_chunks"].append({
+                "citation_id": evidence_id,
+                "text": item["text"],
+                "source": metadata.get(
+                    "source", "Unknown source"
+                ),
+                "page": metadata.get(
+                    "page_number", "Unknown page"
+                ),
+            })
 
         context = get_evidence_context(evidence)
 
-        # 4. Ask the LLM to answer directly from the evidence.
+        # 5. Generate answer using Ollama.
         prompt = f"""
 You are a policy-document question-answering assistant.
 
 Answer the user's question using ONLY the supplied evidence.
 
 Instructions:
-- If the evidence explicitly answers the question, answer it directly.
+- If the evidence explicitly answers the question, answer directly.
 - Do not refuse a question that the evidence clearly answers.
-- Do not invent facts or add information absent from the evidence.
-- Cite every factual sentence using the evidence ID, such as [E1].
-- Put the citation before the final punctuation.
-- Use only citation IDs that appear in the supplied evidence.
+- Do not invent facts.
+- Do not add information absent from the evidence.
+- Cite every factual sentence using an evidence ID such as [E1].
+- Put citations before the final punctuation.
+- Use only citation IDs present in the supplied evidence.
 - If the evidence does not answer the question, return exactly:
+
 {FALLBACK}
-
-Examples:
-Question: How many days per week may employees work remotely?
-Evidence: Employees may work remotely two days per week.
-Answer: Employees may work remotely two days per week [E1].
-
-Question: How many maternity-leave weeks are provided?
-Evidence: Employees receive 20 days of annual leave per year.
-Answer: {FALLBACK}
 
 Evidence:
 {context}
@@ -141,75 +267,55 @@ Answer:
 
         answer = response["message"]["content"].strip()
 
-        print("\n--- RAW OLLAMA ANSWER ---")
-        print(repr(answer))
-
+        # 6. Handle empty LLM responses.
         if not answer:
-            print(f"\nAnswer: {FALLBACK}")
-            return
 
+            result["overall_status"] = "generation_failed"
+            result["error"] = "The LLM returned an empty answer."
+
+            return finish()
+
+        # 7. Handle LLM fallback using direct evidence matching.
         if FALLBACK.lower() in answer.lower():
-            # Do not blindly trust a generated answer or invent one.
-            # Check for a directly matching evidence sentence.
+
             direct_match = find_direct_evidence_answer(
                 question,
                 evidence,
             )
 
             if direct_match is None:
-                print(f"\nAnswer: {FALLBACK}")
-                return
+
+                result["overall_status"] = "insufficient_evidence"
+
+                return finish()
 
             answer = direct_match
 
-        # 5. Normalize citation formatting.
-        answer = re.sub(
-            r"\(\s*((?:\[E\d+\]\s*)+)\)",
-            r"\1",
-            answer,
-        )
+        # 8. Normalize citations.
+        answer = normalize_citations(answer)
 
-        answer = re.sub(
-            r",\s*(\[E\d+\])",
-            r" \1",
-            answer,
-        )
-
-        answer = re.sub(
-            r"([.!?])\s*((?:\[E\d+\]\s*)+)",
-            r" \2\1",
-            answer,
-        )
-
-        answer = answer.strip()
-
-        # 6. Split into sentences.
+        # 9. Split answer into sentences.
         segments = re.split(
             r"(?<=[.!?])\s+",
             answer,
         )
 
         detector = get_hallucination_detector()
-        verified_sentences = []
+
         sources_used = set()
 
+        # 10. Verify every claim.
         for segment in segments:
+
             segment = segment.strip()
 
             if not segment:
                 continue
 
-            citation_ids = re.findall(
+            citation_numbers = re.findall(
                 r"\[E(\d+)\]",
                 segment,
             )
-
-            if not citation_ids:
-                print(
-                    "\nAnswer blocked: a sentence has no citation."
-                )
-                print("Unverified text:", segment)
-                return
 
             claim = re.sub(
                 r"\[E\d+\]",
@@ -219,162 +325,235 @@ Answer:
 
             claim = claim.rstrip(" \t,;:.!?")
 
+            claim_record = {
+                "claim": claim,
+                "citations": [],
+                "status": "invalid",
+                "verification_results": [],
+            }
+
+            result["claims"].append(claim_record)
+
+            # Check empty claims.
             if not claim:
-                print("\nAnswer blocked: the claim is empty.")
-                return
+                claim_record["status"] = "invalid"
+                continue
 
-            unique_ids = set(citation_ids)
+            # Every factual claim needs a citation.
+            if not citation_numbers:
+                claim_record["status"] = "missing_citation"
+                continue
+
+            unique_numbers = sorted(
+                set(citation_numbers),
+                key=int,
+            )
+
+            claim_record["citations"] = [
+                f"E{number}"
+                for number in unique_numbers
+            ]
+
             cited_passages = []
+            invalid_reference = False
 
-            # 7. Validate citation IDs and collect evidence.
-            for number in unique_ids:
+            # 11. Validate citation IDs.
+            for number in unique_numbers:
+
                 evidence_id = f"E{number}"
 
                 if evidence_id not in evidence:
-                    print(
-                        "\nAnswer blocked: invalid evidence reference:",
-                        evidence_id,
-                    )
-                    return
 
-                cited_passages.append(
-                    evidence[evidence_id]["text"]
-                )
+                    invalid_reference = True
+
+                    claim_record["verification_results"].append({
+                        "citation_id": evidence_id,
+                        "status": "invalid_reference",
+                    })
+
+                    continue
+
+                cited_passages.append((
+                    evidence_id,
+                    evidence[evidence_id]["text"],
+                ))
+
                 sources_used.add(number)
 
-            # 8. Verify each claim against its cited evidence.
-            claim_results = [
-                detector.verify_claim(claim, passage)
-                for passage in cited_passages
-            ]
+            if invalid_reference:
 
-            statuses = [
-                result["status"]
-                for result in claim_results
-            ]
-
-            if "contradicted" in statuses:
-                print(
-                    "\nAnswer blocked: a claim conflicts "
-                    "with its cited evidence."
-                )
-                print("Claim:", claim)
-                print("Verification:", statuses)
-
-                for result in claim_results:
-                    print("NLI scores:", result["scores"])
-                    print(
-                        "Matched evidence:",
-                        result.get("matched_evidence", "N/A"),
-                    )
-
-                return
-
-            if not all(status == "supported" for status in statuses):
-                print(
-                    "\nAnswer blocked: a claim could not "
-                    "be established by its cited evidence."
-                )
-                print("Claim:", claim)
-                print("Verification:", statuses)
-
-                for result in claim_results:
-                    print("NLI scores:", result["scores"])
-                    print(
-                        "Matched evidence:",
-                        result.get("matched_evidence", "N/A"),
-                    )
-
-                return
-
-            citations = " ".join(
-                f"[E{number}]"
-                for number in sorted(unique_ids, key=int)
-            )
-
-            verified_sentences.append(
-                f"{claim} {citations}."
-            )
-
-        if not verified_sentences:
-            print("\nAnswer blocked: no claims were verified.")
-            return
-
-        # 9. Display verified answers and sources.
-        print("\nVerified answer:")
-        print(" ".join(verified_sentences))
-
-        print("\nCited sources:")
-
-        for number in sorted(sources_used, key=int):
-            item = evidence[f"E{number}"]
-
-            print(
-                f"- [E{number}] {item['source']}, "
-                f"page {item['page']}"
-            )
-
-    except Exception as error:
-        print(f"\nCould not generate an answer: {error}")
-        print(
-            "Check that Ollama is running and the required "
-            "packages and models are available."
-        )
-
-
-def find_direct_evidence_answer(question, evidence):
-    """
-    Return a directly matching evidence sentence only when
-    a simple question-to-evidence match is detected.
-
-    This deliberately handles only basic policy questions.
-    It does not attempt general-purpose semantic matching.
-    """
-    normalized_question = re.sub(
-        r"[^a-z0-9\s]",
-        "",
-        question.lower(),
-    )
-
-    remote_patterns = (
-        "how many days per week",
-        "how many days a week",
-        "days per week",
-        "days a week",
-    )
-
-    if not any(
-        pattern in normalized_question
-        for pattern in remote_patterns
-    ):
-        return None
-
-    for evidence_id, item in evidence.items():
-        sentences = re.split(
-            r"(?<=[.!?])\s+|\n+",
-            item["text"].strip(),
-        )
-
-        for sentence in sentences:
-            sentence = sentence.strip()
-
-            if not sentence:
+                claim_record["status"] = "invalid_citation"
                 continue
 
-            normalized_sentence = sentence.lower()
+            # 12. Verify every cited passage.
+            # An exception for one passage must not stop
+            # verification of other passages or claims.
+            verification_error = False
 
-            if (
-                "work remotely" in normalized_sentence
-                and re.search(
-                    r"\btwo days per week\b|\b2 days per week\b",
-                    normalized_sentence,
-                )
+            for evidence_id, passage in cited_passages:
+
+                try:
+
+                    verification = detector.verify_claim(
+                        claim,
+                        passage,
+                    )
+
+                    if not isinstance(verification, dict):
+                        raise ValueError(
+                            "Invalid verification result."
+                        )
+
+                    claim_record["verification_results"].append({
+                        "citation_id": evidence_id,
+                        **verification,
+                    })
+
+                except Exception as verification_exception:
+
+                    verification_error = True
+
+                    claim_record["verification_results"].append({
+                        "citation_id": evidence_id,
+                        "status": "verification_error",
+                        "error": str(verification_exception),
+                    })
+
+            statuses = [
+                item.get("status")
+                for item in claim_record["verification_results"]
+            ]
+
+            # 13. Determine individual claim status.
+            if verification_error:
+
+                claim_record["status"] = "verification_error"
+
+            elif "contradicted" in statuses:
+
+                claim_record["status"] = "contradicted"
+
+            elif statuses and all(
+                status == "supported"
+                for status in statuses
             ):
-                return f"{sentence} [{evidence_id}]"
 
-    return None
+                claim_record["status"] = "supported"
 
+            else:
+
+                claim_record["status"] = "uncertain"
+
+        # 14. Determine overall answer status.
+        all_supported = (
+            bool(result["claims"])
+            and all(
+                claim["status"] == "supported"
+                for claim in result["claims"]
+            )
+        )
+
+        has_verification_error = any(
+            claim["status"] == "verification_error"
+            for claim in result["claims"]
+        )
+
+        if has_verification_error:
+
+            result["overall_status"] = "verification_error"
+            result["answer"] = FALLBACK
+
+        elif all_supported:
+
+            result["overall_status"] = "supported"
+
+            verified_sentences = []
+
+            for claim in result["claims"]:
+
+                citations = " ".join(
+                    f"[{citation_id}]"
+                    for citation_id in claim["citations"]
+                )
+
+                verified_sentences.append(
+                    f"{claim['claim']} {citations}."
+                )
+
+            result["answer"] = " ".join(
+                verified_sentences
+            )
+
+        else:
+
+            # Never expose unverified claims as supported.
+            result["overall_status"] = "needs_review"
+            result["answer"] = FALLBACK
+
+        # 15. Collect citation source information.
+        for number in sorted(sources_used, key=int):
+
+            evidence_id = f"E{number}"
+
+            item = evidence[evidence_id]
+
+            result["citations"].append({
+                "id": evidence_id,
+                "source": item["source"],
+                "page": item["page"],
+            })
+
+        return finish()
+
+    except Exception as error:
+
+        result["overall_status"] = "error"
+        result["error"] = str(error)
+
+        return finish()
+
+
+# 16. Terminal interface.
+# The same function can be called by the dashboard or API.
 
 if __name__ == "__main__":
-    question = input("Ask a policy question: ").strip()
-    generate_answer(question)
+
+    question = input(
+        "Ask a policy question: "
+    ).strip()
+
+    output = generate_answer(question)
+
+    print("\nAnswer:")
+    print(output["answer"])
+
+    print("\nOverall status:")
+    print(output["overall_status"])
+
+    print("\nLatency:")
+    print(output["latency_ms"], "ms")
+
+    print("\nClaims:")
+
+    for claim in output["claims"]:
+
+        print(
+            claim["claim"],
+            "->",
+            claim["status"],
+        )
+
+    print("\nCited sources:")
+
+    for citation in output["citations"]:
+
+        print(
+            f"[{citation['id']}] "
+            f"{citation['source']}, "
+            f"page {citation['page']}"
+        )
+
+    if output["error"]:
+
+        print("\nError:")
+        print(output["error"])
