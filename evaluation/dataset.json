@@ -1,0 +1,38 @@
+[
+  {
+    "id": "3m_001",
+    "question": "What was 3M worldwide net sales in 2015, in millions?",
+    "reference_answer": "3M's worldwide net sales in 2015 were $30,274 million.",
+    "expected_source": "3M_2015_10K.pdf",
+    "expected_page": 21,
+    "expected_evidence": "Net sales (millions) $ 12,049 $ 18,225 $ 30,274",
+    "supported": true
+  },
+  {
+    "id": "3m_002",
+    "question": "What were 3M's worldwide net sales in 2014, in millions?",
+    "reference_answer": "3M's worldwide net sales in 2014 were $31,821 million.",
+    "expected_source": "3M_2015_10K.pdf",
+    "expected_page": 21,
+    "expected_evidence": "Net sales (millions) $ 11,714 $ 20,107 $ 31,821",
+    "supported": true
+  },
+  {
+    "id": "3m_003",
+    "question": "How much did 3M spend on research, development and related expenses in 2015?",
+    "reference_answer": "3M spent approximately $1.763 billion on research, development and related expenses in 2015.",
+    "expected_source": "3M_2015_10K.pdf",
+    "expected_page": 6,
+    "expected_evidence": "Research, development and related expenses totaled $1.763 billion in 2015",
+    "supported": true
+  },
+  {
+    "id": "3m_004",
+    "question": "What was 3M's worldwide net sales in 2020?",
+    "reference_answer": "The indexed 3M 2015 annual report does not provide worldwide net sales for 2020.",
+    "expected_source": "3M_2015_10K.pdf",
+    "expected_page": null,
+    "expected_evidence": null,
+    "supported": false
+  }
+]
