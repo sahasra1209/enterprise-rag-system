@@ -1,7 +1,7 @@
 [
   {
     "id": "financebench_id_00799",
-    "wall_s": 15.7,
+    "wall_s": 14.5,
     "result": {
       "question": "Has AMCOR's quick ratio improved or declined between FY2023 and FY2022? If the quick ratio is not something that a financial analyst would ask about a company like this, then state that and explain why.",
       "answer": "I couldn't find a supported answer in the provided documents.",
@@ -28,13 +28,13 @@
           "page": 114
         }
       ],
-      "latency_ms": 15706.91,
+      "latency_ms": 14543.81,
       "error": null
     }
   },
   {
     "id": "financebench_id_01079",
-    "wall_s": 8.6,
+    "wall_s": 8.5,
     "result": {
       "question": "What are major acquisitions that AMCOR has done in FY2023, FY2022 and FY2021?",
       "answer": "I couldn't find a supported answer in the provided documents.",
@@ -61,13 +61,13 @@
           "page": 11
         }
       ],
-      "latency_ms": 8629.22,
+      "latency_ms": 8520.19,
       "error": null
     }
   },
   {
     "id": "financebench_id_01148",
-    "wall_s": 15.3,
+    "wall_s": 15.1,
     "result": {
       "question": "What industry does AMCOR primarily operate in?",
       "answer": "Amcor primarily operates in the industry of developing and producing responsible packaging for food, beverage, pharmaceutical, medical, home and personal-care, and other consumer goods end markets [E1].",
@@ -121,7 +121,7 @@
           "page": 37
         }
       ],
-      "latency_ms": 15341.23,
+      "latency_ms": 15128.41,
       "error": null
     }
   },
@@ -154,13 +154,13 @@
           "page": 55
         }
       ],
-      "latency_ms": 11536.68,
+      "latency_ms": 11491.36,
       "error": null
     }
   },
   {
     "id": "financebench_id_00222",
-    "wall_s": 9.7,
+    "wall_s": 9.9,
     "result": {
       "question": "Does AMD have a reasonably healthy liquidity profile based on its quick ratio for FY22? If the quick ratio is not relevant to measure liquidity, please state that and explain why.",
       "answer": "I couldn't find a supported answer in the provided documents.",
@@ -187,13 +187,13 @@
           "page": 4
         }
       ],
-      "latency_ms": 9718.54,
+      "latency_ms": 9874.0,
       "error": null
     }
   },
   {
     "id": "financebench_id_00995",
-    "wall_s": 14.6,
+    "wall_s": 14.4,
     "result": {
       "question": "What are the major products and services that AMD sells as of FY22?",
       "answer": "I couldn't find a supported answer in the provided documents.",
@@ -259,13 +259,13 @@
           "page": 11
         }
       ],
-      "latency_ms": 14625.91,
+      "latency_ms": 14395.51,
       "error": null
     }
   },
   {
     "id": "financebench_id_01198",
-    "wall_s": 7.9,
+    "wall_s": 8.1,
     "result": {
       "question": "What drove revenue change as of the FY22 for AMD?",
       "answer": "I couldn't find a supported answer in the provided documents.",
@@ -292,13 +292,13 @@
           "page": 5
         }
       ],
-      "latency_ms": 7859.95,
+      "latency_ms": 8115.38,
       "error": null
     }
   },
   {
     "id": "financebench_id_00917",
-    "wall_s": 4.5,
+    "wall_s": 4.7,
     "result": {
       "question": "What drove operating margin change as of the FY22 for AMD? If operating margin is not a useful metric for a company like this, then please state that and explain why.",
       "answer": "I couldn't find a supported answer in the provided documents.",
@@ -325,13 +325,13 @@
           "page": 4
         }
       ],
-      "latency_ms": 4465.48,
+      "latency_ms": 4723.95,
       "error": null
     }
   },
   {
     "id": "financebench_id_01279",
-    "wall_s": 8.5,
+    "wall_s": 8.6,
     "result": {
       "question": "Among operations, investing, and financing activities, which brought in the most (or lost the least) cash flow for AMD in FY22?",
       "answer": "I couldn't find a supported answer in the provided documents.",
@@ -365,7 +365,7 @@
           "page": 59
         }
       ],
-      "latency_ms": 8539.65,
+      "latency_ms": 8595.84,
       "error": null
     }
   },
@@ -405,13 +405,13 @@
           "page": 43
         }
       ],
-      "latency_ms": 9808.51,
+      "latency_ms": 9843.09,
       "error": null
     }
   },
   {
     "id": "financebench_id_00757",
-    "wall_s": 12.3,
+    "wall_s": 11.9,
     "result": {
       "question": "Did AMD report customer concentration in FY22?",
       "answer": "I couldn't find a supported answer in the provided documents.",
@@ -438,7 +438,7 @@
           "page": 106
         }
       ],
-      "latency_ms": 12315.59,
+      "latency_ms": 11898.2,
       "error": null
     }
   },
@@ -471,13 +471,13 @@
           "page": 69
         }
       ],
-      "latency_ms": 11582.63,
+      "latency_ms": 11619.67,
       "error": null
     }
   },
   {
     "id": "financebench_id_01028",
-    "wall_s": 12.0,
+    "wall_s": 12.1,
     "result": {
       "question": "What are the geographies that American Express primarily operates in as of 2022?",
       "answer": "I couldn't find a supported answer in the provided documents.",
@@ -531,13 +531,13 @@
           "page": 5
         }
       ],
-      "latency_ms": 12027.73,
+      "latency_ms": 12094.97,
       "error": null
     }
   },
   {
     "id": "financebench_id_00723",
-    "wall_s": 10.6,
+    "wall_s": 10.3,
     "result": {
       "question": "Does AMEX have an improving operating margin profile as of 2022? If operating margin is not a useful metric for a company like this, then state that and explain why.",
       "answer": "I couldn't find a supported answer in the provided documents.",
@@ -564,13 +564,13 @@
           "page": 9
         }
       ],
-      "latency_ms": 10635.35,
+      "latency_ms": 10320.21,
       "error": null
     }
   },
   {
     "id": "financebench_id_00720",
-    "wall_s": 14.2,
+    "wall_s": 12.2,
     "result": {
       "question": "What drove gross margin change as of the FY2022 for American Express? If gross margin is not a useful metric for a company like this, then please state that and explain why.",
       "answer": "I couldn't find a supported answer in the provided documents.",
@@ -597,13 +597,13 @@
           "page": 162
         }
       ],
-      "latency_ms": 14208.06,
+      "latency_ms": 12194.04,
       "error": null
     }
   },
   {
     "id": "financebench_id_01351",
-    "wall_s": 16.8,
+    "wall_s": 16.5,
     "result": {
       "question": "How much has the effective tax rate of American Express changed between FY2021 and FY2022?",
       "answer": "I couldn't find a supported answer in the provided documents.",
@@ -644,13 +644,13 @@
           "page": 150
         }
       ],
-      "latency_ms": 16772.08,
+      "latency_ms": 16514.66,
       "error": null
     }
   },
   {
     "id": "financebench_id_01964",
-    "wall_s": 13.2,
+    "wall_s": 12.7,
     "result": {
       "question": "What was the largest liability in American Express's Balance Sheet in 2022?",
       "answer": "I couldn't find a supported answer in the provided documents.",
@@ -677,13 +677,13 @@
           "page": 126
         }
       ],
-      "latency_ms": 13232.32,
+      "latency_ms": 12705.44,
       "error": null
     }
   },
   {
     "id": "financebench_id_01981",
-    "wall_s": 10.1,
+    "wall_s": 9.8,
     "result": {
       "question": "Was American Express able to retain card members during 2022?",
       "answer": "I couldn't find a supported answer in the provided documents.",
@@ -710,13 +710,13 @@
           "page": 6
         }
       ],
-      "latency_ms": 10066.8,
+      "latency_ms": 9810.47,
       "error": null
     }
   },
   {
     "id": "financebench_id_00517",
-    "wall_s": 19.0,
+    "wall_s": 18.6,
     "result": {
       "question": "Are there any product categories / service categories that represent more than 20% of Boeing's revenue for FY2022?",
       "answer": "I couldn't find a supported answer in the provided documents.",
@@ -750,13 +750,13 @@
           "page": 24
         }
       ],
-      "latency_ms": 19010.35,
+      "latency_ms": 18604.36,
       "error": null
     }
   },
   {
     "id": "financebench_id_01091",
-    "wall_s": 9.5,
+    "wall_s": 9.6,
     "result": {
       "question": "Has Boeing reported any materially important ongoing legal battles from FY2022?",
       "answer": "I couldn't find a supported answer in the provided documents.",
@@ -783,7 +783,7 @@
           "page": 188
         }
       ],
-      "latency_ms": 9505.4,
+      "latency_ms": 9554.91,
       "error": null
     }
   },
@@ -816,13 +816,13 @@
           "page": 56
         }
       ],
-      "latency_ms": 8971.42,
+      "latency_ms": 8985.8,
       "error": null
     }
   },
   {
     "id": "financebench_id_01290",
-    "wall_s": 12.6,
+    "wall_s": 9.7,
     "result": {
       "question": "Who are the primary customers of Boeing as of FY2022?",
       "answer": "I couldn't find a supported answer in the provided documents.",
@@ -849,13 +849,13 @@
           "page": 129
         }
       ],
-      "latency_ms": 12643.35,
+      "latency_ms": 9743.75,
       "error": null
     }
   },
   {
     "id": "financebench_id_00464",
-    "wall_s": 8.6,
+    "wall_s": 8.5,
     "result": {
       "question": "Is Boeing's business subject to cyclicality?",
       "answer": "I couldn't find a supported answer in the provided documents.",
@@ -882,13 +882,13 @@
           "page": 16
         }
       ],
-      "latency_ms": 8588.62,
+      "latency_ms": 8488.46,
       "error": null
     }
   },
   {
     "id": "financebench_id_00494",
-    "wall_s": 13.1,
+    "wall_s": 13.0,
     "result": {
       "question": "What production rate changes is Boeing forecasting for FY2023?",
       "answer": "I couldn't find a supported answer in the provided documents.",
@@ -959,7 +959,7 @@
           "page": 9
         }
       ],
-      "latency_ms": 13135.75,
+      "latency_ms": 12969.7,
       "error": null
     }
   },
@@ -999,13 +999,13 @@
           "page": 56
         }
       ],
-      "latency_ms": 10655.91,
+      "latency_ms": 10725.51,
       "error": null
     }
   },
   {
     "id": "UNSUP-1",
-    "wall_s": 10.0,
+    "wall_s": 9.8,
     "result": {
       "question": "Who will be Boeing's CEO in 2035?",
       "answer": "I couldn't find a supported answer in the provided documents.",
@@ -1032,13 +1032,13 @@
           "page": 128
         }
       ],
-      "latency_ms": 9983.03,
+      "latency_ms": 9759.55,
       "error": null
     }
   },
   {
     "id": "UNSUP-3",
-    "wall_s": 10.7,
+    "wall_s": 10.9,
     "result": {
       "question": "What will AMD's total revenue be in fiscal year 2030?",
       "answer": "I couldn't find a supported answer in the provided documents.",
@@ -1065,7 +1065,238 @@
           "page": 43
         }
       ],
-      "latency_ms": 10703.88,
+      "latency_ms": 10937.7,
+      "error": null
+    }
+  },
+  {
+    "id": "UNSUP-6",
+    "wall_s": 11.6,
+    "result": {
+      "question": "What was Boeing's customer satisfaction survey score in 2022?",
+      "answer": "I couldn't find a supported answer in the provided documents.",
+      "overall_status": "insufficient_evidence",
+      "claims": [],
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "citation_id": "E1",
+          "text": "Table of Contents To attract and retain the best-qualified talent, we offer competitive benefits, including market-competitive compensation, healthcare, paid time off, parental leave, retirement benefits, tuition assistance, employee skills development, leadership development and rotation programs. In 2022, our voluntary resignation rate was approximately 4%. Additionally, we hired approximately 23,000 new employees in 2022 for critical skills and had an offer acceptance rate of 78%. Employees are encouraged to provide feedback about their experience through ongoing employee engagement activities. Boeing actively listens to its employees via surveys ranging from pre-hire to exiting the company. These voluntary surveys provide aggregate trend reports for the company to address in real time and ensure Boeing maintains an employee-focused experience and culture. We also invest in rewarding performance and have established a multi-level recognition program for the purpose of acknowledging",
+          "source": "BOEING_2022_10K.pdf",
+          "page": 5
+        },
+        {
+          "citation_id": "E2",
+          "text": "Table of Contents Backlog BGS total backlog of $19,338 million at December 31, 2022 decreased by 6% from $20,496 million at December 31, 2021, primarily due to revenue recognized on contracts awarded in prior years. Boeing Capital Business Environment and Trends BCC’s gross customer financing and investment portfolio at December 31, 2022 totaled $1,549 million. A substantial portion of BCC’s portfolio is composed of customers that have less than investment-grade credit. BCC’s portfolio is also concentrated by varying degrees across Boeing aircraft product types, most notably 717 and 747-8 aircraft. BCC provided customer financing of $96 million during 2022 and none during 2021. While we may be required to fund a number of new aircraft deliveries in 2023 and/or provide refinancing for existing bridge debt, we expect alternative financing will be available at reasonable prices from broad and globally diverse sources. Aircraft values and lease rates are impacted by the number and type of",
+          "source": "BOEING_2022_10K.pdf",
+          "page": 41
+        },
+        {
+          "citation_id": "E3",
+          "text": "Table of Contents payment in 2021 consistent with the terms of the Deferred Prosecution Agreement between Boeing and the U.S. Department of Justice. Concessions paid to 737 MAX customers totaled $1.0 billion and $2.5 billion during 2022 and 2021. Growth in Accounts Payable in 2022 is a source of cash while reductions in Accounts Payable in 2021 were a use of cash generally reflecting increases in production rates. Inventory improvements were driven by higher 737 MAX deliveries and resumption of 787 deliveries in 2022. Additionally, in 2022 and 2021 we received income tax refunds of $1.5 billion and $1.7 billion. Cash provided by Advances and progress billings was $0.1 billion in 2022, as compared with $2.5 billion of cash provided in 2021. The $3.4 billion reduction in non-cash items in 2022 is primarily driven by the $3.5 billion reach-forward loss on the 787 program that was recorded in 2021. Net loss for 2022 was $5.1 billion compared with net loss of $4.3 billion in 2021. The $0.8",
+          "source": "BOEING_2022_10K.pdf",
+          "page": 43
+        }
+      ],
+      "latency_ms": 11594.71,
+      "error": null
+    }
+  },
+  {
+    "id": "UNSUP-7",
+    "wall_s": 9.6,
+    "result": {
+      "question": "How many engineers did Boeing hire in India in 2022?",
+      "answer": "I couldn't find a supported answer in the provided documents.",
+      "overall_status": "insufficient_evidence",
+      "claims": [],
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "citation_id": "E1",
+          "text": "to the operation of each of our businesses, we do not believe that our business would be materially affected by the expiration of any particular intellectual property right or termination of any particular intellectual property patent license agreement. Human Capital As of December 31, 2022 and 2021, Boeing’s total workforce was approximately 156,000 and 142,000 with 13% and 12% located outside of the U.S. As of December 31, 2022, our workforce included approximately 50,000 union members. Our principal collective bargaining agreements and their current status are summarized in the following table: Union Percent of our Employees Represented Status of the Agreements with Major Union The International Association of Machinists and Aerospace Workers (IAM) 20% We have two major agreements; one expiring in September 2024 and one in July 2025. The Society of Professional Engineering Employees in Aerospace (SPEEA) 10% We have two major agreements expiring in October 2026. The United",
+          "source": "BOEING_2022_10K.pdf",
+          "page": 4
+        },
+        {
+          "citation_id": "E2",
+          "text": "Table of Contents To attract and retain the best-qualified talent, we offer competitive benefits, including market-competitive compensation, healthcare, paid time off, parental leave, retirement benefits, tuition assistance, employee skills development, leadership development and rotation programs. In 2022, our voluntary resignation rate was approximately 4%. Additionally, we hired approximately 23,000 new employees in 2022 for critical skills and had an offer acceptance rate of 78%. Employees are encouraged to provide feedback about their experience through ongoing employee engagement activities. Boeing actively listens to its employees via surveys ranging from pre-hire to exiting the company. These voluntary surveys provide aggregate trend reports for the company to address in real time and ensure Boeing maintains an employee-focused experience and culture. We also invest in rewarding performance and have established a multi-level recognition program for the purpose of acknowledging",
+          "source": "BOEING_2022_10K.pdf",
+          "page": 5
+        },
+        {
+          "citation_id": "E3",
+          "text": "and ensure Boeing maintains an employee-focused experience and culture. We also invest in rewarding performance and have established a multi-level recognition program for the purpose of acknowledging the achievements of excellent individual or team performance. We are committed to supporting our employees’ continuous development of professional, technical and leadership skills through access to digital learning resources and through partnerships with leading professional/technical societies and organizations around the world. For 2022, Boeing employees completed approximately 5.8 million hours of learning. We offer the ability for our people to pursue degree programs, professional certificates and individual courses in strategic fields of study from more than 300 accredited colleges and universities, online and across the globe through our tuition assistance program. Over 9,000 Boeing employees leverage these programs every year. Safety, quality, integrity and sustainability are at the",
+          "source": "BOEING_2022_10K.pdf",
+          "page": 5
+        }
+      ],
+      "latency_ms": 9631.46,
+      "error": null
+    }
+  },
+  {
+    "id": "UNSUP-8",
+    "wall_s": 12.5,
+    "result": {
+      "question": "What was American Express's market share of Japanese card transactions in 2022?",
+      "answer": "I couldn't find a supported answer in the provided documents.",
+      "overall_status": "insufficient_evidence",
+      "claims": [],
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "citation_id": "E1",
+          "text": "account products and new digital capabilities, which in part result from our acquisitions of Kabbage, Resy and acompay. Additionally, we have evolved our card issuing businesses by bringing together our consumer, SME and large commercial issuing activities outside of the United States into a new ICS organization to enable a greater focus on local priorities. Jurisdictions that represent a significant portion of our billed business outside of the United States include the United Kingdom (UK), the European Union (EU), Australia, Japan, Canada and Mexico. For the year ended December 31, 2022, worldwide billed business (spending on American Express cards issued by us) was $1,338 billion and at December 31, 2022, we had 76.7 million proprietary cards-in-force worldwide. Merchant Acquiring Business Our GMNS reportable operating segment builds and manages relationships with millions of merchants around the world that choose to accept American Express cards. This includes signing new merchants",
+          "source": "AMERICANEXPRESS_2022_10K.pdf",
+          "page": 5
+        },
+        {
+          "citation_id": "E2",
+          "text": "Table of Contents Card Network Business We operate a payments network through which we establish and maintain relationships with third-party banks and other institutions in approximately 103 countries and territories, licensing the American Express brand and extending the reach of our global network. These network partners are licensed to issue local currency American Express-branded cards in their countries and/or serve as the merchant acquirer for local merchants on our network. For the year ended December 31, 2022, worldwide network services processed volume (spending on American Express cards issued by third parties) was $214.5 billion and at December 31, 2022, we had 56.5 million cards-in-force issued by third parties worldwide. Diverse Customer Base and Global Footprint Our broad and diverse customer base spans consumers, small businesses, mid-sized companies and large corporations around the world. The following chart provides a summary of our diverse set of customers and broad",
+          "source": "AMERICANEXPRESS_2022_10K.pdf",
+          "page": 6
+        },
+        {
+          "citation_id": "E3",
+          "text": "of long-term debt (18,906) (11,662) (15,593) Issuance of American Express preferred shares — 1,584 — Redemption of American Express preferred shares — (1,600) — Issuance of American Express common shares 56 64 44 Repurchase of American Express common shares and other (3,502) (7,652) (1,029) Dividends paid (1,565) (1,448) (1,474) Net cash provided by (used in) financing activities 24,509 (14,933) (9,068) Effect of foreign currency exchange rates on cash and cash equivalents (13) (120) 364 Net increase (decrease) in cash and cash equivalents 11,886 (10,937) 8,519 Cash and cash equivalents at beginning of year 22,028 32,965 24,446 Cash and cash equivalents at end of year $ 33,914 $ 22,028 $ 32,965 Supplemental cash flow information Cash and cash equivalents reconciliation 2022 2021 2020 Cash and cash equivalents per Consolidated Balance Sheets $ 33,914 $ 22,028 $ 32,965 Restricted balances included in Cash and cash equivalents 544 525 606 Total cash and cash equivalents, excluding",
+          "source": "AMERICANEXPRESS_2022_10K.pdf",
+          "page": 99
+        }
+      ],
+      "latency_ms": 12485.4,
+      "error": null
+    }
+  },
+  {
+    "id": "UNSUP-9",
+    "wall_s": 9.9,
+    "result": {
+      "question": "How many customer service calls did American Express handle in 2022?",
+      "answer": "I couldn't find a supported answer in the provided documents.",
+      "overall_status": "insufficient_evidence",
+      "claims": [],
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "citation_id": "E1",
+          "text": "Table of Contents Card Network Business We operate a payments network through which we establish and maintain relationships with third-party banks and other institutions in approximately 103 countries and territories, licensing the American Express brand and extending the reach of our global network. These network partners are licensed to issue local currency American Express-branded cards in their countries and/or serve as the merchant acquirer for local merchants on our network. For the year ended December 31, 2022, worldwide network services processed volume (spending on American Express cards issued by third parties) was $214.5 billion and at December 31, 2022, we had 56.5 million cards-in-force issued by third parties worldwide. Diverse Customer Base and Global Footprint Our broad and diverse customer base spans consumers, small businesses, mid-sized companies and large corporations around the world. The following chart provides a summary of our diverse set of customers and broad",
+          "source": "AMERICANEXPRESS_2022_10K.pdf",
+          "page": 6
+        },
+        {
+          "citation_id": "E2",
+          "text": "for us and we take a holistic approach to well-being, providing resources that address the physical, financial and mental health of our colleagues. Throughout 2022, we launched Amex Flex across our offices, where, depending on role and business needs, colleagues can work in the office, at home or take a hybrid approach that combines both. This approach is designed to enable us to both broaden the talent pool from which we can attract candidates and increase colleague retention. We conduct an annual Colleague Experience Survey to better understand our colleagues’ needs and overall experience at American Express and in 2022, 92 percent of colleagues who participated in the survey said they would recommend American Express as a great place to work. Our 2022 annual company scorecard included talent retention, colleague engagement and diversity representation goals. As of December 31, 2022, women represented 53.7 percent of our global workforce and Asian, Black/African American and",
+          "source": "AMERICANEXPRESS_2022_10K.pdf",
+          "page": 9
+        },
+        {
+          "citation_id": "E3",
+          "text": "account products and new digital capabilities, which in part result from our acquisitions of Kabbage, Resy and acompay. Additionally, we have evolved our card issuing businesses by bringing together our consumer, SME and large commercial issuing activities outside of the United States into a new ICS organization to enable a greater focus on local priorities. Jurisdictions that represent a significant portion of our billed business outside of the United States include the United Kingdom (UK), the European Union (EU), Australia, Japan, Canada and Mexico. For the year ended December 31, 2022, worldwide billed business (spending on American Express cards issued by us) was $1,338 billion and at December 31, 2022, we had 76.7 million proprietary cards-in-force worldwide. Merchant Acquiring Business Our GMNS reportable operating segment builds and manages relationships with millions of merchants around the world that choose to accept American Express cards. This includes signing new merchants",
+          "source": "AMERICANEXPRESS_2022_10K.pdf",
+          "page": 5
+        }
+      ],
+      "latency_ms": 9928.83,
+      "error": null
+    }
+  },
+  {
+    "id": "UNSUP-10",
+    "wall_s": 17.3,
+    "result": {
+      "question": "What dividend per share will American Express pay in 2030?",
+      "answer": "I couldn't find a supported answer in the provided documents.",
+      "overall_status": "insufficient_evidence",
+      "claims": [],
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "citation_id": "E1",
+          "text": "it by reference into a document filed under the Securities Act or the Exchange Act. The following graph compares the cumulative total shareholder return on our common shares with the total return on the S&P 500 Index and the S&P Financial Index for the last five years. It shows the growth of a $100 investment on December 31, 2017, including the reinvestment of all dividends. Year-end Data 2017 2018 2019 2020 2021 2022 American Express $ 100.00 $ 97.37 $ 129.04 $ 127.55 $ 174.60 $ 159.71 S&P 500 Index $ 100.00 $ 95.61 $ 125.70 $ 148.81 $ 191.48 $ 156.77 S&P Financial Index $ 100.00 $ 86.96 $ 114.87 $ 112.85 $ 152.20 $ 136.11 38",
+          "source": "AMERICANEXPRESS_2022_10K.pdf",
+          "page": 41
+        },
+        {
+          "citation_id": "E2",
+          "text": "of long-term debt (18,906) (11,662) (15,593) Issuance of American Express preferred shares — 1,584 — Redemption of American Express preferred shares — (1,600) — Issuance of American Express common shares 56 64 44 Repurchase of American Express common shares and other (3,502) (7,652) (1,029) Dividends paid (1,565) (1,448) (1,474) Net cash provided by (used in) financing activities 24,509 (14,933) (9,068) Effect of foreign currency exchange rates on cash and cash equivalents (13) (120) 364 Net increase (decrease) in cash and cash equivalents 11,886 (10,937) 8,519 Cash and cash equivalents at beginning of year 22,028 32,965 24,446 Cash and cash equivalents at end of year $ 33,914 $ 22,028 $ 32,965 Supplemental cash flow information Cash and cash equivalents reconciliation 2022 2021 2020 Cash and cash equivalents per Consolidated Balance Sheets $ 33,914 $ 22,028 $ 32,965 Restricted balances included in Cash and cash equivalents 544 525 606 Total cash and cash equivalents, excluding",
+          "source": "AMERICANEXPRESS_2022_10K.pdf",
+          "page": 99
+        },
+        {
+          "citation_id": "E3",
+          "text": "by investing activities (4,851) (236) 11,456 Cash Flows from Financing Activities Net decrease in short-term debt from subsidiaries and affiliates (136) (2,636) (3,289) Proceeds from long-term debt 13,202 3,000 — Payments of long-term debt (5,675) (5,000) (2,000) Issuance of American Express preferred shares — 1,584 — Redemption of American Express preferred shares — (1,600) — Issuance of American Express common shares 56 64 44 Repurchase of American Express common shares and other (3,502) (7,652) (1,029) Dividends paid (1,565) (1,448) (1,474) Net cash provided by (used in) financing activities 2,380 (13,688) (7,748) Net increase (decrease) in cash and cash equivalents 2,847 (5,627) 6,538 Cash and cash equivalents at beginning of year 5,341 10,968 4,430 Cash and cash equivalents at end of year $ 8,188 $ 5,341 $ 10,968 Supplemental cash flow information Years Ended December 31 (Millions) 2022 2021 2020 Non-Cash Investing Activities Loans to subsidiaries and affiliates $ — $ (1,787) $",
+          "source": "AMERICANEXPRESS_2022_10K.pdf",
+          "page": 157
+        }
+      ],
+      "latency_ms": 17317.99,
+      "error": null
+    }
+  },
+  {
+    "id": "UNSUP-11",
+    "wall_s": 15.6,
+    "result": {
+      "question": "What is Amcor's forecast net sales for fiscal 2030?",
+      "answer": "I couldn't find a supported answer in the provided documents.",
+      "overall_status": "insufficient_evidence",
+      "claims": [],
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "citation_id": "E1",
+          "text": "Results of Operations Consolidated Results of Operations ($ in millions, except per share data) 2023 2022 Net sales $ 14,694 $ 14,544 Operating income 1,508 1,239 Operating income as a percentage of net sales 10.3 % 8.5 % Net income attributable to Amcor plc $ 1,048 $ 805 Diluted Earnings Per Share $ 0.705 $ 0.529 Net sales increased by $150 million, or 1%, in fiscal year 2023, compared to fiscal year 2022. Excluding the pass-through of raw material costs of $776 million, negative currency impacts of $426 million, and the negative impact of disposed and ceased operations of $207 million, the remaining variation in net sales for the fiscal year 2023 was an increase of $7 million, or 0%, reflecting price/mix benefits of 3% and unfavorable volumes of (3%). Net income attributable to Amcor plc increased by $243 million, or 30%, in fiscal year 2023, compared to fiscal year 2022, mainly as a result of a pre-tax net gain of $215 million on the disposal of the Russian business in fiscal year",
+          "source": "AMCOR_2023_10K.pdf",
+          "page": 32
+        },
+        {
+          "citation_id": "E2",
+          "text": "Overview Amcor is a global leader in developing and producing responsible packaging for food, beverage, pharmaceutical, medical, home and personal- care, and other products. We work with leading companies around the world to protect their products and the people who rely on them, differentiate brands, and improve supply chains through a range of flexible and rigid packaging, specialty cartons, closures, and services. We are focused on making packaging that is increasingly light-weighted, recyclable and reusable, and made using an increasing amount of recycled content. During fiscal year 2023, Amcor generated $14.7 billion in sales from operations that spanned 218 locations in over 40 countries. Significant Developments Affecting the Periods Presented Economic and Market Conditions During fiscal year 2023, we have continued to experience intermittent supply shortages and price volatility of certain resins and raw materials as a result of market dynamics, especially in the first half of",
+          "source": "AMCOR_2023_10K.pdf",
+          "page": 30
+        },
+        {
+          "citation_id": "E3",
+          "text": "Amcor plc and Subsidiaries Consolidated Statements of Income ($ in millions, except per share data) For the years ended June 30, 2023 2022 2021 Net sales $ 14,694 $ 14,544 $ 12,861 Cost of sales (11,969) (11,724) (10,129) Gross profit 2,725 2,820 2,732 Selling, general, and administrative expenses (1,246) (1,284) (1,292) Research and development expenses (101) (96) (100) Restructuring, impairment, and other related activities, net 104 (234) (94) Other income, net 26 33 75 Operating income 1,508 1,239 1,321 Interest income 31 24 14 Interest expense (290) (159) (153) Other non-operating income, net 2 11 11 Income before income taxes and equity in income of affiliated companies 1,251 1,115 1,193 Income tax expense (193) (300) (261) Equity in income of affiliated companies, net of tax — — 19 Net income $ 1,058 $ 815 $ 951 Net income attributable to non-controlling interests (10) (10) (12) Net income attributable to Amcor plc $ 1,048 $ 805 $ 939 Basic earnings per share: Basic earnings per",
+          "source": "AMCOR_2023_10K.pdf",
+          "page": 50
+        }
+      ],
+      "latency_ms": 15616.94,
+      "error": null
+    }
+  },
+  {
+    "id": "UNSUP-13",
+    "wall_s": 9.4,
+    "result": {
+      "question": "What was Amcor's customer churn rate in fiscal 2023?",
+      "answer": "I couldn't find a supported answer in the provided documents.",
+      "overall_status": "insufficient_evidence",
+      "claims": [],
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "citation_id": "E1",
+          "text": "is comprised of adjustments to prior year, movements in deferred tax positions of $13 million, changes in tax rates, and other individually immaterial items. In fiscal year 2021, Other is comprised of adjustments to prior fiscal year, including one related to the crystallization of benefits from business restructuring of $45 million, changes in tax rate, and other individually immaterial items. Amcor operates in over forty different jurisdictions with a wide range of statutory tax rates. The tax expense from operating in non-UK jurisdictions in excess of the UK statutory tax rate is included in the line \"Foreign tax rate differential\" in the above tax rate reconciliation table. For fiscal year 2023, the Company's effective tax rate was 15.4% as compared to the effective tax rates of 26.9% and 21.9% for fiscal years 2022 and 2021, respectively. The lower effective tax rate for fiscal year 2023 is largely attributable to the non-taxable gain on the disposal of the Russian business and",
+          "source": "AMCOR_2023_10K.pdf",
+          "page": 93
+        },
+        {
+          "citation_id": "E2",
+          "text": "Results of Operations Consolidated Results of Operations ($ in millions, except per share data) 2023 2022 Net sales $ 14,694 $ 14,544 Operating income 1,508 1,239 Operating income as a percentage of net sales 10.3 % 8.5 % Net income attributable to Amcor plc $ 1,048 $ 805 Diluted Earnings Per Share $ 0.705 $ 0.529 Net sales increased by $150 million, or 1%, in fiscal year 2023, compared to fiscal year 2022. Excluding the pass-through of raw material costs of $776 million, negative currency impacts of $426 million, and the negative impact of disposed and ceased operations of $207 million, the remaining variation in net sales for the fiscal year 2023 was an increase of $7 million, or 0%, reflecting price/mix benefits of 3% and unfavorable volumes of (3%). Net income attributable to Amcor plc increased by $243 million, or 30%, in fiscal year 2023, compared to fiscal year 2022, mainly as a result of a pre-tax net gain of $215 million on the disposal of the Russian business in fiscal year",
+          "source": "AMCOR_2023_10K.pdf",
+          "page": 32
+        },
+        {
+          "citation_id": "E3",
+          "text": "Overview Amcor is a global leader in developing and producing responsible packaging for food, beverage, pharmaceutical, medical, home and personal- care, and other products. We work with leading companies around the world to protect their products and the people who rely on them, differentiate brands, and improve supply chains through a range of flexible and rigid packaging, specialty cartons, closures, and services. We are focused on making packaging that is increasingly light-weighted, recyclable and reusable, and made using an increasing amount of recycled content. During fiscal year 2023, Amcor generated $14.7 billion in sales from operations that spanned 218 locations in over 40 countries. Significant Developments Affecting the Periods Presented Economic and Market Conditions During fiscal year 2023, we have continued to experience intermittent supply shortages and price volatility of certain resins and raw materials as a result of market dynamics, especially in the first half of",
+          "source": "AMCOR_2023_10K.pdf",
+          "page": 30
+        }
+      ],
+      "latency_ms": 9390.25,
       "error": null
     }
   }
