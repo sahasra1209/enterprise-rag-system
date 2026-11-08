@@ -1,0 +1,101 @@
+[
+  {
+    "id": "financebench_id_00499",
+    "wall_s": 12.7,
+    "result": {
+      "question": "Is 3M a capital-intensive business based on FY2022 data?",
+      "answer": "I couldn't find a supported answer in the provided documents.",
+      "overall_status": "insufficient_evidence",
+      "claims": [],
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "citation_id": "E1",
+          "text": "3M was able to manage the business with lower cash levels due to significant ongoing cash flow generation and proven access to capital markets funding throughout business cycles. 38",
+          "source": "3M_2015_10K.pdf",
+          "page": 38
+        },
+        {
+          "citation_id": "E2",
+          "text": "3M’s capital structure and significant ongoing cash flows provide 3M proven access to capital markets. Additionally, the Company’s maturity profile is staggered to help ensure refinancing needs in any",
+          "source": "3M_2015_10K.pdf",
+          "page": 39
+        },
+        {
+          "citation_id": "E3",
+          "text": "to implement this strategy. Investing in 3M’s businesses to drive organic growth remains the first priority, thus 3M will continue to deploy capital towards research and development, capital",
+          "source": "3M_2015_10K.pdf",
+          "page": 38
+        }
+      ],
+      "latency_ms": 12694.1,
+      "error": null
+    }
+  },
+  {
+    "id": "financebench_id_01226",
+    "wall_s": 7.8,
+    "result": {
+      "question": "What drove operating margin change as of FY2022 for 3M? If operating margin is not a useful metric for a company like this, then please state that and explain why.",
+      "answer": "I couldn't find a supported answer in the provided documents.",
+      "overall_status": "insufficient_evidence",
+      "claims": [],
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "citation_id": "E1",
+          "text": "of 3M’s five business segments posted operating income margins of approximately 2 1 percent or more in 2015 . Worldwide operating income margins for 2015 were 22. 9 percent, compared to 2 2.4 percent",
+          "source": "3M_2015_10K.pdf",
+          "page": 19
+        },
+        {
+          "citation_id": "E2",
+          "text": "Operating profit grew 3% while operating margin declined 0.7 percentage points. Operating profit growth was primarily driven by net revenue growth and productivity savings, partially offset by certain",
+          "source": "PEPSICO_2022_10K.pdf",
+          "page": 40
+        },
+        {
+          "citation_id": "E3",
+          "text": "compared to 22. 6 percent in 201 4 . · Operating income margin improvements were driven by higher selling prices and lower raw material costs, along with productivity. · Operating income margins",
+          "source": "3M_2015_10K.pdf",
+          "page": 28
+        }
+      ],
+      "latency_ms": 7771.18,
+      "error": null
+    }
+  },
+  {
+    "id": "financebench_id_01865",
+    "wall_s": 7.5,
+    "result": {
+      "question": "If we exclude the impact of M&A, which segment has dragged down 3M's overall growth in 2022?",
+      "answer": "I couldn't find a supported answer in the provided documents.",
+      "overall_status": "insufficient_evidence",
+      "claims": [],
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "citation_id": "E1",
+          "text": "in 2022 when compared to the same period last year. 3M continues to invest in a range of R&D activities from application development, product and manufacturing support, product development and",
+          "source": "3M_2022_10K.pdf",
+          "page": 27
+        },
+        {
+          "citation_id": "E2",
+          "text": "manufacturer, technology innovator and marketer of a wide variety of products and services. Effective in the first quarter of 2022, 3M made the following changes: • Changes in measure of segment",
+          "source": "3M_2022_10K.pdf",
+          "page": 19
+        },
+        {
+          "citation_id": "E3",
+          "text": "September 30, 2015, and December 31, 2015, was significantly in excess of its equity of approximately $12 billion at both December 31, 2015 and September 30, 2015. In 2015, 3M primarily used an",
+          "source": "3M_2015_10K.pdf",
+          "page": 37
+        }
+      ],
+      "latency_ms": 7496.91,
+      "error": null
+    }
+  }
+]
