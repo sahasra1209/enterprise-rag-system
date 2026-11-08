@@ -16,7 +16,7 @@ import answer
 from embeddings import load_embedding_model
 
 DATASET = ROOT / "evaluation" / "dataset_financebench.json"
-OUT = ROOT / "evaluation" / "results" / "run_best_config.json"
+OUT = ROOT / "evaluation" / "results" / "run_best_config_34.json"
 DOCS = ["AMD_2022_10K", "AMERICANEXPRESS_2022_10K", "BOEING_2022_10K", "AMCOR_2023_10K"]
 COLLECTION = "eval_c1000"
 POOL = 20
@@ -61,6 +61,14 @@ cases = [
     c for c in json.load(open(DATASET, encoding="utf-8"))
     if c["category"] in ("supported", "unsupported") and c["source"][:-4] in DOCS
 ]
+print("Total cases selected:", len(cases))
+print("Category counts:")
+
+from collections import Counter
+print(Counter(c["category"] for c in cases))
+
+print("Selected IDs:")
+print([c["id"] for c in cases])
 print(f"Cases: {len(cases)}")
 
 rows = []
