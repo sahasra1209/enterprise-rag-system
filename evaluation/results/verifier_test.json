@@ -1,0 +1,354 @@
+[
+  {
+    "kind": "verbatim",
+    "id": "financebench_id_00499",
+    "claim": "3M Company and Subsidiaries Consolidated Statement of Income Years ended December 31 (Millions, except per share amounts) 2022 2021 2020 Net sales $ 34,229 $ 35,355 $ 32,184",
+    "status": "supported",
+    "entailment": 0.8947580456733704
+  },
+  {
+    "kind": "altered_number",
+    "id": "financebench_id_00499",
+    "claim": "3M Company and Subsidiaries Consolidated Statement of Income Years ended December 71 (Millions, except per share amounts) 2022 2021 2020 Net sales $ 34,229 $ 35,355 $ 32,184",
+    "status": "contradicted",
+    "entailment": 0.005062202922999859,
+    "changed": "31 -> 71"
+  },
+  {
+    "kind": "unrelated",
+    "id": "financebench_id_00499",
+    "claim": "On August 1, 2022, the Company completed the acquisition of 100% equity interest in a Czech Republic company that operates a world-class flexible packaging manufacturing plant.",
+    "status": "contradicted",
+    "entailment": 1.1871462447743397e-05
+  },
+  {
+    "kind": "verbatim",
+    "id": "financebench_id_01226",
+    "claim": "SG&A, measured as a percent of sales, increased in 2022 when compared to the same period last year.",
+    "status": "supported",
+    "entailment": 0.980810821056366
+  },
+  {
+    "kind": "altered_number",
+    "id": "financebench_id_01226",
+    "claim": "SG&A, measured as a percent of sales, increased in 5022 when compared to the same period last year.",
+    "status": "contradicted",
+    "entailment": 0.0020011768210679293,
+    "changed": "2022 -> 5022"
+  },
+  {
+    "kind": "unrelated",
+    "id": "financebench_id_01226",
+    "claim": "On August 1, 2022, the Company completed the acquisition of 100% equity interest in a Czech Republic company that operates a world-class flexible packaging manufacturing plant.",
+    "status": "contradicted",
+    "entailment": 8.664310735184699e-05
+  },
+  {
+    "kind": "verbatim",
+    "id": "financebench_id_01079",
+    "claim": "On August 1, 2022, the Company completed the acquisition of 100% equity interest in a Czech Republic company that operates a world-class flexible packaging manufacturing plant.",
+    "status": "supported",
+    "entailment": 0.9850215315818787
+  },
+  {
+    "kind": "altered_number",
+    "id": "financebench_id_01079",
+    "claim": "On August 1, 1022, the Company completed the acquisition of 100% equity interest in a Czech Republic company that operates a world-class flexible packaging manufacturing plant.",
+    "status": "contradicted",
+    "entailment": 2.8646039936575107e-05,
+    "changed": "2022, -> 1022,"
+  },
+  {
+    "kind": "unrelated",
+    "id": "financebench_id_01079",
+    "claim": "Net revenue for 2022 was $23.6 billion, an increase of 44% compared to 2021 net revenue of $16.4 billion.",
+    "status": "not_established",
+    "entailment": 0.0006053780671209097
+  },
+  {
+    "kind": "verbatim",
+    "id": "financebench_id_01198",
+    "claim": "Net revenue for 2022 was $23.6 billion, an increase of 44% compared to 2021 net revenue of $16.4 billion.",
+    "status": "supported",
+    "entailment": 0.9750949144363403
+  },
+  {
+    "kind": "altered_number",
+    "id": "financebench_id_01198",
+    "claim": "Net revenue for 3022 was $23.6 billion, an increase of 44% compared to 2021 net revenue of $16.4 billion.",
+    "status": "not_established",
+    "entailment": 0.5815569162368774,
+    "changed": "2022 -> 3022"
+  },
+  {
+    "kind": "unrelated",
+    "id": "financebench_id_01198",
+    "claim": "TABLE 1: SUMMARY OF FINANCIAL PERFORMANCE Years Ended December 31, Change Change (Millions, except percentages, per share amounts and where indicated) 2022 2021 2020 2022 vs.",
+    "status": "not_established",
+    "entailment": 0.00957301165908575
+  },
+  {
+    "kind": "verbatim",
+    "id": "financebench_id_00917",
+    "claim": "Operating income for 2022 was $1.3 billion compared to operating income of $3.6 billion for 2021.",
+    "status": "supported",
+    "entailment": 0.985466480255127
+  },
+  {
+    "kind": "altered_number",
+    "id": "financebench_id_00917",
+    "claim": "Operating income for 3022 was $1.3 billion compared to operating income of $3.6 billion for 2021.",
+    "status": "not_established",
+    "entailment": 0.2368711680173874,
+    "changed": "2022 -> 3022"
+  },
+  {
+    "kind": "unrelated",
+    "id": "financebench_id_00917",
+    "claim": "TABLE 1: SUMMARY OF FINANCIAL PERFORMANCE Years Ended December 31, Change Change (Millions, except percentages, per share amounts and where indicated) 2022 2021 2020 2022 vs.",
+    "status": "not_established",
+    "entailment": 0.01220306009054184
+  },
+  {
+    "kind": "verbatim",
+    "id": "financebench_id_00757",
+    "claim": "One customer accounted for 16% of our consolidated net revenue for the year ended December 31, 2022.",
+    "status": "supported",
+    "entailment": 0.9875690340995789
+  },
+  {
+    "kind": "altered_number",
+    "id": "financebench_id_00757",
+    "claim": "One customer accounted for 66% of our consolidated net revenue for the year ended December 31, 2022.",
+    "status": "contradicted",
+    "entailment": 0.00023019404034130275,
+    "changed": "16 -> 66"
+  },
+  {
+    "kind": "unrelated",
+    "id": "financebench_id_00757",
+    "claim": "TABLE 1: SUMMARY OF FINANCIAL PERFORMANCE Years Ended December 31, Change Change (Millions, except percentages, per share amounts and where indicated) 2022 2021 2020 2022 vs.",
+    "status": "not_established",
+    "entailment": 0.012747839093208313
+  },
+  {
+    "kind": "verbatim",
+    "id": "financebench_id_01351",
+    "claim": "TABLE 1: SUMMARY OF FINANCIAL PERFORMANCE Years Ended December 31, Change Change (Millions, except percentages, per share amounts and where indicated) 2022 2021 2020 2022 vs.",
+    "status": "supported",
+    "entailment": 0.8827416896820068
+  },
+  {
+    "kind": "altered_number",
+    "id": "financebench_id_01351",
+    "claim": "TABLE 1: SUMMARY OF FINANCIAL PERFORMANCE Years Ended December 81, Change Change (Millions, except percentages, per share amounts and where indicated) 2022 2021 2020 2022 vs.",
+    "status": "contradicted",
+    "entailment": 0.0035471832379698753,
+    "changed": "31, -> 81,"
+  },
+  {
+    "kind": "unrelated",
+    "id": "financebench_id_01351",
+    "claim": "In fiscal 2022, we acquired all of the outstanding shares of Current Health Ltd.",
+    "status": "contradicted",
+    "entailment": 9.914066140481737e-06
+  },
+  {
+    "kind": "verbatim",
+    "id": "financebench_id_01981",
+    "claim": "Net card fees increased 17 percent year over-year, as new card acquisitions reached record levels in 2022 and Card Member retention remained high, demonstrating the impact of investments we have made in our premium value propositions",
+    "status": "supported",
+    "entailment": 0.9750669002532959
+  },
+  {
+    "kind": "altered_number",
+    "id": "financebench_id_01981",
+    "claim": "Net card fees increased 37 percent year over-year, as new card acquisitions reached record levels in 2022 and Card Member retention remained high, demonstrating the impact of investments we have made in our premium value propositions",
+    "status": "contradicted",
+    "entailment": 0.0016218300443142653,
+    "changed": "17 -> 37"
+  },
+  {
+    "kind": "unrelated",
+    "id": "financebench_id_01981",
+    "claim": "In fiscal 2022, we acquired all of the outstanding shares of Current Health Ltd.",
+    "status": "not_established",
+    "entailment": 6.488589133368805e-05
+  },
+  {
+    "kind": "verbatim",
+    "id": "financebench_id_01077",
+    "claim": "In fiscal 2022, we acquired all of the outstanding shares of Current Health Ltd.",
+    "status": "supported",
+    "entailment": 0.994353175163269
+  },
+  {
+    "kind": "altered_number",
+    "id": "financebench_id_01077",
+    "claim": "In fiscal 1022, we acquired all of the outstanding shares of Current Health Ltd.",
+    "status": "contradicted",
+    "entailment": 3.8938109355513006e-05,
+    "changed": "2022, -> 1022,"
+  },
+  {
+    "kind": "unrelated",
+    "id": "financebench_id_01077",
+    "claim": "Multiple legal actions have been filed against us as a result of the October 29, 2018 accident of Lion Air Flight 610 and the March 10, 2019 accident of Ethiopian Airlines Flight 302.",
+    "status": "not_established",
+    "entailment": 0.00030399506795220077
+  },
+  {
+    "kind": "verbatim",
+    "id": "financebench_id_01091",
+    "claim": "Multiple legal actions have been filed against us as a result of the October 29, 2018 accident of Lion Air Flight 610 and the March 10, 2019 accident of Ethiopian Airlines Flight 302.",
+    "status": "supported",
+    "entailment": 0.9687132239341736
+  },
+  {
+    "kind": "altered_number",
+    "id": "financebench_id_01091",
+    "claim": "Multiple legal actions have been filed against us as a result of the October 99, 2018 accident of Lion Air Flight 610 and the March 10, 2019 accident of Ethiopian Airlines Flight 302.",
+    "status": "contradicted",
+    "entailment": 0.0029303974006325006,
+    "changed": "29, -> 99,"
+  },
+  {
+    "kind": "unrelated",
+    "id": "financebench_id_01091",
+    "claim": "The maximum amount payable by the Company under the settlement would be approximately $4.3 billion in opioid remediation and $625 million in attorneys fees and costs and additional remediation.",
+    "status": "not_established",
+    "entailment": 0.00014918000670149922
+  },
+  {
+    "kind": "verbatim",
+    "id": "financebench_id_01290",
+    "claim": "In 2022, 40% of our revenues were earned pursuant to U.S.",
+    "status": "supported",
+    "entailment": 0.9858608245849609
+  },
+  {
+    "kind": "altered_number",
+    "id": "financebench_id_01290",
+    "claim": "In 3022, 40% of our revenues were earned pursuant to U.S.",
+    "status": "not_established",
+    "entailment": 0.5079377293586731,
+    "changed": "2022, -> 3022,"
+  },
+  {
+    "kind": "unrelated",
+    "id": "financebench_id_01290",
+    "claim": "The maximum amount payable by the Company under the settlement would be approximately $4.3 billion in opioid remediation and $625 million in attorneys fees and costs and additional remediation.",
+    "status": "not_established",
+    "entailment": 0.0010068501578643918
+  },
+  {
+    "kind": "verbatim",
+    "id": "financebench_id_00494",
+    "claim": "The 787 program is currently producing at low rates and we expect to gradually increase to 5 per month in 2023.",
+    "status": "supported",
+    "entailment": 0.9914131164550781
+  },
+  {
+    "kind": "altered_number",
+    "id": "financebench_id_00494",
+    "claim": "The 987 program is currently producing at low rates and we expect to gradually increase to 5 per month in 2023.",
+    "status": "contradicted",
+    "entailment": 0.0025564907118678093,
+    "changed": "787 -> 987"
+  },
+  {
+    "kind": "unrelated",
+    "id": "financebench_id_00494",
+    "claim": "The maximum amount payable by the Company under the settlement would be approximately $4.3 billion in opioid remediation and $625 million in attorneys fees and costs and additional remediation.",
+    "status": "not_established",
+    "entailment": 0.0005229456000961363
+  },
+  {
+    "kind": "verbatim",
+    "id": "financebench_id_01107",
+    "claim": "The maximum amount payable by the Company under the settlement would be approximately $4.3 billion in opioid remediation and $625 million in attorneys fees and costs and additional remediation.",
+    "status": "supported",
+    "entailment": 0.9883348941802979
+  },
+  {
+    "kind": "altered_number",
+    "id": "financebench_id_01107",
+    "claim": "The maximum amount payable by the Company under the settlement would be approximately $2.3 billion in opioid remediation and $625 million in attorneys fees and costs and additional remediation.",
+    "status": "contradicted",
+    "entailment": 0.000357708748197183,
+    "changed": "4.3 -> 2.3"
+  },
+  {
+    "kind": "unrelated",
+    "id": "financebench_id_01107",
+    "claim": "Forward-Looking Statements This Annual Report on Form 10-K contains statements reflecting our views about our future performance that constitute forward-looking statements within the meaning of the Private Securities Litigation Reform Act of 1995 (Reform Act).",
+    "status": "not_established",
+    "entailment": 0.0024364350829273462
+  },
+  {
+    "kind": "verbatim",
+    "id": "financebench_id_01244",
+    "claim": "Dividends During 2022, 2021 and 2020, the quarterly cash dividend was $0.55, $0.50 and $0.50 per share, respectively.",
+    "status": "supported",
+    "entailment": 0.9697550535202026
+  },
+  {
+    "kind": "altered_number",
+    "id": "financebench_id_01244",
+    "claim": "Dividends During 7022, 2021 and 2020, the quarterly cash dividend was $0.55, $0.50 and $0.50 per share, respectively.",
+    "status": "contradicted",
+    "entailment": 0.04880351200699806,
+    "changed": "2022, -> 7022,"
+  },
+  {
+    "kind": "unrelated",
+    "id": "financebench_id_01244",
+    "claim": "Forward-Looking Statements This Annual Report on Form 10-K contains statements reflecting our views about our future performance that constitute forward-looking statements within the meaning of the Private Securities Litigation Reform Act of 1995 (Reform Act).",
+    "status": "not_established",
+    "entailment": 0.004081612918525934
+  },
+  {
+    "kind": "verbatim",
+    "id": "financebench_id_01009",
+    "claim": "Forward-Looking Statements This Annual Report on Form 10-K contains statements reflecting our views about our future performance that constitute forward-looking statements within the meaning of the Private Securities Litigation Reform Act of 1995 (Reform Act).",
+    "status": "supported",
+    "entailment": 0.9526922702789307
+  },
+  {
+    "kind": "altered_number",
+    "id": "financebench_id_01009",
+    "claim": "Forward-Looking Statements This Annual Report on Form 60-K contains statements reflecting our views about our future performance that constitute forward-looking statements within the meaning of the Private Securities Litigation Reform Act of 1995 (Reform Act).",
+    "status": "contradicted",
+    "entailment": 0.0005960722337476909,
+    "changed": "10 -> 60"
+  },
+  {
+    "kind": "unrelated",
+    "id": "financebench_id_01009",
+    "claim": "3M Company and Subsidiaries Consolidated Statement of Income Years ended December 31 (Millions, except per share amounts) 2022 2021 2020 Net sales $ 34,229 $ 35,355 $ 32,184",
+    "status": "not_established",
+    "entailment": 0.015831921249628067
+  },
+  {
+    "kind": "verbatim",
+    "id": "financebench_id_01328",
+    "claim": "To build on the successful implementation of the 2019 Productivity Plan, in the fourth quarter of 2022, we expanded and extended the plan through the end of 2028 to take advantage of additional opportunities within the initiatives described above.",
+    "status": "supported",
+    "entailment": 0.9801082015037537
+  },
+  {
+    "kind": "altered_number",
+    "id": "financebench_id_01328",
+    "claim": "To build on the successful implementation of the 9019 Productivity Plan, in the fourth quarter of 2022, we expanded and extended the plan through the end of 2028 to take advantage of additional opportunities within the initiatives described above.",
+    "status": "contradicted",
+    "entailment": 0.00148200080730021,
+    "changed": "2019 -> 9019"
+  },
+  {
+    "kind": "unrelated",
+    "id": "financebench_id_01328",
+    "claim": "3M Company and Subsidiaries Consolidated Statement of Income Years ended December 31 (Millions, except per share amounts) 2022 2021 2020 Net sales $ 34,229 $ 35,355 $ 32,184",
+    "status": "not_established",
+    "entailment": 0.1497643142938614
+  }
+]
