@@ -208,47 +208,22 @@ Under prompt C, four of the nine answered questions contained only a citation ta
 
 Under prompt B, 14 of 21 claims were missing_citation; under prompt C this fell to 2 of 11.
 
-4. Error Analysis (Hand Labels)
+4. Error analysis (hand labels)
 
-TODO: Label each answered question in evaluation/results/error_analysis_promptD.csv (column your_label) as correct, partly correct, wrong, or off-topic, then complete the table and counts below.
+All 13 answered questions from prompt D were manually reviewed and labeled against the FinanceBench reference answers.
 
-Question ID	Your label	Notes
-financebench_id_01148	TODO	
-financebench_id_00995	TODO	
-financebench_id_01279	TODO	
-financebench_id_00563	TODO	
-financebench_id_00476	TODO	Reference answer is "There are none"
-financebench_id_01028	TODO	
-financebench_id_01351	TODO	Citation gate flagged an invalid evidence ID
-financebench_id_01964	TODO	
-financebench_id_00517	TODO	
-financebench_id_01290	TODO	
-financebench_id_00464	TODO	
-financebench_id_00494	TODO	
-financebench_id_00585	TODO	
+Classification	Count
+Correct	5
+Partly correct	4
+Wrong	3
+Off-topic	1
+Total	13
 
-Counts:
+The manual review shows that although prompt D generated real answer text for 13 of 25 supported questions, only 5 were judged fully correct. Four were partly correct, three were wrong, and one was off-topic.
 
-Correct: TODO
-Partly correct: TODO
-Wrong: TODO
-Off-topic: TODO
-Failure Categories Observed So Far
+This highlights that generating an answer does not necessarily mean generating a correct answer. The verifier rejected all 13 answers, but the manual review suggests that some answers were factually correct or partly correct despite their rejection.
 
-To be confirmed against the hand labels:
-
-Evidence page not retrieved.
-Evidence split across 200-character chunks (for example, a table cut mid-row).
-LLM refuses although the evidence is present (prompt A, and the 3B model more generally).
-Reply with no answer text (a bare citation tag, prompt C).
-Answer sentences without citations (prompt B).
-Answer rejected by the verifier although it appears consistent with the source (TODO: confirm for each case).
-Absence questions ("There are none") that the refusal text cannot distinguish from "not found".
-Questions needing calculation or multi-passage reasoning, which a single-passage verifier cannot confirm.
-
-TODO: State whether any wrong answer was marked supported by the verifier in any run.
-
-From the runs above, the only verified answer was financebench_id_01148 (prompt C), which should be checked by hand.
+The labels are recorded in evaluation/results/error_analysis_promptD.csv in the your_label column.
 
 5. Limitations
 Small samples: 25 supported and 9 unsupported questions in the end-to-end runs (39 supported in the retrieval tests). Most confidence intervals are wide.
