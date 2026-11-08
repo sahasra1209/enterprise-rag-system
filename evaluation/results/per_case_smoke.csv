@@ -1,4 +1,0 @@
-id,category,tier,status,overall_status,source_hit,page_hit,numeric_ok,n_citations,n_citations_correct,latency_ms,error
-financebench_id_00499,supported,reasoning,refused,insufficient_evidence,False,False,,0,0,12694.1,
-financebench_id_01226,supported,reasoning,refused,insufficient_evidence,False,False,,0,0,7771.18,
-financebench_id_01865,supported,reasoning,refused,insufficient_evidence,True,False,,0,0,7496.91,
