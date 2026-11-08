@@ -1,0 +1,1170 @@
+[
+  {
+    "id": "financebench_id_00799",
+    "wall_s": 5.7,
+    "result": {
+      "question": "Has AMCOR's quick ratio improved or declined between FY2023 and FY2022? If the quick ratio is not something that a financial analyst would ask about a company like this, then state that and explain why.",
+      "answer": "I couldn't find a supported answer in the provided documents.",
+      "overall_status": "insufficient_evidence",
+      "claims": [],
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "citation_id": "E1",
+          "text": "is comprised of adjustments to prior year, movements in deferred tax positions of $13 million, changes in tax rates, and other individually immaterial items. In fiscal year 2021, Other is comprised of adjustments to prior fiscal year, including one related to the crystallization of benefits from business restructuring of $45 million, changes in tax rate, and other individually immaterial items. Amcor operates in over forty different jurisdictions with a wide range of statutory tax rates. The tax expense from operating in non-UK jurisdictions in excess of the UK statutory tax rate is included in the line \"Foreign tax rate differential\" in the above tax rate reconciliation table. For fiscal year 2023, the Company's effective tax rate was 15.4% as compared to the effective tax rates of 26.9% and 21.9% for fiscal years 2022 and 2021, respectively. The lower effective tax rate for fiscal year 2023 is largely attributable to the non-taxable gain on the disposal of the Russian business and",
+          "source": "AMCOR_2023_10K.pdf",
+          "page": 93
+        },
+        {
+          "citation_id": "E2",
+          "text": "$0.1225 per share to be paid on September 27, 2023, to shareholders of record as of September 7, 2023. Amcor has received a waiver from the Australian Securities Exchange (\"ASX\") settlement operating rules, which will allow Amcor to defer processing conversions between its ordinary share and CHESS Depositary Instrument (\"CDI\") registers from September 6, 2023, to September 7, 2023, inclusive. 109",
+          "source": "AMCOR_2023_10K.pdf",
+          "page": 109
+        },
+        {
+          "citation_id": "E3",
+          "text": "among AFUI, Amcor plc, Amcor Limited, Bemis, Amcor UK Finance plc and the Dealer Managers, relating to the Amcor’s 3.625% 2026 Notes (incorporated by reference to Exhibit 10.7 on Amcor plc’s Current Report on Form 8-K filed on June 17, 2019). Incorporated by Reference 4 .13 Registration Rights Agreement, dated as of June 13, 2019, by and among AFUI, Amcor plc, Amcor Limited, Bemis, Amcor UK Finance plc and the Dealer Managers, relating to the Amcor’s 4.500% 2028 Notes (incorporated by reference to Exhibit 10.8 on Amcor plc’s Current Report on Form 8-K filed on June 17, 2019). Incorporated by Reference 4 .14 Description of Securities of the Registrant. Filed Herewith 4 .15 Form of 2.690% Guaranteed Senior Note Due 2031 (incorporated by reference to Exhibit 4.3 on Amcor plc's Current Report on Form 8-K filed on May 25, 2021). Incorporated by Reference 4 .16 Form of 4.000% Guaranteed Senior Note due 2025 (incorporated by reference to Exhibit 4.3 on Amcor plc's Current Report on Form 8-K",
+          "source": "AMCOR_2023_10K.pdf",
+          "page": 114
+        }
+      ],
+      "latency_ms": 5668.56,
+      "error": null
+    }
+  },
+  {
+    "id": "financebench_id_01079",
+    "wall_s": 1.0,
+    "result": {
+      "question": "What are major acquisitions that AMCOR has done in FY2023, FY2022 and FY2021?",
+      "answer": "I couldn't find a supported answer in the provided documents.",
+      "overall_status": "insufficient_evidence",
+      "claims": [],
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "citation_id": "E1",
+          "text": "any subsidiaries that Amcor may in the future acquire or establish to the extent they do not guarantee such Notes). Amcor, AFUI, Amcor Pty Ltd and Amcor Flexibles North America, Inc. are the initial Guarantors of the Notes. See \"—Guarantees.\" As of June 30, 2023, (i) the Issuer and the Guarantors had $6,625 million in aggregate principal amount of total indebtedness, other than intercompany indebtedness (of which none was secured) and (ii) the non-guarantor subsidiaries, including joint ventures, had $121 million of total indebtedness (of which $88 million was secured). For the year ended June 30, 2023, the non-guarantor subsidiaries, including joint ventures, represented 93% of Amcor's sales revenue. Registration of transfer and exchange",
+          "source": "AMCOR_2023_10K.pdf",
+          "page": 134
+        },
+        {
+          "citation_id": "E2",
+          "text": "EXHIBIT 21.1 SIGNIFICANT SUBSIDIARIES OF THE REGISTRANT Amcor plc has no parent. The following were significant subsidiaries of the Company as of June 30, 2023. Name Organized Under The Laws Of Amcor Pty Ltd Australia Amcor Investments Proprietary Limited Australia Amcor Packaging (USA) Inc. United States of America Amcor Finance (USA), Inc. United States of America Twinpak (USA) LLC United States of America Amcor European Holdings Pty Ltd Australia Amcor Holding United Kingdom Amcor Rigid Packaging USA, LLC United States of America Amcor Group GmbH Switzerland ARP North America Holdco Ltd United Kingdom ARP LATAM Holdco Ltd United Kingdom Amcor Flexibles North America, Inc. United States of America Amcor Wisconsin, LLC United States of America",
+          "source": "AMCOR_2023_10K.pdf",
+          "page": 151
+        },
+        {
+          "citation_id": "E3",
+          "text": "management. Our Board of Directors receives monthly reports on safety performance and compliance with our global EHS standards. During fiscal year 2023, we reduced the number of injuries by 31% and 69% of our sites were injury free. Developing Talent At Amcor, we are dedicated to attracting, developing, engaging, and retaining the best talent to deliver our 'Winning Aspiration' and ensure a strong succession pipeline for the future. Our fiscal years 2023-2027 Human Capital Strategy is focused on ensuring that we have the right people in the right jobs at the right time to drive our growth agenda. Our approach to talent is guided by the understanding that by creating a truly differentiated, industry-leading pool of talent which can be deployed consistently across our business, we will better enable Amcor’s success. Amcor is dedicated to attracting, developing, engaging, and retaining the best talent and strengthening our succession pipeline for the future. We have a range of executive",
+          "source": "AMCOR_2023_10K.pdf",
+          "page": 11
+        }
+      ],
+      "latency_ms": 1026.48,
+      "error": null
+    }
+  },
+  {
+    "id": "financebench_id_01148",
+    "wall_s": 8.3,
+    "result": {
+      "question": "What industry does AMCOR primarily operate in?",
+      "answer": "I couldn't find a supported answer in the provided documents.",
+      "overall_status": "needs_review",
+      "claims": [
+        {
+          "claim": "AMCOR primarily operates in the food, beverage, pharmaceutical, medical, home and personal-care, and other consumer goods industries",
+          "citations": [],
+          "status": "missing_citation",
+          "verification_results": []
+        },
+        {
+          "claim": "This information is directly stated in the evidence  and , which describe Amcor's business activities and the end markets it serves",
+          "citations": [
+            "E1",
+            "E2"
+          ],
+          "status": "uncertain",
+          "verification_results": [
+            {
+              "citation_id": "E1",
+              "status": "not_established",
+              "scores": {
+                "contradiction": 0.010272190906107426,
+                "entailment": 0.004085418302565813,
+                "neutral": 0.9856423735618591
+              },
+              "matched_evidence": "Amcor plc and Subsidiaries Notes to Consolidated Financial Statements Note 1 - Business Description Amcor plc (\"Amcor\" or the \"Company\") is a public limited company incorporated under the Laws of the Bailiwick of Jersey.",
+              "reason": "The evidence does not establish the claim confidently."
+            },
+            {
+              "citation_id": "E2",
+              "status": "not_established",
+              "scores": {
+                "contradiction": 0.00024714411119930446,
+                "entailment": 0.0007412516279146075,
+                "neutral": 0.9990116357803345
+              },
+              "matched_evidence": "Sustainability Sustainability is central to our business and one of our most exciting opportunities for growth.",
+              "reason": "The evidence does not establish the claim confidently."
+            }
+          ]
+        }
+      ],
+      "citations": [
+        {
+          "id": "E1",
+          "source": "AMCOR_2023_10K.pdf",
+          "page": 55
+        },
+        {
+          "id": "E2",
+          "source": "AMCOR_2023_10K.pdf",
+          "page": 5
+        }
+      ],
+      "retrieved_chunks": [
+        {
+          "citation_id": "E1",
+          "text": "Amcor plc and Subsidiaries Notes to Consolidated Financial Statements Note 1 - Business Description Amcor plc (\"Amcor\" or the \"Company\") is a public limited company incorporated under the Laws of the Bailiwick of Jersey. The Company's history dates back more than 150 years, with origins in both Australia and the United States of America. Today, Amcor is a global leader in developing and producing responsible packaging for food, beverage, pharmaceutical, medical, home and personal-care, and other consumer goods end markets. The Company's innovation excellence and global packaging expertise enables the Company to solve packaging challenges around the world every day, producing packaging that is more functional, appealing, and cost effective for its customers and their consumers and importantly, more sustainable for the environment. The Company's business activities are organized around two reportable segments, Flexibles and Rigid Packaging. The Company has a globally diverse operating",
+          "source": "AMCOR_2023_10K.pdf",
+          "page": 55
+        },
+        {
+          "citation_id": "E2",
+          "text": "PART I Item 1. - Business The Company Amcor plc (ARBN 630 385 278) is a public limited company incorporated under the Laws of the Bailiwick of Jersey. Our history dates back more than 150 years, with origins in both Australia and the USA. Today, we are a global leader in developing and producing responsible packaging for food, beverage, pharmaceutical, medical, home and personal-care, and other products. Our innovation excellence and global packaging expertise enables us to solve packaging challenges around the world every day, producing packaging that is more functional, appealing, and cost effective for our customers and their consumers and importantly, more sustainable for the environment. Sustainability Sustainability is central to our business and one of our most exciting opportunities for growth. Working daily to embed sustainability deeper into everything we do, Amcor has been a leader in the industry in promoting sustainability. We aspire to improve the quality of lives,",
+          "source": "AMCOR_2023_10K.pdf",
+          "page": 5
+        },
+        {
+          "citation_id": "E3",
+          "text": "law. The guarantees will be unsecured and unsubordinated obligations of the guarantors and will rank equally with all existing and future unsecured and unsubordinated debt of each guarantor. None of our other subsidiaries guarantee such notes. The issuers and guarantors conduct large parts of their operations through other subsidiaries of Amcor plc. Amcor Flexibles North America, Inc. is incorporated in Missouri in the United States, Amcor UK Finance plc is incorporated in England and Wales, United Kingdom, Amcor Finance (USA), Inc. is incorporated in Delaware in the United States, and the guarantors are incorporated under the laws of Jersey, Australia, the United States, and England and Wales and, therefore, insolvency proceedings with respect to the issuers and guarantors could proceed under, and be governed by, among others, Jersey, Australian, United States, or English insolvency law, as the case may be, if either issuer or any guarantor defaults on its obligations under the",
+          "source": "AMCOR_2023_10K.pdf",
+          "page": 37
+        }
+      ],
+      "latency_ms": 8318.07,
+      "error": null
+    }
+  },
+  {
+    "id": "financebench_id_00684",
+    "wall_s": 25.6,
+    "result": {
+      "question": "Does AMCOR have an improving gross margin profile as of FY2023? If gross margin is not a useful metric for a company like this, then state that and explain why.",
+      "answer": "I couldn't find a supported answer in the provided documents.",
+      "overall_status": "insufficient_evidence",
+      "claims": [],
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "citation_id": "E1",
+          "text": "Amcor plc and Subsidiaries Consolidated Statements of Income ($ in millions, except per share data) For the years ended June 30, 2023 2022 2021 Net sales $ 14,694 $ 14,544 $ 12,861 Cost of sales (11,969) (11,724) (10,129) Gross profit 2,725 2,820 2,732 Selling, general, and administrative expenses (1,246) (1,284) (1,292) Research and development expenses (101) (96) (100) Restructuring, impairment, and other related activities, net 104 (234) (94) Other income, net 26 33 75 Operating income 1,508 1,239 1,321 Interest income 31 24 14 Interest expense (290) (159) (153) Other non-operating income, net 2 11 11 Income before income taxes and equity in income of affiliated companies 1,251 1,115 1,193 Income tax expense (193) (300) (261) Equity in income of affiliated companies, net of tax — — 19 Net income $ 1,058 $ 815 $ 951 Net income attributable to non-controlling interests (10) (10) (12) Net income attributable to Amcor plc $ 1,048 $ 805 $ 939 Basic earnings per share: Basic earnings per",
+          "source": "AMCOR_2023_10K.pdf",
+          "page": 50
+        },
+        {
+          "citation_id": "E2",
+          "text": "are based on the current expectations of the management of Amcor and are qualified by the inherent risks and uncertainties surrounding future expectations generally. Actual results could differ materially from those currently anticipated due to a number of risks and uncertainties. None of Amcor or any of its respective directors, executive officers, or advisors, provide any representation, assurance, or guarantee that the occurrence of the events expressed or implied in any forward-looking statements will actually occur. Risks and uncertainties that could cause actual results to differ from expectations include, but are not limited to: • Changes in consumer demand patterns and customer requirements in numerous industries; • the loss of key customers, a reduction in their production requirements, or consolidation among key customers; • significant competition in the industries and regions in which we operate; • an inability to expand our current business effectively through either",
+          "source": "AMCOR_2023_10K.pdf",
+          "page": 4
+        },
+        {
+          "citation_id": "E3",
+          "text": "Amcor plc and Subsidiaries Notes to Consolidated Financial Statements Note 1 - Business Description Amcor plc (\"Amcor\" or the \"Company\") is a public limited company incorporated under the Laws of the Bailiwick of Jersey. The Company's history dates back more than 150 years, with origins in both Australia and the United States of America. Today, Amcor is a global leader in developing and producing responsible packaging for food, beverage, pharmaceutical, medical, home and personal-care, and other consumer goods end markets. The Company's innovation excellence and global packaging expertise enables the Company to solve packaging challenges around the world every day, producing packaging that is more functional, appealing, and cost effective for its customers and their consumers and importantly, more sustainable for the environment. The Company's business activities are organized around two reportable segments, Flexibles and Rigid Packaging. The Company has a globally diverse operating",
+          "source": "AMCOR_2023_10K.pdf",
+          "page": 55
+        }
+      ],
+      "latency_ms": 25539.05,
+      "error": null
+    }
+  },
+  {
+    "id": "financebench_id_00222",
+    "wall_s": 8.6,
+    "result": {
+      "question": "Does AMD have a reasonably healthy liquidity profile based on its quick ratio for FY22? If the quick ratio is not relevant to measure liquidity, please state that and explain why.",
+      "answer": "I couldn't find a supported answer in the provided documents.",
+      "overall_status": "insufficient_evidence",
+      "claims": [],
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "citation_id": "E1",
+          "text": "made available to AMD and certain of its subsidiaries, our commercial paper program, and our cash flows from operations will be sufficient to fund AMD’s operations including capital expenditures and purchase commitments over the next 12 months and beyond; AMD’s ability to obtain sufficient external financing on favorable terms, or at all; AMD’s expectation that based on management’s current knowledge, the potential liability related to AMD’s current litigation will not have a material adverse effect on its financial position, results of operation or cash flows; anticipated ongoing and increased costs related to enhancing and implementing information security controls; all unbilled accounts receivables are expected to be billed and collected within 12 months; revenue allocated to remaining performance obligations that are unsatisfied which will be recognized in the next 12 months; and a small number of customers will continue to account for a substantial part of AMD’s revenue in the",
+          "source": "AMD_2022_10K.pdf",
+          "page": 4
+        },
+        {
+          "citation_id": "E2",
+          "text": "Table of Contents Advanced Micro Devices, Inc. Notes to Consolidated Financial Statements NOTE 1 – The Company Advanced Micro Devices, Inc. is a global semiconductor company. References herein to AMD or the Company mean Advanced Micro Devices, Inc. and its consolidated subsidiaries. AMD’s products include x86 microprocessors (CPUs) and graphics processing units (GPUs), as standalone devices or as incorporated into accelerated processing units (APUs), chipsets, data center and professional GPUs, embedded processors, semi-custom System-on-Chip (SoC) products, microprocessor and SoC development services and technology, data processing units (DPUs), Field Programmable Gate Arrays (FPGAs), and Adaptive SoC products. From time to time, the Company may also sell or license portions of its intellectual property (IP) portfolio. On February 14, 2022 (the Xilinx Acquisition Date), the Company completed the acquisition of Xilinx, Inc. (Xilinx). On May 26, 2022 (the Pensando Acquisition Date), the",
+          "source": "AMD_2022_10K.pdf",
+          "page": 60
+        },
+        {
+          "citation_id": "E3",
+          "text": "performance obligations that are unsatisfied which will be recognized in the next 12 months; and a small number of customers will continue to account for a substantial part of AMD’s revenue in the future. For a discussion of the factors that could cause actual results to differ materially from the forward-looking statements, see “Part I, Item 1A-Risk Factors” and the “Financial Condition” section set forth in “Part II, Item 7-Management’s Discussion and Analysis of Financial Condition and Results of Operations,” or MD&A, and such other risks and uncertainties as set forth below in this report or detailed in our other Securities and Exchange Commission (SEC) reports and filings. We assume no obligation to update forward-looking statements. References in this Annual Report on Form 10-K to “AMD,” “we,” “us,” “management,” “our” or the “Company” mean Advanced Micro Devices, Inc. and our consolidated subsidiaries. Overview We are a global semiconductor company primarily offering: • server",
+          "source": "AMD_2022_10K.pdf",
+          "page": 4
+        }
+      ],
+      "latency_ms": 8567.68,
+      "error": null
+    }
+  },
+  {
+    "id": "financebench_id_00995",
+    "wall_s": 27.4,
+    "result": {
+      "question": "What are the major products and services that AMD sells as of FY22?",
+      "answer": "I couldn't find a supported answer in the provided documents.",
+      "overall_status": "needs_review",
+      "claims": [
+        {
+          "claim": "As of FY22, AMD sells a variety of major products and services including server microprocessors (CPUs) and graphics processing units (GPUs), data processing units (DPUs), Field Programmable Gate Arrays (FPGAs), and Adaptive System-on-Chip (SoC) products for data centers",
+          "citations": [],
+          "status": "missing_citation",
+          "verification_results": []
+        },
+        {
+          "claim": "They also offer CPUs, accelerated processing units (APUs) that integrate CPUs and GPUs, and chipsets for desktop and notebook personal computers",
+          "citations": [],
+          "status": "missing_citation",
+          "verification_results": []
+        },
+        {
+          "claim": "AMD sells discrete GPUs and semi-custom SoC products and development services",
+          "citations": [],
+          "status": "missing_citation",
+          "verification_results": []
+        },
+        {
+          "claim": "Additionally, they provide embedded CPUs, GPUs, APUs, FPGAs, and Adaptive SoC products",
+          "citations": [],
+          "status": "missing_citation",
+          "verification_results": []
+        },
+        {
+          "claim": "They also market their compute and network acceleration board products under the Alveo brand",
+          "citations": [],
+          "status": "missing_citation",
+          "verification_results": []
+        },
+        {
+          "claim": "AMD's product brands for professional graphics products are AMD Radeon PRO graphics, and for data center graphics are Radeon Instinct, Radeon PRO V-series, and AMD Instinct accelerators for servers",
+          "citations": [],
+          "status": "missing_citation",
+          "verification_results": []
+        },
+        {
+          "claim": "They also market their chipsets under AMD trademarks",
+          "citations": [],
+          "status": "missing_citation",
+          "verification_results": []
+        },
+        {
+          "claim": "Their server microprocessors are branded as AMD EPYC processors, and they sell low-power versions of their AMD Athlon, AMD Ryzen, AMD EPYC, AMD R-Series and G-Series processors as embedded processor solutions",
+          "citations": [],
+          "status": "missing_citation",
+          "verification_results": []
+        },
+        {
+          "claim": "Their FPGA product brands are Virtex-6, Virtex-7, Virtex UltraScale+, Kintex-7, Kintex UltraScale, Kintex UltraScale+, Artix-7, Artix UltraScale+, Spartan-6 and Spartan-7",
+          "citations": [],
+          "status": "missing_citation",
+          "verification_results": []
+        },
+        {
+          "claim": "Their product brands for Adaptive SoCs are Zynq-7000, Zynq UltraScale+ MPSoC, Zynq UltraScale+ RFSoCs, Versal HBM, Versal Premium, Versal Prime, Versal AI Core, Versal AI Edge, Vitis and Vivado",
+          "citations": [
+            "E2"
+          ],
+          "status": "uncertain",
+          "verification_results": [
+            {
+              "citation_id": "E2",
+              "status": "not_established",
+              "scores": {
+                "contradiction": 0.02138921432197094,
+                "entailment": 0.024212907999753952,
+                "neutral": 0.9543979167938232
+              },
+              "matched_evidence": "1",
+              "reason": "The evidence does not establish the claim confidently."
+            }
+          ]
+        }
+      ],
+      "citations": [
+        {
+          "id": "E2",
+          "source": "AMD_2022_10K.pdf",
+          "page": 4
+        }
+      ],
+      "retrieved_chunks": [
+        {
+          "citation_id": "E1",
+          "text": "Table of Contents Advanced Micro Devices, Inc. Notes to Consolidated Financial Statements NOTE 1 – The Company Advanced Micro Devices, Inc. is a global semiconductor company. References herein to AMD or the Company mean Advanced Micro Devices, Inc. and its consolidated subsidiaries. AMD’s products include x86 microprocessors (CPUs) and graphics processing units (GPUs), as standalone devices or as incorporated into accelerated processing units (APUs), chipsets, data center and professional GPUs, embedded processors, semi-custom System-on-Chip (SoC) products, microprocessor and SoC development services and technology, data processing units (DPUs), Field Programmable Gate Arrays (FPGAs), and Adaptive SoC products. From time to time, the Company may also sell or license portions of its intellectual property (IP) portfolio. On February 14, 2022 (the Xilinx Acquisition Date), the Company completed the acquisition of Xilinx, Inc. (Xilinx). On May 26, 2022 (the Pensando Acquisition Date), the",
+          "source": "AMD_2022_10K.pdf",
+          "page": 60
+        },
+        {
+          "citation_id": "E2",
+          "text": "“AMD,” “we,” “us,” “management,” “our” or the “Company” mean Advanced Micro Devices, Inc. and our consolidated subsidiaries. Overview We are a global semiconductor company primarily offering: • server microprocessors (CPUs) and graphics processing units (GPUs), data processing units (DPUs), Field Programmable Gate Arrays (FPGAs), and Adaptive System-on-Chip (SoC) products for data centers; • CPUs, accelerated processing units (APUs) that integrate CPUs and GPUs, and chipsets for desktop and notebook personal computers; • discrete GPUs, and semi-custom SoC products and development services; and • embedded CPUs, GPUs, APUs, FPGAs, and Adaptive SoC products. From time to time, we may also sell or license portions of our intellectual property (IP) portfolio. 1",
+          "source": "AMD_2022_10K.pdf",
+          "page": 4
+        },
+        {
+          "citation_id": "E3",
+          "text": "the embedded graphics market. Our product brand for professional graphics products are AMD Radeon PRO graphics. Our product brands for data center graphics are Radeon Instinct, Radeon PRO V-series, and AMD Instinct accelerators for servers. We also market and sell our chipsets under AMD trademarks. Our product brand for server microprocessors is AMD EPYC processors. We also sell low-power versions of our AMD Athlon, as well as AMD Geode™, AMD Ryzen, AMD EPYC, AMD R-Series and G-Series processors as embedded processor solutions. Our FPGA product brands are Virtex-6, Virtex-7, Virtex UltraScale+, Kintex-7, Kintex UltraScale, Kintex UltraScale+, Artix-7, Artix UltraScale+, Spartan-6 and Spartan-7. Our product brands for Adaptive SoCs are Zynq-7000, Zynq UltraScale+ MPSoC, Zynq UltraScale+ RFSoCs, Versal HBM, Versal Premium, Versal Prime, Versal AI Core, Versal AI Edge, Vitis and Vivado. Our compute and network acceleration board products are sold under the Alveo brand. We market our",
+          "source": "AMD_2022_10K.pdf",
+          "page": 11
+        }
+      ],
+      "latency_ms": 27438.32,
+      "error": null
+    }
+  },
+  {
+    "id": "financebench_id_01198",
+    "wall_s": 9.1,
+    "result": {
+      "question": "What drove revenue change as of the FY22 for AMD?",
+      "answer": "I couldn't find a supported answer in the provided documents.",
+      "overall_status": "insufficient_evidence",
+      "claims": [],
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "citation_id": "E1",
+          "text": "made available to AMD and certain of its subsidiaries, our commercial paper program, and our cash flows from operations will be sufficient to fund AMD’s operations including capital expenditures and purchase commitments over the next 12 months and beyond; AMD’s ability to obtain sufficient external financing on favorable terms, or at all; AMD’s expectation that based on management’s current knowledge, the potential liability related to AMD’s current litigation will not have a material adverse effect on its financial position, results of operation or cash flows; anticipated ongoing and increased costs related to enhancing and implementing information security controls; all unbilled accounts receivables are expected to be billed and collected within 12 months; revenue allocated to remaining performance obligations that are unsatisfied which will be recognized in the next 12 months; and a small number of customers will continue to account for a substantial part of AMD’s revenue in the",
+          "source": "AMD_2022_10K.pdf",
+          "page": 4
+        },
+        {
+          "citation_id": "E2",
+          "text": "for 2022 compared to 2021, an analysis of changes in our financial condition and a discussion of our off-balance sheet arrangements. Discussions of 2020 items and year-to-year comparisons between 2021 and 2020 that are not included in this Form 10-K can be found in “Management’s Discussion and Analysis of Financial Condition and Results of Operations” in Part II, Item 7 of our Annual Report on Form 10-K for the fiscal year ended December 25, 2021. Overview 2022 was a transformative year for AMD as we took several major steps that scaled and reshaped our business. In February 2022, we completed our strategic acquisition of Xilinx, Inc. (Xilinx) which expanded our technology and product portfolio to include adaptable hardware platforms that enable hardware acceleration and rapid innovation across a variety of technologies and established AMD in multiple embedded markets where we have traditionally not had a significant presence. We now offer Field Programmable Gate Arrays (FPGAs),",
+          "source": "AMD_2022_10K.pdf",
+          "page": 43
+        },
+        {
+          "citation_id": "E3",
+          "text": "Table of Contents Additional Information AMD was incorporated under the laws of Delaware on May 1, 1969 and became a publicly held company in 1972. Our common stock is currently listed on The NASDAQ Global Select Market (NASDAQ) under the symbol “AMD”. Our mailing address and executive offices are located at 2485 Augustine Drive, Santa Clara, California 95054, and our telephone number is (408) 749-4000. For financial information about geographic areas and for segment information with respect to revenues and operating results, refer to the information set forth in Note 4 of our consolidated financial statements. We use a 52- or 53-week fiscal year ending on the last Saturday in December. References in this report to 2022, 2021 and 2020 refer to the fiscal year unless explicitly stated otherwise. AMD, the AMD Arrow logo, AMD CDNA, AMD Instinct, AMD RDNA, Alveo, Artix, Athlon, CoolRunner, EPYC, FidelityFX, FirePro, FreeSync, Geode, Infinity Fabric, Kinex, Pensando, Radeon, Radeon",
+          "source": "AMD_2022_10K.pdf",
+          "page": 5
+        }
+      ],
+      "latency_ms": 9081.73,
+      "error": null
+    }
+  },
+  {
+    "id": "financebench_id_00917",
+    "wall_s": 10.9,
+    "result": {
+      "question": "What drove operating margin change as of the FY22 for AMD? If operating margin is not a useful metric for a company like this, then please state that and explain why.",
+      "answer": "I couldn't find a supported answer in the provided documents.",
+      "overall_status": "insufficient_evidence",
+      "claims": [],
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "citation_id": "E1",
+          "text": "made available to AMD and certain of its subsidiaries, our commercial paper program, and our cash flows from operations will be sufficient to fund AMD’s operations including capital expenditures and purchase commitments over the next 12 months and beyond; AMD’s ability to obtain sufficient external financing on favorable terms, or at all; AMD’s expectation that based on management’s current knowledge, the potential liability related to AMD’s current litigation will not have a material adverse effect on its financial position, results of operation or cash flows; anticipated ongoing and increased costs related to enhancing and implementing information security controls; all unbilled accounts receivables are expected to be billed and collected within 12 months; revenue allocated to remaining performance obligations that are unsatisfied which will be recognized in the next 12 months; and a small number of customers will continue to account for a substantial part of AMD’s revenue in the",
+          "source": "AMD_2022_10K.pdf",
+          "page": 4
+        },
+        {
+          "citation_id": "E2",
+          "text": "for 2022 compared to 2021, an analysis of changes in our financial condition and a discussion of our off-balance sheet arrangements. Discussions of 2020 items and year-to-year comparisons between 2021 and 2020 that are not included in this Form 10-K can be found in “Management’s Discussion and Analysis of Financial Condition and Results of Operations” in Part II, Item 7 of our Annual Report on Form 10-K for the fiscal year ended December 25, 2021. Overview 2022 was a transformative year for AMD as we took several major steps that scaled and reshaped our business. In February 2022, we completed our strategic acquisition of Xilinx, Inc. (Xilinx) which expanded our technology and product portfolio to include adaptable hardware platforms that enable hardware acceleration and rapid innovation across a variety of technologies and established AMD in multiple embedded markets where we have traditionally not had a significant presence. We now offer Field Programmable Gate Arrays (FPGAs),",
+          "source": "AMD_2022_10K.pdf",
+          "page": 43
+        },
+        {
+          "citation_id": "E3",
+          "text": "performance obligations that are unsatisfied which will be recognized in the next 12 months; and a small number of customers will continue to account for a substantial part of AMD’s revenue in the future. For a discussion of the factors that could cause actual results to differ materially from the forward-looking statements, see “Part I, Item 1A-Risk Factors” and the “Financial Condition” section set forth in “Part II, Item 7-Management’s Discussion and Analysis of Financial Condition and Results of Operations,” or MD&A, and such other risks and uncertainties as set forth below in this report or detailed in our other Securities and Exchange Commission (SEC) reports and filings. We assume no obligation to update forward-looking statements. References in this Annual Report on Form 10-K to “AMD,” “we,” “us,” “management,” “our” or the “Company” mean Advanced Micro Devices, Inc. and our consolidated subsidiaries. Overview We are a global semiconductor company primarily offering: • server",
+          "source": "AMD_2022_10K.pdf",
+          "page": 4
+        }
+      ],
+      "latency_ms": 10915.67,
+      "error": null
+    }
+  },
+  {
+    "id": "financebench_id_01279",
+    "wall_s": 15.4,
+    "result": {
+      "question": "Among operations, investing, and financing activities, which brought in the most (or lost the least) cash flow for AMD in FY22?",
+      "answer": "I couldn't find a supported answer in the provided documents.",
+      "overall_status": "needs_review",
+      "claims": [
+        {
+          "claim": "Among operations, investing, and financing activities, operations brought in the most (or lost the least) cash flow for AMD in FY22  .shows that the net cash provided by operating activities was $3,565 million for the year ended December 31, 2022, which is the highest among the three categories",
+          "citations": [
+            "E2"
+          ],
+          "status": "uncertain",
+          "verification_results": [
+            {
+              "citation_id": "E2",
+              "status": "not_established",
+              "scores": {
+                "contradiction": 0.039490118622779846,
+                "entailment": 0.038668546825647354,
+                "neutral": 0.9218413829803467
+              },
+              "matched_evidence": "Table of Contents FINANCIAL CONDITION Liquidity and Capital Resources As of December 31, 2022, our cash, cash equivalents and short-term investments were $5.9 billion compared to $3.6 billion as of December 25, 2021.",
+              "reason": "The evidence does not establish the claim confidently."
+            }
+          ]
+        }
+      ],
+      "citations": [
+        {
+          "id": "E2",
+          "source": "AMD_2022_10K.pdf",
+          "page": 51
+        }
+      ],
+      "retrieved_chunks": [
+        {
+          "citation_id": "E1",
+          "text": "made available to AMD and certain of its subsidiaries, our commercial paper program, and our cash flows from operations will be sufficient to fund AMD’s operations including capital expenditures and purchase commitments over the next 12 months and beyond; AMD’s ability to obtain sufficient external financing on favorable terms, or at all; AMD’s expectation that based on management’s current knowledge, the potential liability related to AMD’s current litigation will not have a material adverse effect on its financial position, results of operation or cash flows; anticipated ongoing and increased costs related to enhancing and implementing information security controls; all unbilled accounts receivables are expected to be billed and collected within 12 months; revenue allocated to remaining performance obligations that are unsatisfied which will be recognized in the next 12 months; and a small number of customers will continue to account for a substantial part of AMD’s revenue in the",
+          "source": "AMD_2022_10K.pdf",
+          "page": 4
+        },
+        {
+          "citation_id": "E2",
+          "text": "Table of Contents FINANCIAL CONDITION Liquidity and Capital Resources As of December 31, 2022, our cash, cash equivalents and short-term investments were $5.9 billion compared to $3.6 billion as of December 25, 2021. The increase in cash, cash equivalents and short-term investments was primarily driven by the $2.4 billion of cash and $1.6 billion of short-term investments acquired from the Xilinx acquisition, $1.0 billion from the debt issuance of our 3.924% Notes and 4.393% Notes, and cash flows from operations, partially offset by stock repurchases and cash paid for the acquisition of Pensando. The percentage of cash and cash equivalents held domestically was 73% as of December 31, 2022, and 91% as of December 25, 2021. Our operating, investing and financing cash flow activities for 2022 and 2021 were as follows: December 31, 2022 December 25, 2021 (In millions) Net cash provided by (used in): Operating activities $ 3,565 $ 3,521 Investing activities 1,999 (686) Financing activities",
+          "source": "AMD_2022_10K.pdf",
+          "page": 51
+        },
+        {
+          "citation_id": "E3",
+          "text": "Table of Contents Advanced Micro Devices, Inc. Consolidated Statements of Cash Flows Year Ended December 31, 2022 December 25, 2021 December 26, 2020 (In millions) Supplemental cash flow information: Cash paid during the year for: Interest $ 85 $ 25 $ 31 Income taxes, net of refund $ 685 $ 35 $ 8 Non-cash investing and financing activities: Purchases of property and equipment, accrued but not paid $ 157 $ 72 $ 31 Issuance of common stock to settle convertible debt $ — $ 25 $ 217 Issuance of common stock and treasury stock for the acquisition of Xilinx $ 48,514 $ — $ — Fair value of replacement share-based awards related to acquisition of Xilinx $ 275 $ — $ — Transfer of assets for the acquisition of property and equipment $ 13 $ 37 $ 111 Non-cash activities for leases: Operating lease right-of-use assets acquired by assuming related liabilities $ 115 $ 227 $ 45 See accompanying notes to consolidated financial statements. 56",
+          "source": "AMD_2022_10K.pdf",
+          "page": 59
+        }
+      ],
+      "latency_ms": 15417.5,
+      "error": null
+    }
+  },
+  {
+    "id": "financebench_id_00563",
+    "wall_s": 6.7,
+    "result": {
+      "question": "From FY21 to FY22, excluding Embedded, in which AMD reporting segment did sales proportionally increase the most?",
+      "answer": "I couldn't find a supported answer in the provided documents.",
+      "overall_status": "needs_review",
+      "claims": [
+        {
+          "claim": "From FY21 to FY22, excluding the Embedded segment, in the Data Center segment, sales proportionally increased the most",
+          "citations": [],
+          "status": "missing_citation",
+          "verification_results": []
+        },
+        {
+          "claim": "This can be inferred from the information provided, where the Data Center segment revenue increased by 64% in 2022 compared to 2021, which is the highest percentage increase among the other segments mentioned",
+          "citations": [
+            "E2"
+          ],
+          "status": "contradicted",
+          "verification_results": [
+            {
+              "citation_id": "E2",
+              "status": "contradicted",
+              "scores": {
+                "contradiction": 0.9864054322242737,
+                "entailment": 0.00028295841184444726,
+                "neutral": 0.013311685994267464
+              },
+              "matched_evidence": "Table of Contents Gaming Gaming net revenue of $6.8 billion in 2022 increased by 21%, compared to net revenue of $5.6 billion in 2021.",
+              "reason": "An evidence sentence may conflict with the claim."
+            }
+          ]
+        }
+      ],
+      "citations": [
+        {
+          "id": "E2",
+          "source": "AMD_2022_10K.pdf",
+          "page": 49
+        }
+      ],
+      "retrieved_chunks": [
+        {
+          "citation_id": "E1",
+          "text": "to help enable best performance, security, flexibility and total cost of ownership for leading-edge data centers. Our 2022 financial results reflect the strength of our diversified business model despite the challenging PC market conditions in the second half of 2022. Net revenue for 2022 was $23.6 billion, an increase of 44% compared to 2021 net revenue of $16.4 billion. The increase in net revenue was driven by a 64% increase in Data Center segment revenue primarily due to higher sales of our EPYC™ server processors, a 21% increase in Gaming segment revenue primarily due to higher semi-custom product sales, and a significant increase in Embedded segment revenue from the prior year period driven by the inclusion of Xilinx embedded product sales. This growth was partially offset by a 10% decrease in Client segment revenue primarily due to lower processor shipments driven by a weak PC market and significant inventory correction actions across the PC supply chain. Gross margin, as a",
+          "source": "AMD_2022_10K.pdf",
+          "page": 43
+        },
+        {
+          "citation_id": "E2",
+          "text": "Table of Contents Gaming Gaming net revenue of $6.8 billion in 2022 increased by 21%, compared to net revenue of $5.6 billion in 2021. The increase in net revenue was driven by higher semi-custom product sales due to higher demand for gaming console SoCs, partially offset by lower gaming graphics sales due to a decrease in unit shipments driven by soft consumer demand given weakened macroeconomic conditions experienced in the second half of 2022. Gaming operating income was $953 million in 2022, compared to operating income of $934 million in 2021. The increase in operating income was primarily driven by higher revenue, partially offset by higher operating expenses. Operating expenses increased for the reasons outlined under “Expenses” below. Embedded Embedded net revenue of $4.6 billion in 2022 increased significantly, compared to net revenue of $246 million in 2021. The significant increase in net revenue was primarily driven by the inclusion of Xilinx embedded product revenue as a",
+          "source": "AMD_2022_10K.pdf",
+          "page": 49
+        },
+        {
+          "citation_id": "E3",
+          "text": "for 2022 compared to 2021, an analysis of changes in our financial condition and a discussion of our off-balance sheet arrangements. Discussions of 2020 items and year-to-year comparisons between 2021 and 2020 that are not included in this Form 10-K can be found in “Management’s Discussion and Analysis of Financial Condition and Results of Operations” in Part II, Item 7 of our Annual Report on Form 10-K for the fiscal year ended December 25, 2021. Overview 2022 was a transformative year for AMD as we took several major steps that scaled and reshaped our business. In February 2022, we completed our strategic acquisition of Xilinx, Inc. (Xilinx) which expanded our technology and product portfolio to include adaptable hardware platforms that enable hardware acceleration and rapid innovation across a variety of technologies and established AMD in multiple embedded markets where we have traditionally not had a significant presence. We now offer Field Programmable Gate Arrays (FPGAs),",
+          "source": "AMD_2022_10K.pdf",
+          "page": 43
+        }
+      ],
+      "latency_ms": 6687.2,
+      "error": null
+    }
+  },
+  {
+    "id": "financebench_id_00757",
+    "wall_s": 1.4,
+    "result": {
+      "question": "Did AMD report customer concentration in FY22?",
+      "answer": "I couldn't find a supported answer in the provided documents.",
+      "overall_status": "insufficient_evidence",
+      "claims": [],
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "citation_id": "E1",
+          "text": "performance obligations that are unsatisfied which will be recognized in the next 12 months; and a small number of customers will continue to account for a substantial part of AMD’s revenue in the future. For a discussion of the factors that could cause actual results to differ materially from the forward-looking statements, see “Part I, Item 1A-Risk Factors” and the “Financial Condition” section set forth in “Part II, Item 7-Management’s Discussion and Analysis of Financial Condition and Results of Operations,” or MD&A, and such other risks and uncertainties as set forth below in this report or detailed in our other Securities and Exchange Commission (SEC) reports and filings. We assume no obligation to update forward-looking statements. References in this Annual Report on Form 10-K to “AMD,” “we,” “us,” “management,” “our” or the “Company” mean Advanced Micro Devices, Inc. and our consolidated subsidiaries. Overview We are a global semiconductor company primarily offering: • server",
+          "source": "AMD_2022_10K.pdf",
+          "page": 4
+        },
+        {
+          "citation_id": "E2",
+          "text": "Table of Contents Additional Information AMD was incorporated under the laws of Delaware on May 1, 1969 and became a publicly held company in 1972. Our common stock is currently listed on The NASDAQ Global Select Market (NASDAQ) under the symbol “AMD”. Our mailing address and executive offices are located at 2485 Augustine Drive, Santa Clara, California 95054, and our telephone number is (408) 749-4000. For financial information about geographic areas and for segment information with respect to revenues and operating results, refer to the information set forth in Note 4 of our consolidated financial statements. We use a 52- or 53-week fiscal year ending on the last Saturday in December. References in this report to 2022, 2021 and 2020 refer to the fiscal year unless explicitly stated otherwise. AMD, the AMD Arrow logo, AMD CDNA, AMD Instinct, AMD RDNA, Alveo, Artix, Athlon, CoolRunner, EPYC, FidelityFX, FirePro, FreeSync, Geode, Infinity Fabric, Kinex, Pensando, Radeon, Radeon",
+          "source": "AMD_2022_10K.pdf",
+          "page": 5
+        },
+        {
+          "citation_id": "E3",
+          "text": "as Exhibit 10.1 to AMD’s Quarterly Report on Form 10-Q for the fiscal quarter ended September 24, 2022, is hereby incorporated by reference. *10.67 Offer Letter between Advanced Micro Devices, Inc. and Jean Hu, dated as of January 6, 2023, filed as Exhibit 10.1 to AMD’s Current Report on Form 8-K dated January 8, 2023, is hereby incorporated by reference. *10.68 Sign-On Bonus Agreement between Advanced Micro Devices, Inc. and Jean Hu, dated as of January 8, 2023, filed as Exhibit 10.2 to AMD’s Current Report on Form 8-K dated January 8, 2023, is hereby incorporated by reference. 18.1 Preferability Letter from Ernst & Young LLP dated February 27, 2023. 21 List of AMD subsidiaries. 23 Consent of Independent Registered Public Accounting Firm. 24 Power of Attorney. 31.1 Certification of the Chief Executive Officer pursuant to Section 302 of the Sarbanes-Oxley Act of 2002. 31.2 Certification of the Chief Financial Officer pursuant to Section 302 of the Sarbanes-Oxley Act of 2002. 32.1",
+          "source": "AMD_2022_10K.pdf",
+          "page": 106
+        }
+      ],
+      "latency_ms": 1437.62,
+      "error": null
+    }
+  },
+  {
+    "id": "financebench_id_00476",
+    "wall_s": 1.2,
+    "result": {
+      "question": "Which debt securities are registered to trade on a national securities exchange under American Express' name as of 2022?",
+      "answer": "I couldn't find a supported answer in the provided documents.",
+      "overall_status": "insufficient_evidence",
+      "claims": [],
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "citation_id": "E1",
+          "text": "UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 Form 10-K ☑ ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the fiscal year ended December 31, 2022 OR ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the transition period from to Commission File No. 1-7657 American Express Company (Exact name of registrant as specified in its charter) New York 13-4922250 (State or other jurisdiction of incorporation or organization) (I.R.S. Employer Identification No.) 200 Vesey Street New York, New York 10285 (Address of principal executive offices) (Zip Code) Registrant’s telephone number, including area code: (212) 640-2000 Securities registered pursuant to Section 12(b) of the Act: Title of each class Trading Symbol(s) Name of each exchange on which registered Common Shares (par value $0.20 per Share) AXP New York Stock Exchange Securities registered pursuant to section 12(g) of the Act:",
+          "source": "AMERICANEXPRESS_2022_10K.pdf",
+          "page": 1
+        },
+        {
+          "citation_id": "E2",
+          "text": "EXHIBIT 21 SUBSIDIARIES OF AMERICAN EXPRESS COMPANY as of December 31, 2022 Unless otherwise indicated by an asterisk (*), all of the voting securities of these subsidiaries are directly or indirectly owned by the registrant. The indentation reflects the principal parent of each subsidiary. Name Country Name Jurisdiction American Express Company United States New York 56th Street AXP Campus LLC United States Arizona American Express Bank LLC Russian Federation Russian Federation American Express Banking Corp. United States New York American Express Travel Related Services Company, Inc. United States New York Accertify, Inc. United States Delaware AE Innovation Labs Holdings, LLC United States Delaware American Express Innovation Laboratories Limited Ireland Ireland American Express Bank (Mexico) S.A. Institucion de Banca Multiple Mexico Mexico American Express Bank Services, S.A. de C.V. Mexico Mexico American Express Company (Mexico) S.A. de C.V. Mexico Mexico American Express",
+          "source": "AMERICANEXPRESS_2022_10K.pdf",
+          "page": 252
+        },
+        {
+          "citation_id": "E3",
+          "text": "our wholly owned subsidiaries, as consideration for the transferred assets. Refer to Note 5 to the “Consolidated Financial Statements” for a further description of our asset securitizations. TABLE 20: DEBT ISSUANCES (Billions) 2022 American Express Company: Fixed Rate Senior Notes (weighted-average coupon rate of 3.60%) $ 10.2 Floating Rate Senior Notes (compounded SOFR plus weighted-average spread of 83 basis points) 1.0 Fixed-to-Floating Rate Senior Notes (4.42% coupon during the fixed rate period and compounded SOFR plus 1.76% during the floating rate period) 1.2 Fixed-to-Floating Rate Subordinated Notes (4.989% coupon during the fixed rate period and compounded SOFR plus 2.255% during the floating rate period) 0.8 American Express Credit Account Master Trust: Fixed Rate Class A Certificates (weighted-average coupon of 3.51%) 7.3 Total $ 20.5 (a) Secured overnight financing rate (SOFR). (a) (a) (a) 66",
+          "source": "AMERICANEXPRESS_2022_10K.pdf",
+          "page": 69
+        }
+      ],
+      "latency_ms": 1175.33,
+      "error": null
+    }
+  },
+  {
+    "id": "financebench_id_01028",
+    "wall_s": 5.5,
+    "result": {
+      "question": "What are the geographies that American Express primarily operates in as of 2022?",
+      "answer": "I couldn't find a supported answer in the provided documents.",
+      "overall_status": "needs_review",
+      "claims": [
+        {
+          "claim": "Based on the information provided in the evidence, American Express primarily operates in geographies such as the United Kingdom (UK), the European Union (EU), Australia, Japan, Canada, and Mexico as of 2022",
+          "citations": [],
+          "status": "missing_citation",
+          "verification_results": []
+        },
+        {
+          "claim": "These jurisdictions represent a significant portion of their billed business outside of the United States",
+          "citations": [
+            "E3"
+          ],
+          "status": "supported",
+          "verification_results": [
+            {
+              "citation_id": "E3",
+              "status": "supported",
+              "scores": {
+                "contradiction": 0.0016926826210692525,
+                "entailment": 0.9661706686019897,
+                "neutral": 0.03213667869567871
+              },
+              "matched_evidence": "Jurisdictions that represent a significant portion of our billed business outside of the United States include the United Kingdom (UK), the European Union (EU), Australia, Japan, Canada and Mexico.",
+              "reason": "An evidence sentence supports the claim."
+            }
+          ]
+        }
+      ],
+      "citations": [
+        {
+          "id": "E3",
+          "source": "AMERICANEXPRESS_2022_10K.pdf",
+          "page": 5
+        }
+      ],
+      "retrieved_chunks": [
+        {
+          "citation_id": "E1",
+          "text": "EXHIBIT 21 SUBSIDIARIES OF AMERICAN EXPRESS COMPANY as of December 31, 2022 Unless otherwise indicated by an asterisk (*), all of the voting securities of these subsidiaries are directly or indirectly owned by the registrant. The indentation reflects the principal parent of each subsidiary. Name Country Name Jurisdiction American Express Company United States New York 56th Street AXP Campus LLC United States Arizona American Express Bank LLC Russian Federation Russian Federation American Express Banking Corp. United States New York American Express Travel Related Services Company, Inc. United States New York Accertify, Inc. United States Delaware AE Innovation Labs Holdings, LLC United States Delaware American Express Innovation Laboratories Limited Ireland Ireland American Express Bank (Mexico) S.A. Institucion de Banca Multiple Mexico Mexico American Express Bank Services, S.A. de C.V. Mexico Mexico American Express Company (Mexico) S.A. de C.V. Mexico Mexico American Express",
+          "source": "AMERICANEXPRESS_2022_10K.pdf",
+          "page": 252
+        },
+        {
+          "citation_id": "E2",
+          "text": "Table of Contents Card Network Business We operate a payments network through which we establish and maintain relationships with third-party banks and other institutions in approximately 103 countries and territories, licensing the American Express brand and extending the reach of our global network. These network partners are licensed to issue local currency American Express-branded cards in their countries and/or serve as the merchant acquirer for local merchants on our network. For the year ended December 31, 2022, worldwide network services processed volume (spending on American Express cards issued by third parties) was $214.5 billion and at December 31, 2022, we had 56.5 million cards-in-force issued by third parties worldwide. Diverse Customer Base and Global Footprint Our broad and diverse customer base spans consumers, small businesses, mid-sized companies and large corporations around the world. The following chart provides a summary of our diverse set of customers and broad",
+          "source": "AMERICANEXPRESS_2022_10K.pdf",
+          "page": 6
+        },
+        {
+          "citation_id": "E3",
+          "text": "account products and new digital capabilities, which in part result from our acquisitions of Kabbage, Resy and acompay. Additionally, we have evolved our card issuing businesses by bringing together our consumer, SME and large commercial issuing activities outside of the United States into a new ICS organization to enable a greater focus on local priorities. Jurisdictions that represent a significant portion of our billed business outside of the United States include the United Kingdom (UK), the European Union (EU), Australia, Japan, Canada and Mexico. For the year ended December 31, 2022, worldwide billed business (spending on American Express cards issued by us) was $1,338 billion and at December 31, 2022, we had 76.7 million proprietary cards-in-force worldwide. Merchant Acquiring Business Our GMNS reportable operating segment builds and manages relationships with millions of merchants around the world that choose to accept American Express cards. This includes signing new merchants",
+          "source": "AMERICANEXPRESS_2022_10K.pdf",
+          "page": 5
+        }
+      ],
+      "latency_ms": 5526.63,
+      "error": null
+    }
+  },
+  {
+    "id": "financebench_id_00723",
+    "wall_s": 9.6,
+    "result": {
+      "question": "Does AMEX have an improving operating margin profile as of 2022? If operating margin is not a useful metric for a company like this, then state that and explain why.",
+      "answer": "I couldn't find a supported answer in the provided documents.",
+      "overall_status": "insufficient_evidence",
+      "claims": [],
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "citation_id": "E1",
+          "text": "Table of Contents BUSINESS ENVIRONMENT Our results for the year demonstrate that our growth strategy is working and our business is in an even stronger position today than before the pandemic. Spending on our network reached record levels, and credit metrics remain below pre-pandemic levels. Our investments in product innovation, technology, people and our brand has led to increased generational relevance with Millennial and Gen Z customers, record new card acquisitions, deeper relationships with customers and expanded merchant acceptance. For 2022, we reported net income of $7.5 billion, or $9.85 per share, compared with net income of $8.1 billion, or $10.02 per share, a year ago. The reduction in net income reflected credit reserve builds and net losses in our Amex Ventures strategic investment portfolio in the current year compared with sizeable credit reserve releases and significant net gains in our Amex Ventures strategic investment portfolio in the prior year. Worldwide network",
+          "source": "AMERICANEXPRESS_2022_10K.pdf",
+          "page": 45
+        },
+        {
+          "citation_id": "E2",
+          "text": "Table of Contents CORPORATE & OTHER Corporate functions and certain other businesses are included in Corporate & Other. Corporate & Other pretax loss was $2.2 billion and $1.0 billion in 2022 and 2021, respectively. The increase in the pretax loss was primarily driven by net losses on Amex Ventures investments in the current year, as compared to net gains in the prior year, a non-cash gain in the prior year related to an increase in GBTG's total equity book value and higher compensation costs in the current year. CONSOLIDATED CAPITAL RESOURCES AND LIQUIDITY Our balance sheet management objectives are to maintain: • A solid and flexible equity capital profile; • A broad, deep and diverse set of funding sources to finance our assets and meet operating requirements; and • Liquidity programs that enable us to continuously meet expected future financing obligations and business requirements for at least a twelve-month period in the event we are unable to continue to raise new funds under",
+          "source": "AMERICANEXPRESS_2022_10K.pdf",
+          "page": 64
+        },
+        {
+          "citation_id": "E3",
+          "text": "for us and we take a holistic approach to well-being, providing resources that address the physical, financial and mental health of our colleagues. Throughout 2022, we launched Amex Flex across our offices, where, depending on role and business needs, colleagues can work in the office, at home or take a hybrid approach that combines both. This approach is designed to enable us to both broaden the talent pool from which we can attract candidates and increase colleague retention. We conduct an annual Colleague Experience Survey to better understand our colleagues’ needs and overall experience at American Express and in 2022, 92 percent of colleagues who participated in the survey said they would recommend American Express as a great place to work. Our 2022 annual company scorecard included talent retention, colleague engagement and diversity representation goals. As of December 31, 2022, women represented 53.7 percent of our global workforce and Asian, Black/African American and",
+          "source": "AMERICANEXPRESS_2022_10K.pdf",
+          "page": 9
+        }
+      ],
+      "latency_ms": 9612.64,
+      "error": null
+    }
+  },
+  {
+    "id": "financebench_id_00720",
+    "wall_s": 1.4,
+    "result": {
+      "question": "What drove gross margin change as of the FY2022 for American Express? If gross margin is not a useful metric for a company like this, then please state that and explain why.",
+      "answer": "I couldn't find a supported answer in the provided documents.",
+      "overall_status": "insufficient_evidence",
+      "claims": [],
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "citation_id": "E1",
+          "text": "Table of Contents REPORT OF INDEPENDENT REGISTERED PUBLIC ACCOUNTING FIRM To the Board of Directors and Shareholders of American Express Company Opinions on the Financial Statements and Internal Control over Financial Reporting We have audited the accompanying consolidated balance sheets of American Express Company and its subsidiaries (the “Company”) as of December 31, 2022 and 2021, and the related consolidated statements of income, of comprehensive income, of shareholders’ equity and of cash flows for each of the three years in the period ended December 31, 2022, including the related notes (collectively referred to as the “consolidated financial statements”). We also have audited the Company’s internal control over financial reporting as of December 31, 2022, based on criteria established in Internal Control - Integrated Framework (2013) issued by the Committee of Sponsoring Organizations of the Treadway Commission (COSO). In our opinion, the consolidated financial statements",
+          "source": "AMERICANEXPRESS_2022_10K.pdf",
+          "page": 92
+        },
+        {
+          "citation_id": "E2",
+          "text": "Express Company and the capital conservation buffer for AENB. Refer to “Capital and Liquidity Regulation” under “Supervision and Regulation” and Note 22 to our “Consolidated Financial Statements” for additional information. The following table presents American Express Company's regulatory risk-based capital and risk-weighted assets as of December 31, 2022: TABLE 17: REGULATORY RISK-BASED CAPITAL COMPONENTS AND RISK-WEIGHTED ASSETS American Express Company ($ in Billions) December 31, 2022 Risk-Based Capital Common Equity Tier 1 $ 20.0 Tier 1 Capital 21.6 Tier 2 Capital 3.3 Total Capital 24.9 Risk-Weighted Assets 194.4 Average Total Assets to calculate the Tier 1 Leverage Ratio $ 218.6 The following are definitions for our regulatory risk-based capital ratios and leverage ratio, which are calculated as per standard regulatory guidance: Risk-Weighted Assets — Assets are weighted for risk according to a formula used by the Federal Reserve to conform to capital adequacy guidelines. On-",
+          "source": "AMERICANEXPRESS_2022_10K.pdf",
+          "page": 65
+        },
+        {
+          "citation_id": "E3",
+          "text": "Express Company’s securities registered pursuant to Section 12 of the Securities Exchange Act of 1934, as amended (incorporated by reference to Exhibit 4.2 of the Company's Annual Report on Form 10-K (Commission File No. 1-7657) for the year ended December 31, 2020). * 10.1 American Express Company Deferred Compensation Plan for Directors and Advisors, as amended and restated effective January 1, 2023. 10.2 American Express Company 2007 Pay-for-Performance Deferral Program Document (incorporated by reference to Exhibit 10.1 of the Company's Current Report on Form 8-K (Commission File No. 1-7657), dated November 20, 2006 (filed November 22, 2006)). 10.3 Description of amendments to 1994–2006 Pay-for-Performance Deferral Programs (incorporated by reference to Exhibit 10.13 of the Company's Annual Report on Form 10-K (Commission File No. 1-7657) for the year ended December 31, 2006). 10.4 American Express Company 2006 Pay-for-Performance Deferral Program Guide (incorporated by reference",
+          "source": "AMERICANEXPRESS_2022_10K.pdf",
+          "page": 162
+        }
+      ],
+      "latency_ms": 1365.93,
+      "error": null
+    }
+  },
+  {
+    "id": "financebench_id_01351",
+    "wall_s": 4.3,
+    "result": {
+      "question": "How much has the effective tax rate of American Express changed between FY2021 and FY2022?",
+      "answer": "I couldn't find a supported answer in the provided documents.",
+      "overall_status": "needs_review",
+      "claims": [
+        {
+          "claim": "The effective tax rate of American Express has changed from 24.6% in FY2021 to 21.6% in FY2022",
+          "citations": [],
+          "status": "missing_citation",
+          "verification_results": []
+        },
+        {
+          "claim": "This represents a reduction of 3 percentage points",
+          "citations": [
+            "E4"
+          ],
+          "status": "invalid_citation",
+          "verification_results": [
+            {
+              "citation_id": "E4",
+              "status": "invalid_reference"
+            }
+          ]
+        }
+      ],
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "citation_id": "E1",
+          "text": "and employee benefits expense increased, primarily driven by higher compensation costs, reflecting an increase in our colleague base to support business growth as well as compensation decisions made. Other expenses increased, primarily driven by net losses on Amex Ventures investments in the current year, as compared to net gains in the prior year. INCOME TAXES The effective tax rate was 21.6 percent and 24.6 percent for 2022 and 2021, respectively. The reduction in the effective tax rate primarily reflected discrete tax benefits in the current year related to the resolution of prior-year tax items. The tax rates in both years reflected the level of pretax income in relation to recurring permanent tax benefits and the geographic mix of business. 46",
+          "source": "AMERICANEXPRESS_2022_10K.pdf",
+          "page": 49
+        },
+        {
+          "citation_id": "E2",
+          "text": "of long-term debt (18,906) (11,662) (15,593) Issuance of American Express preferred shares — 1,584 — Redemption of American Express preferred shares — (1,600) — Issuance of American Express common shares 56 64 44 Repurchase of American Express common shares and other (3,502) (7,652) (1,029) Dividends paid (1,565) (1,448) (1,474) Net cash provided by (used in) financing activities 24,509 (14,933) (9,068) Effect of foreign currency exchange rates on cash and cash equivalents (13) (120) 364 Net increase (decrease) in cash and cash equivalents 11,886 (10,937) 8,519 Cash and cash equivalents at beginning of year 22,028 32,965 24,446 Cash and cash equivalents at end of year $ 33,914 $ 22,028 $ 32,965 Supplemental cash flow information Cash and cash equivalents reconciliation 2022 2021 2020 Cash and cash equivalents per Consolidated Balance Sheets $ 33,914 $ 22,028 $ 32,965 Restricted balances included in Cash and cash equivalents 544 525 606 Total cash and cash equivalents, excluding",
+          "source": "AMERICANEXPRESS_2022_10K.pdf",
+          "page": 99
+        },
+        {
+          "citation_id": "E3",
+          "text": "certain mandatory, and possibly additional, discretionary actions by regulators, that, if undertaken, could have a direct material effect on our operating activities. As of December 31, 2022 and 2021, we met all capital requirements to which we were subject and maintained regulatory capital ratios in excess of those required to qualify as well capitalized. The following table presents the regulatory capital ratios: (Millions, except percentages) CET 1 capital Tier 1 capital Total capital CET 1 capital ratio Tier 1 capital ratio Total capital ratio Tier 1 leverage ratio December 31, 2022: American Express Company $ 20,030 $ 21,627 $ 24,926 10.3 % 11.1 % 12.8 % 9.9 % American Express National Bank $ 14,820 $ 14,820 $ 17,273 11.3 % 11.3 % 13.2 % 9.7 % December 31, 2021: American Express Company $ 17,554 $ 19,186 $ 21,506 10.5 % 11.5 % 12.9 % 10.5 % American Express National Bank $ 13,085 $ 13,085 $ 15,283 11.8 % 11.8 % 13.7 % 10.5 % Well-capitalized ratios American Express Company N/A 6.0",
+          "source": "AMERICANEXPRESS_2022_10K.pdf",
+          "page": 150
+        }
+      ],
+      "latency_ms": 4274.68,
+      "error": null
+    }
+  },
+  {
+    "id": "financebench_id_01964",
+    "wall_s": 1.3,
+    "result": {
+      "question": "What was the largest liability in American Express's Balance Sheet in 2022?",
+      "answer": "I couldn't find a supported answer in the provided documents.",
+      "overall_status": "insufficient_evidence",
+      "claims": [],
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "citation_id": "E1",
+          "text": "Table of Contents NOTE 23 SIGNIFICANT CREDIT CONCENTRATIONS Concentrations of credit risk exist when changes in economic, industry or geographic factors similarly affect groups of counterparties whose aggregate credit exposure is material in relation to American Express’ total credit exposure. Our customers operate in diverse industries, economic sectors and geographic regions. The following table details our maximum credit exposure of the on-balance sheet assets by category as of December 31: (Billions) 2022 2021 Individuals: $ 156 $ 131 United States 129 108 Outside the United States 27 23 Institutions: Financial services 36 24 Other 17 15 U.S. Government and agencies 4 2 Total on-balance sheet $ 213 $ 172 (a) Primarily reflects loans and receivables from global consumer and small business Card Members, which are governed by individual credit risk management. (b) The geographic regions with the largest concentration outside the United States include the United Kingdom, Japan, the",
+          "source": "AMERICANEXPRESS_2022_10K.pdf",
+          "page": 152
+        },
+        {
+          "citation_id": "E2",
+          "text": "Table of Contents REPORT OF INDEPENDENT REGISTERED PUBLIC ACCOUNTING FIRM To the Board of Directors and Shareholders of American Express Company Opinions on the Financial Statements and Internal Control over Financial Reporting We have audited the accompanying consolidated balance sheets of American Express Company and its subsidiaries (the “Company”) as of December 31, 2022 and 2021, and the related consolidated statements of income, of comprehensive income, of shareholders’ equity and of cash flows for each of the three years in the period ended December 31, 2022, including the related notes (collectively referred to as the “consolidated financial statements”). We also have audited the Company’s internal control over financial reporting as of December 31, 2022, based on criteria established in Internal Control - Integrated Framework (2013) issued by the Committee of Sponsoring Organizations of the Treadway Commission (COSO). In our opinion, the consolidated financial statements",
+          "source": "AMERICANEXPRESS_2022_10K.pdf",
+          "page": 92
+        },
+        {
+          "citation_id": "E3",
+          "text": "Table of Contents Aggregate annual maturities on long-term debt obligations (based on contractual maturity or anticipated redemption dates) as of December 31, 2022 were as follows: (Millions) 2023 2024 2025 2026 2027 Thereafter Total American Express Company (Parent Company only) $ 5,750 $ 7,500 $ 5,250 $ 2,450 $ 4,911 $ 4,273 $ 30,134 American Express Credit Corporation — — — — 339 — 339 Lending Trust 2,685 2,750 7,250 — — — 12,685 Other 76 114 67 — — — 257 $ 8,511 $ 10,364 $ 12,567 $ 2,450 $ 5,250 $ 4,273 $ 43,415 Unamortized Underwriting Fees (84) Unamortized Discount and Premium (522) Impacts due to Fair Value Hedge Accounting (236) Total Long-Term Debt $ 42,573 We maintained a committed syndicated bank credit facility of $3.5 billion as of December 31, 2022 and 2021, all of which was undrawn as of the respective dates. The facility has a maturity date of October 15, 2024, and the availability of the facility is subject to compliance with certain covenants, principally our",
+          "source": "AMERICANEXPRESS_2022_10K.pdf",
+          "page": 126
+        }
+      ],
+      "latency_ms": 1254.62,
+      "error": null
+    }
+  },
+  {
+    "id": "financebench_id_01981",
+    "wall_s": 1.2,
+    "result": {
+      "question": "Was American Express able to retain card members during 2022?",
+      "answer": "I couldn't find a supported answer in the provided documents.",
+      "overall_status": "insufficient_evidence",
+      "claims": [],
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "citation_id": "E1",
+          "text": "airline for a Card Member purchase of tickets that have not yet been used or “flown.” If we are unable to collect the amount from the airline, we may bear the loss for the amount credited to the Card Member. At December 31, 2022, our best estimate of the maximum amount of billed business for purchases that had yet to be delivered by, or could be charged back to, merchants was $31.1 billion. This amount assumes all such merchants worldwide cease operations and thus are no longer available to deliver such purchases or to accept such chargebacks, and that all such billed business results in claims-in-full by Card Members. Such a maximum amount has not been indicative of our actual loss exposure in the past and we have not experienced significant losses related to these exposures to date; however, our historical experience may not be representative in the current environment given the current global economic, financial and geopolitical conditions. See Note 12 to the “Consolidated Financial",
+          "source": "AMERICANEXPRESS_2022_10K.pdf",
+          "page": 28
+        },
+        {
+          "citation_id": "E2",
+          "text": "for us and we take a holistic approach to well-being, providing resources that address the physical, financial and mental health of our colleagues. Throughout 2022, we launched Amex Flex across our offices, where, depending on role and business needs, colleagues can work in the office, at home or take a hybrid approach that combines both. This approach is designed to enable us to both broaden the talent pool from which we can attract candidates and increase colleague retention. We conduct an annual Colleague Experience Survey to better understand our colleagues’ needs and overall experience at American Express and in 2022, 92 percent of colleagues who participated in the survey said they would recommend American Express as a great place to work. Our 2022 annual company scorecard included talent retention, colleague engagement and diversity representation goals. As of December 31, 2022, women represented 53.7 percent of our global workforce and Asian, Black/African American and",
+          "source": "AMERICANEXPRESS_2022_10K.pdf",
+          "page": 9
+        },
+        {
+          "citation_id": "E3",
+          "text": "Table of Contents Card Network Business We operate a payments network through which we establish and maintain relationships with third-party banks and other institutions in approximately 103 countries and territories, licensing the American Express brand and extending the reach of our global network. These network partners are licensed to issue local currency American Express-branded cards in their countries and/or serve as the merchant acquirer for local merchants on our network. For the year ended December 31, 2022, worldwide network services processed volume (spending on American Express cards issued by third parties) was $214.5 billion and at December 31, 2022, we had 56.5 million cards-in-force issued by third parties worldwide. Diverse Customer Base and Global Footprint Our broad and diverse customer base spans consumers, small businesses, mid-sized companies and large corporations around the world. The following chart provides a summary of our diverse set of customers and broad",
+          "source": "AMERICANEXPRESS_2022_10K.pdf",
+          "page": 6
+        }
+      ],
+      "latency_ms": 1197.21,
+      "error": null
+    }
+  },
+  {
+    "id": "financebench_id_00517",
+    "wall_s": 1.4,
+    "result": {
+      "question": "Are there any product categories / service categories that represent more than 20% of Boeing's revenue for FY2022?",
+      "answer": "I couldn't find a supported answer in the provided documents.",
+      "overall_status": "insufficient_evidence",
+      "claims": [],
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "citation_id": "E1",
+          "text": "Table of Contents The Boeing Company and Subsidiaries Consolidated Statements of Operations (Dollars in millions, except per share data) Years ended December 31, 2022 2021 2020 Sales of products $55,893 $51,386 $47,142 Sales of services 10,715 10,900 11,016 Total revenues 66,608 62,286 58,158 Cost of products (53,969) (49,954) (54,568) Cost of services (9,109) (9,283) (9,232) Boeing Capital interest expense (28) (32) (43) Total costs and expenses (63,106) (59,269) (63,843) 3,502 3,017 (5,685) (Loss)/income from operating investments, net (16) 210 9 General and administrative expense (4,187) (4,157) (4,817) Research and development expense, net (2,852) (2,249) (2,476) Gain on dispositions, net 6 277 202 Loss from operations (3,547) (2,902) (12,767) Other income, net 1,058 551 447 Interest and debt expense (2,533) (2,682) (2,156) Loss before income taxes (5,022) (5,033) (14,476) Income tax (expense)/benefit (31) 743 2,535 Net loss (5,053) (4,290) (11,941) Less: net loss attributable to",
+          "source": "BOEING_2022_10K.pdf",
+          "page": 55
+        },
+        {
+          "citation_id": "E2",
+          "text": "Table of Contents The Boeing Company and Subsidiaries Notes to the Consolidated Financial Statements Summary of Business Segment Data (Dollars in millions) Years ended December 31, 2022 2021 2020 Revenues: Commercial Airplanes $25,867 $19,493 $16,162 Defense, Space & Security 23,162 26,540 26,257 Global Services 17,611 16,328 15,543 Boeing Capital 199 272 261 Unallocated items, eliminations and other (231) (347) (65) Total revenues $66,608 $62,286 $58,158 (Loss)/earnings from operations: Commercial Airplanes ($2,370) ($6,475) ($13,847) Defense, Space & Security (3,544) 1,544 1,539 Global Services 2,727 2,017 450 Boeing Capital 29 106 63 Segment operating loss (3,158) (2,808) (11,795) Unallocated items, eliminations and other (1,532) (1,267) (2,355) FAS/CAS service cost adjustment 1,143 1,173 1,383 Loss from operations (3,547) (2,902) (12,767) Other income, net 1,058 551 447 Interest and debt expense (2,533) (2,682) (2,156) Loss before income taxes (5,022) (5,033) (14,476) Income tax",
+          "source": "BOEING_2022_10K.pdf",
+          "page": 62
+        },
+        {
+          "citation_id": "E3",
+          "text": "information about these non-GAAP measures and reconciliations to the most directly comparable GAAP measures. Revenues The following table summarizes Revenues: (Dollars in millions) Years ended December 31, 2022 2021 2020 Commercial Airplanes $25,867 $19,493 $16,162 Defense, Space & Security 23,162 26,540 26,257 Global Services 17,611 16,328 15,543 Boeing Capital 199 272 261 Unallocated items, eliminations and other (231) (347) (65) Total $66,608 $62,286 $58,158 Revenues increased by $4,322 million in 2022 compared with 2021 driven by higher revenues at BCA and BGS, partially offset by lower revenues at BDS. BCA revenues increased by $6,374 million primarily driven by higher 737 and 787 deliveries. BGS revenues increased by $1,283 million primarily due to higher commercial services volume, partially offset by lower government services volume and performance. BDS revenues decreased by $3,378 million primarily due to charges on development programs, unfavorable performance across other",
+          "source": "BOEING_2022_10K.pdf",
+          "page": 24
+        }
+      ],
+      "latency_ms": 1365.11,
+      "error": null
+    }
+  },
+  {
+    "id": "financebench_id_01091",
+    "wall_s": 1.2,
+    "result": {
+      "question": "Has Boeing reported any materially important ongoing legal battles from FY2022?",
+      "answer": "I couldn't find a supported answer in the provided documents.",
+      "overall_status": "insufficient_evidence",
+      "claims": [],
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "citation_id": "E1",
+          "text": "that impacted certain systems of Jeppesen, a wholly owned Boeing subsidiary that provides flight planning and navigation services. We determined that the incident posed no risk to flight safety. We promptly notified law enforcement, regulatory authorities and customers, launched an investigation, and took additional steps to protect the integrity of our systems. While this incident has not had a material impact on us, future incidents like this one could have material impact on our business, operations, and reputation. In addition, we manage information and information technology systems for certain customers and/or suppliers. Many of these customers and/or suppliers face similar security threats. If we were unable to protect against the unauthorized access, release and/or corruption of our customers’ and/or suppliers’ confidential, classified or personally identifiable information, our reputation could be damaged, and/or we could face financial or other losses. Business disruptions",
+          "source": "BOEING_2022_10K.pdf",
+          "page": 16
+        },
+        {
+          "citation_id": "E2",
+          "text": "or our suppliers’ data, information systems or networks could impact our sales, increase our expenses and/or have an adverse effect on the reputation of Boeing and of our products and services. Risks Related to Legal and Regulatory Matters The outcome of litigation and of government inquiries and investigations involving our business is unpredictable and an adverse decision in any such matter could have a material effect on our financial position and results of operations. We are involved in a number of litigation matters. These matters may divert financial and management resources that would otherwise be used to benefit our operations. No assurances can be given that the results of these matters will be favorable to us. An adverse resolution of any of these lawsuits, or future lawsuits, could have a material impact on our financial position and results of operations. In addition, we 14",
+          "source": "BOEING_2022_10K.pdf",
+          "page": 16
+        },
+        {
+          "citation_id": "E3",
+          "text": "EXHIBIT 31.2 CERTIFICATION PURSUANT TO RULE 13a-14 OF THE SECURITIES EXCHANGE ACT OF 1934, AS ADOPTED PURSUANT TO SECTION 302 OF THE SARBANES-OXLEY ACT OF 2002 I, Brian J. West, certify that: 1. I have reviewed this annual report on Form 10-K of The Boeing Company; 2. Based on my knowledge, this report does not contain any untrue statement of a material fact or omit to state a material fact necessary to make the statements made, in light of the circumstances under which such statements were made, not misleading with respect to the period covered by this report; 3. Based on my knowledge, the financial statements, and other financial information included in this report, fairly present in all material respects the financial condition, results of operations and cash flows of the registrant as of, and for, the periods presented in this report; 4. The registrant’s other certifying officer(s) and I are responsible for establishing and maintaining disclosure controls and procedures (as defined",
+          "source": "BOEING_2022_10K.pdf",
+          "page": 188
+        }
+      ],
+      "latency_ms": 1221.07,
+      "error": null
+    }
+  },
+  {
+    "id": "financebench_id_00678",
+    "wall_s": 8.9,
+    "result": {
+      "question": "Does Boeing have an improving gross margin profile as of FY2022? If gross margin is not a useful metric for a company like this, then state that and explain why.",
+      "answer": "I couldn't find a supported answer in the provided documents.",
+      "overall_status": "insufficient_evidence",
+      "claims": [],
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "citation_id": "E1",
+          "text": "Table of Contents REPORT OF INDEPENDENT REGISTERED PUBLIC ACCOUNTING FIRM To the shareholders and the Board of Directors of The Boeing Company Opinion on Internal Control over Financial Reporting We have audited the internal control over financial reporting of The Boeing Company and subsidiaries (the “Company”) as of December 31, 2022, based on criteria established in Internal Control — Integrated Framework (2013) issued by the Committee of Sponsoring Organizations of the Treadway Commission (COSO). In our opinion, the Company maintained, in all material respects, effective internal control over financial reporting as of December 31, 2022, based on criteria established in Internal Control — Integrated Framework (2013) issued by COSO. We have also audited, in accordance with the standards of the Public Company Accounting Oversight Board (United States) (PCAOB), the consolidated financial statements as of and for the year ended December 31, 2022 of the Company, and our report dated",
+          "source": "BOEING_2022_10K.pdf",
+          "page": 124
+        },
+        {
+          "citation_id": "E2",
+          "text": "Table of Contents REPORT OF INDEPENDENT REGISTERED PUBLIC ACCOUNTING FIRM To the shareholders and the Board of Directors of The Boeing Company Opinion on the Financial Statements We have audited the accompanying consolidated statements of financial position of The Boeing Company and subsidiaries (the \"Company\") as of December 31, 2022 and 2021, the related consolidated statements of operations, comprehensive income, equity, and cash flows, for each of the three years in the period ended December 31, 2022, and the related notes (collectively referred to as the \"financial statements\"). In our opinion, the financial statements present fairly, in all material respects, the financial position of the Company as of December 31, 2022 and 2021, and the results of its operations and its cash flows for each of the three years in the period ended December 31, 2022, in conformity with accounting principles generally accepted in the United States of America. We have also audited, in accordance with",
+          "source": "BOEING_2022_10K.pdf",
+          "page": 119
+        },
+        {
+          "citation_id": "E3",
+          "text": "1,184 (12,921) Less: Comprehensive loss related to noncontrolling interest (118) (88) (68) Comprehensive (loss)/income attributable to Boeing Shareholders, net of tax ($2,826) $1,272 ($12,853) See Notes to the Consolidated Financial Statements on pages 59 - 114. 54",
+          "source": "BOEING_2022_10K.pdf",
+          "page": 56
+        }
+      ],
+      "latency_ms": 8857.66,
+      "error": null
+    }
+  },
+  {
+    "id": "financebench_id_01290",
+    "wall_s": 1.3,
+    "result": {
+      "question": "Who are the primary customers of Boeing as of FY2022?",
+      "answer": "I couldn't find a supported answer in the provided documents.",
+      "overall_status": "insufficient_evidence",
+      "claims": [],
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "citation_id": "E1",
+          "text": "Executive Vice President, President and Chief Executive Officer, Boeing Global Services from November 2016 to October 2019; Senior Vice President of Commercial Aviation Services from March 2014 to November 2016; Vice President and General Manager of Supply Chain Management and Operations for Commercial Airplanes from September 2011 to February 2014; Vice President of Supplier Management from February 2010 to August 2011; and Vice President of Asia Pacific Sales from December 2006 to January 2010. Susan Doniz 53 Chief Information Officer and Senior Vice President, Information Technology & Data Analytics since May 2020. Prior to joining Boeing, Ms. Doniz served as Global Chief Information Officer of Qantas Airways Limited from January 2017 to April 2020; as strategic advisor to the Global CEO of SAP SE on transformation and technology issues in support of customers from September 2015 to January 2017; and Global Product, Digital Strategy and Chief Information Officer of AIMIA Inc. from",
+          "source": "BOEING_2022_10K.pdf",
+          "page": 128
+        },
+        {
+          "citation_id": "E2",
+          "text": "Table of Contents PART I Item 1. Business The Boeing Company, together with its subsidiaries (herein referred to as “Boeing,” the “Company,” “we,” “us,” “our”), is one of the world’s major aerospace firms. We are organized based on the products and services we offer. We operate in four reportable segments: • Commercial Airplanes (BCA); • Defense, Space & Security (BDS); • Global Services (BGS); • Boeing Capital (BCC). Commercial Airplanes Segment This segment develops, produces and markets commercial jet aircraft principally to the commercial airline industry worldwide. We are a leading producer of commercial aircraft and offer a family of commercial jetliners designed to meet a broad spectrum of global passenger and cargo requirements of airlines. This family of commercial jet aircraft in production includes the 737 narrow-body model and the 767, 777 and 787 wide- body models. We ended production of the 747 wide-body model in 2022. Development continues on the 777X program and the",
+          "source": "BOEING_2022_10K.pdf",
+          "page": 3
+        },
+        {
+          "citation_id": "E3",
+          "text": "Vice President, President and Chief Executive Officer, Boeing Global Services since April 2022. Ms. Pope joined Boeing in 1994, and her previous positions include Vice President and Chief Financial Officer of Boeing Commercial Airplanes from December 2020 to March 2022; Vice President and Chief Financial Officer of Boeing Global Services from January 2017 to December 2020; Vice President of Finance and Controller for Boeing Defense, Space & Security from August 2016 to December 2016; and Vice President, Financial Planning & Analysis from February 2013 to July 2016. 125",
+          "source": "BOEING_2022_10K.pdf",
+          "page": 129
+        }
+      ],
+      "latency_ms": 1310.25,
+      "error": null
+    }
+  },
+  {
+    "id": "financebench_id_00464",
+    "wall_s": 1.1,
+    "result": {
+      "question": "Is Boeing's business subject to cyclicality?",
+      "answer": "I couldn't find a supported answer in the provided documents.",
+      "overall_status": "insufficient_evidence",
+      "claims": [],
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "citation_id": "E1",
+          "text": "U.S. and non-U.S. suppliers and subcontractors to meet performance specifications, quality standards and delivery schedules at our anticipated costs. While we maintain an extensive qualification and performance surveillance system to control risk associated with such reliance on third parties, failure of suppliers or subcontractors to meet commitments could adversely affect production schedules and program/contract profitability, thereby jeopardizing our ability to fulfill commitments to our customers. We are also dependent on the availability of energy sources, such as electricity, at affordable prices. Seasonality No material portion of our business is considered to be seasonal. Executive Officers of the Registrant See “Item 10. Directors, Executive Officers and Corporate Governance” in Part III. Other Information Boeing was originally incorporated in the State of Washington in 1916 and reincorporated in Delaware in 1934. Our principal executive offices are located at 929 Long Bridge",
+          "source": "BOEING_2022_10K.pdf",
+          "page": 7
+        },
+        {
+          "citation_id": "E2",
+          "text": "sustained economic growth and political stability both in developed and emerging markets. Demand for our commercial aircraft is further influenced by airline profitability, availability of aircraft financing, world trade policies, government-to-government relations, technological advances, price and other competitive factors, fuel prices, terrorism, pandemics, epidemics and environmental regulations. Historically, the airline industry has been cyclical and very competitive and has experienced significant profit swings and constant challenges to be more cost competitive. Significant deterioration in the global economic environment, the airline industry generally or the financial stability of one or more of our major customers could result in fewer new orders for aircraft or services, or could cause customers to seek to postpone or cancel contractual orders and/or payments to us, which could result in lower revenues, profitability and cash flows and a reduction in our contractual",
+          "source": "BOEING_2022_10K.pdf",
+          "page": 8
+        },
+        {
+          "citation_id": "E3",
+          "text": "our customers’ and/or suppliers’ confidential, classified or personally identifiable information, our reputation could be damaged, and/or we could face financial or other losses. Business disruptions could seriously affect our future sales and financial condition or increase our costs and expenses. Our business may be impacted by disruptions including threats to physical security or our information technology systems, extreme weather (including effects of climate change) or other acts of nature, and pandemics or other public health crises. Any of these disruptions could affect our internal operations or our suppliers’ operations and delay delivery of products and services to our customers. Any significant production delays, or any destruction, manipulation or improper use of Boeing’s or our suppliers’ data, information systems or networks could impact our sales, increase our expenses and/or have an adverse effect on the reputation of Boeing and of our products and services. Risks",
+          "source": "BOEING_2022_10K.pdf",
+          "page": 16
+        }
+      ],
+      "latency_ms": 1065.56,
+      "error": null
+    }
+  },
+  {
+    "id": "financebench_id_00494",
+    "wall_s": 4.5,
+    "result": {
+      "question": "What production rate changes is Boeing forecasting for FY2023?",
+      "answer": "I couldn't find a supported answer in the provided documents.",
+      "overall_status": "needs_review",
+      "claims": [
+        {
+          "claim": "Boeing is forecasting a production rate increase to 5 per month for the 737 program in FY2023",
+          "citations": [],
+          "status": "missing_citation",
+          "verification_results": []
+        },
+        {
+          "claim": "Additionally, the 777X program is expected to resume production in 2023",
+          "citations": [
+            "E1"
+          ],
+          "status": "supported",
+          "verification_results": [
+            {
+              "citation_id": "E1",
+              "status": "supported",
+              "scores": {
+                "contradiction": 0.00018027272017206997,
+                "entailment": 0.9429905414581299,
+                "neutral": 0.056829214096069336
+              },
+              "matched_evidence": "Production of the 777X is currently paused and is expected to resume in 2023.",
+              "reason": "An evidence sentence supports the claim."
+            }
+          ]
+        }
+      ],
+      "citations": [
+        {
+          "id": "E1",
+          "source": "BOEING_2022_10K.pdf",
+          "page": 9
+        }
+      ],
+      "retrieved_chunks": [
+        {
+          "citation_id": "E1",
+          "text": "increase to 5 per month in 2023. Production of the 777X is currently paused and is expected to resume in 2023. The 737 program has experienced operational and supply chain challenges stabilizing production at 31 per month. We plan to gradually increase 737 production rates based on market demand and supply chain capacity. In addition, we continue to seek opportunities to reduce the costs of building our aircraft, including working with our suppliers to reduce supplier costs, identifying and implementing productivity improvements and optimizing how we manage inventory. If production rate changes at any of our 7",
+          "source": "BOEING_2022_10K.pdf",
+          "page": 9
+        },
+        {
+          "citation_id": "E2",
+          "text": "the aircraft in inventory at December 31, 2022 are expected to deliver by the end of 2024. We are currently producing at low rates and expect to gradually return to 5 per month in 2023. In the third quarter of 2021, we determined that production rates below 5 per month represented abnormally low production rates and result in abnormal production costs. We also determined that the inspections and rework costs on inventoried aircraft are excessive and should also be accounted for as abnormal production costs that are required to be expensed as incurred. Cumulative abnormal costs recorded through December 31, 2022 totaled $1.7 billion. During the fourth quarter of 2022 we adjusted the total estimate of abnormal production costs up to $2.8 billion with most being incurred by the end of 2023. At December 31, 2021, we were expecting to incur approximately $2 billion of abnormal production costs on a cumulative basis. The increase was primarily driven by a decision in the fourth quarter of",
+          "source": "BOEING_2022_10K.pdf",
+          "page": 35
+        },
+        {
+          "citation_id": "E3",
+          "text": "and stored 787 aircraft. A number of our customers have contractual remedies, including compensation for late deliveries or rights to reject individual airplane deliveries based on delivery delays. Delays on the 737, 777X and 787 programs have resulted in, and may continue to result in, customers having the right to terminate orders, be compensated for late deliveries and/or substitute orders for other Boeing aircraft. We must minimize disruption caused by production changes, achieve operational stability and implement productivity improvements in order to meet customer demand and maintain our profitability. We have previously announced plans to adjust production rates on several of our commercial aircraft programs. The 787 program is currently producing at low rates and we expect to gradually increase to 5 per month in 2023. Production of the 777X is currently paused and is expected to resume in 2023. The 737 program has experienced operational and supply chain challenges stabilizing",
+          "source": "BOEING_2022_10K.pdf",
+          "page": 9
+        }
+      ],
+      "latency_ms": 4500.12,
+      "error": null
+    }
+  },
+  {
+    "id": "financebench_id_00585",
+    "wall_s": 1.3,
+    "result": {
+      "question": "How does Boeing's effective tax rate in FY2022 compare to FY2021?",
+      "answer": "I couldn't find a supported answer in the provided documents.",
+      "overall_status": "insufficient_evidence",
+      "claims": [],
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "citation_id": "E1",
+          "text": "Table of Contents Consolidated Results of Operations The following table summarizes key indicators of consolidated results of operations: (Dollars in millions, except per share data) Years ended December 31, 2022 2021 2020 Revenues $66,608 $62,286 $58,158 GAAP Loss from operations ($3,547) ($2,902) ($12,767) Operating margins (5.3) % (4.7) % (22.0) % Effective income tax rate (0.6) % 14.8 % 17.5 % Net loss attributable to Boeing Shareholders ($4,935) ($4,202) ($11,873) Diluted loss per share ($8.30) ($7.15) ($20.88) Non-GAAP Core operating loss ($4,690) ($4,075) ($14,150) Core operating margins (7.0 %) (6.5 %) (24.3 %) Core loss per share ($11.06) ($9.44) ($23.25) These measures exclude certain components of pension and other postretirement benefit expense. See pages 45 - 47 for important information about these non-GAAP measures and reconciliations to the most directly comparable GAAP measures. Revenues The following table summarizes Revenues: (Dollars in millions) Years ended",
+          "source": "BOEING_2022_10K.pdf",
+          "page": 24
+        },
+        {
+          "citation_id": "E2",
+          "text": "Table of Contents Defense, Space & Security Business Environment and Trends United States Government Defense Environment Overview The Consolidated Appropriations Act, 2023, enacted in December 2022, provided fiscal year 2023 (FY23) appropriations for government departments and agencies, including $817 billion for the U.S. DoD and $25.4 billion for NASA. The enacted FY23 appropriations included funding for Boeing’s major programs, including the F/A-18 Super Hornet, F-15EX, CH-47 Chinook, AH-64 Apache, V-22 Osprey, KC-46A Tanker, MQ-25, and the Space Launch System. The FY23 appropriations support F/A-18 production further into calendar year 2025. The FY23 appropriations did not include funding for additional P-8 aircraft. The P-8 program continues to pursue additional sales opportunities to extend production beyond 2024. There is ongoing uncertainty with respect to program-level appropriations for the U.S. DoD, NASA and other government agencies for fiscal year 2024 and beyond. U.S.",
+          "source": "BOEING_2022_10K.pdf",
+          "page": 37
+        },
+        {
+          "citation_id": "E3",
+          "text": "1,184 (12,921) Less: Comprehensive loss related to noncontrolling interest (118) (88) (68) Comprehensive (loss)/income attributable to Boeing Shareholders, net of tax ($2,826) $1,272 ($12,853) See Notes to the Consolidated Financial Statements on pages 59 - 114. 54",
+          "source": "BOEING_2022_10K.pdf",
+          "page": 56
+        }
+      ],
+      "latency_ms": 1258.51,
+      "error": null
+    }
+  },
+  {
+    "id": "UNSUP-1",
+    "wall_s": 1.2,
+    "result": {
+      "question": "Who will be Boeing's CEO in 2035?",
+      "answer": "I couldn't find a supported answer in the provided documents.",
+      "overall_status": "insufficient_evidence",
+      "claims": [],
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "citation_id": "E1",
+          "text": "Vice President, President and Chief Executive Officer, Boeing Global Services since April 2022. Ms. Pope joined Boeing in 1994, and her previous positions include Vice President and Chief Financial Officer of Boeing Commercial Airplanes from December 2020 to March 2022; Vice President and Chief Financial Officer of Boeing Global Services from January 2017 to December 2020; Vice President of Finance and Controller for Boeing Defense, Space & Security from August 2016 to December 2016; and Vice President, Financial Planning & Analysis from February 2013 to July 2016. 125",
+          "source": "BOEING_2022_10K.pdf",
+          "page": 129
+        },
+        {
+          "citation_id": "E2",
+          "text": "Executive Vice President, President and Chief Executive Officer, Boeing Global Services from November 2016 to October 2019; Senior Vice President of Commercial Aviation Services from March 2014 to November 2016; Vice President and General Manager of Supply Chain Management and Operations for Commercial Airplanes from September 2011 to February 2014; Vice President of Supplier Management from February 2010 to August 2011; and Vice President of Asia Pacific Sales from December 2006 to January 2010. Susan Doniz 53 Chief Information Officer and Senior Vice President, Information Technology & Data Analytics since May 2020. Prior to joining Boeing, Ms. Doniz served as Global Chief Information Officer of Qantas Airways Limited from January 2017 to April 2020; as strategic advisor to the Global CEO of SAP SE on transformation and technology issues in support of customers from September 2015 to January 2017; and Global Product, Digital Strategy and Chief Information Officer of AIMIA Inc. from",
+          "source": "BOEING_2022_10K.pdf",
+          "page": 128
+        },
+        {
+          "citation_id": "E3",
+          "text": "Table of Contents Name Age Principal Occupation or Employment/Other Business Affiliations Theodore Colbert III 49 Executive Vice President, President and Chief Executive Officer, Boeing Defense, Space & Security since April 2022. Mr. Colbert previously served as Executive Vice President, President and Chief Executive Officer, Boeing Global Services from October 2019 to March 2022; Chief Information Officer and Senior Vice President, Information Technology & Data Analytics from April 2016 to October 2019; Chief Information Officer and Vice President of Information Technology from November 2013 to April 2016; Vice President of Information Technology Infrastructure from December 2011 to November 2013; and Vice President of IT Business Systems from September 2010 to December 2011. Mr. Colbert serves on the board of directors of Archer-Daniels-Midland Company. Michael D’Ambrose 65 Chief Human Resources Officer and Executive Vice President, Human Resources since June 2021. Prior to joining",
+          "source": "BOEING_2022_10K.pdf",
+          "page": 128
+        }
+      ],
+      "latency_ms": 1156.5,
+      "error": null
+    }
+  },
+  {
+    "id": "UNSUP-3",
+    "wall_s": 1.5,
+    "result": {
+      "question": "What will AMD's total revenue be in fiscal year 2030?",
+      "answer": "I couldn't find a supported answer in the provided documents.",
+      "overall_status": "insufficient_evidence",
+      "claims": [],
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "citation_id": "E1",
+          "text": "Table of Contents Additional Information AMD was incorporated under the laws of Delaware on May 1, 1969 and became a publicly held company in 1972. Our common stock is currently listed on The NASDAQ Global Select Market (NASDAQ) under the symbol “AMD”. Our mailing address and executive offices are located at 2485 Augustine Drive, Santa Clara, California 95054, and our telephone number is (408) 749-4000. For financial information about geographic areas and for segment information with respect to revenues and operating results, refer to the information set forth in Note 4 of our consolidated financial statements. We use a 52- or 53-week fiscal year ending on the last Saturday in December. References in this report to 2022, 2021 and 2020 refer to the fiscal year unless explicitly stated otherwise. AMD, the AMD Arrow logo, AMD CDNA, AMD Instinct, AMD RDNA, Alveo, Artix, Athlon, CoolRunner, EPYC, FidelityFX, FirePro, FreeSync, Geode, Infinity Fabric, Kinex, Pensando, Radeon, Radeon",
+          "source": "AMD_2022_10K.pdf",
+          "page": 5
+        },
+        {
+          "citation_id": "E2",
+          "text": "made available to AMD and certain of its subsidiaries, our commercial paper program, and our cash flows from operations will be sufficient to fund AMD’s operations including capital expenditures and purchase commitments over the next 12 months and beyond; AMD’s ability to obtain sufficient external financing on favorable terms, or at all; AMD’s expectation that based on management’s current knowledge, the potential liability related to AMD’s current litigation will not have a material adverse effect on its financial position, results of operation or cash flows; anticipated ongoing and increased costs related to enhancing and implementing information security controls; all unbilled accounts receivables are expected to be billed and collected within 12 months; revenue allocated to remaining performance obligations that are unsatisfied which will be recognized in the next 12 months; and a small number of customers will continue to account for a substantial part of AMD’s revenue in the",
+          "source": "AMD_2022_10K.pdf",
+          "page": 4
+        },
+        {
+          "citation_id": "E3",
+          "text": "for 2022 compared to 2021, an analysis of changes in our financial condition and a discussion of our off-balance sheet arrangements. Discussions of 2020 items and year-to-year comparisons between 2021 and 2020 that are not included in this Form 10-K can be found in “Management’s Discussion and Analysis of Financial Condition and Results of Operations” in Part II, Item 7 of our Annual Report on Form 10-K for the fiscal year ended December 25, 2021. Overview 2022 was a transformative year for AMD as we took several major steps that scaled and reshaped our business. In February 2022, we completed our strategic acquisition of Xilinx, Inc. (Xilinx) which expanded our technology and product portfolio to include adaptable hardware platforms that enable hardware acceleration and rapid innovation across a variety of technologies and established AMD in multiple embedded markets where we have traditionally not had a significant presence. We now offer Field Programmable Gate Arrays (FPGAs),",
+          "source": "AMD_2022_10K.pdf",
+          "page": 43
+        }
+      ],
+      "latency_ms": 1463.75,
+      "error": null
+    }
+  }
+]

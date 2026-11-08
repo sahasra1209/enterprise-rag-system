@@ -1,0 +1,1454 @@
+[
+  {
+    "id": "financebench_id_00499",
+    "wall_s": 12.0,
+    "result": {
+      "question": "Is 3M a capital-intensive business based on FY2022 data?",
+      "answer": "I couldn't find a supported answer in the provided documents.",
+      "overall_status": "insufficient_evidence",
+      "claims": [],
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "citation_id": "E1",
+          "text": "3M was able to manage the business with lower cash levels due to significant ongoing cash flow generation and proven access to capital markets funding throughout business cycles. 38",
+          "source": "3M_2015_10K.pdf",
+          "page": 38
+        },
+        {
+          "citation_id": "E2",
+          "text": "3M’s capital structure and significant ongoing cash flows provide 3M proven access to capital markets. Additionally, the Company’s maturity profile is staggered to help ensure refinancing needs in any",
+          "source": "3M_2015_10K.pdf",
+          "page": 39
+        },
+        {
+          "citation_id": "E3",
+          "text": "to implement this strategy. Investing in 3M’s businesses to drive organic growth remains the first priority, thus 3M will continue to deploy capital towards research and development, capital",
+          "source": "3M_2015_10K.pdf",
+          "page": 38
+        }
+      ],
+      "latency_ms": 11994.03,
+      "error": null
+    }
+  },
+  {
+    "id": "financebench_id_01226",
+    "wall_s": 7.3,
+    "result": {
+      "question": "What drove operating margin change as of FY2022 for 3M? If operating margin is not a useful metric for a company like this, then please state that and explain why.",
+      "answer": "I couldn't find a supported answer in the provided documents.",
+      "overall_status": "insufficient_evidence",
+      "claims": [],
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "citation_id": "E1",
+          "text": "of 3M’s five business segments posted operating income margins of approximately 2 1 percent or more in 2015 . Worldwide operating income margins for 2015 were 22. 9 percent, compared to 2 2.4 percent",
+          "source": "3M_2015_10K.pdf",
+          "page": 19
+        },
+        {
+          "citation_id": "E2",
+          "text": "Operating profit grew 3% while operating margin declined 0.7 percentage points. Operating profit growth was primarily driven by net revenue growth and productivity savings, partially offset by certain",
+          "source": "PEPSICO_2022_10K.pdf",
+          "page": 40
+        },
+        {
+          "citation_id": "E3",
+          "text": "compared to 22. 6 percent in 201 4 . · Operating income margin improvements were driven by higher selling prices and lower raw material costs, along with productivity. · Operating income margins",
+          "source": "3M_2015_10K.pdf",
+          "page": 28
+        }
+      ],
+      "latency_ms": 7286.71,
+      "error": null
+    }
+  },
+  {
+    "id": "financebench_id_01865",
+    "wall_s": 5.1,
+    "result": {
+      "question": "If we exclude the impact of M&A, which segment has dragged down 3M's overall growth in 2022?",
+      "answer": "I couldn't find a supported answer in the provided documents.",
+      "overall_status": "insufficient_evidence",
+      "claims": [],
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "citation_id": "E1",
+          "text": "in 2022 when compared to the same period last year. 3M continues to invest in a range of R&D activities from application development, product and manufacturing support, product development and",
+          "source": "3M_2022_10K.pdf",
+          "page": 27
+        },
+        {
+          "citation_id": "E2",
+          "text": "manufacturer, technology innovator and marketer of a wide variety of products and services. Effective in the first quarter of 2022, 3M made the following changes: • Changes in measure of segment",
+          "source": "3M_2022_10K.pdf",
+          "page": 19
+        },
+        {
+          "citation_id": "E3",
+          "text": "September 30, 2015, and December 31, 2015, was significantly in excess of its equity of approximately $12 billion at both December 31, 2015 and September 30, 2015. In 2015, 3M primarily used an",
+          "source": "3M_2015_10K.pdf",
+          "page": 37
+        }
+      ],
+      "latency_ms": 5063.65,
+      "error": null
+    }
+  },
+  {
+    "id": "financebench_id_00799",
+    "wall_s": 7.9,
+    "result": {
+      "question": "Has AMCOR's quick ratio improved or declined between FY2023 and FY2022? If the quick ratio is not something that a financial analyst would ask about a company like this, then state that and explain why.",
+      "answer": "I couldn't find a supported answer in the provided documents.",
+      "overall_status": "insufficient_evidence",
+      "claims": [],
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "citation_id": "E1",
+          "text": "30, 2022, among Amcor Finance (USA), Inc., Amcor Flexibles North America, Inc. and Deutsche Bank Trust Company Americas (incorporated by reference to Exhibit 4.7 on Amcor plc's Current Report on Form",
+          "source": "AMCOR_2023_10K.pdf",
+          "page": 114
+        },
+        {
+          "citation_id": "E2",
+          "text": "dated as of June 13, 2019, by and among AFUI, Amcor plc, Amcor Limited, Bemis, Amcor UK Finance plc and the Dealer Managers, relating to the Amcor’s 4.500% 2028 Notes (incorporated by reference to",
+          "source": "AMCOR_2023_10K.pdf",
+          "page": 114
+        },
+        {
+          "citation_id": "E3",
+          "text": "by and among AFUI, Amcor plc, Amcor Limited, Bemis, Amcor UK Finance plc and the Dealer Managers, relating to the Amcor’s 3.625% 2026 Notes (incorporated by reference to Exhibit 10.7 on Amcor plc’s",
+          "source": "AMCOR_2023_10K.pdf",
+          "page": 114
+        }
+      ],
+      "latency_ms": 7897.87,
+      "error": null
+    }
+  },
+  {
+    "id": "financebench_id_01079",
+    "wall_s": 5.2,
+    "result": {
+      "question": "What are major acquisitions that AMCOR has done in FY2023, FY2022 and FY2021?",
+      "answer": "I couldn't find a supported answer in the provided documents.",
+      "overall_status": "insufficient_evidence",
+      "claims": [],
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "citation_id": "E1",
+          "text": "any subsidiaries that Amcor may in the future acquire or establish to the extent they do not guarantee such Notes). Amcor, AFUI, Amcor Pty Ltd and Amcor Flexibles North America, Inc. are the initial",
+          "source": "AMCOR_2023_10K.pdf",
+          "page": 134
+        },
+        {
+          "citation_id": "E2",
+          "text": "See Note 1 for further information. (e) Acquisitions/divestitures in 2021 primarily reflect assets reclassified as held for sale in connection with our Juice Transaction. See Note 13 for further",
+          "source": "PEPSICO_2022_10K.pdf",
+          "page": 82
+        },
+        {
+          "citation_id": "E3",
+          "text": "in the future, or to complete such acquisitions on acceptable terms or at all. If we are unable to identify acquisition targets that meet our investment criteria and close such transactions on",
+          "source": "AMCOR_2023_10K.pdf",
+          "page": 15
+        }
+      ],
+      "latency_ms": 5192.56,
+      "error": null
+    }
+  },
+  {
+    "id": "financebench_id_01148",
+    "wall_s": 6.8,
+    "result": {
+      "question": "What industry does AMCOR primarily operate in?",
+      "answer": "I couldn't find a supported answer in the provided documents.",
+      "overall_status": "insufficient_evidence",
+      "claims": [],
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "citation_id": "E1",
+          "text": "of America. Today, Amcor is a global leader in developing and producing responsible packaging for food, beverage, pharmaceutical, medical, home and personal-care, and other consumer goods end markets.",
+          "source": "AMCOR_2023_10K.pdf",
+          "page": 55
+        },
+        {
+          "citation_id": "E2",
+          "text": "PART I Item 1. - Business The Company Amcor plc (ARBN 630 385 278) is a public limited company incorporated under the Laws of the Bailiwick of Jersey. Our history dates back more than 150 years, with",
+          "source": "AMCOR_2023_10K.pdf",
+          "page": 5
+        },
+        {
+          "citation_id": "E3",
+          "text": "incorporated under the Laws of the Bailiwick of Jersey. The Company's history dates back more than 150 years, with origins in both Australia and the United States of America. Today, Amcor is a global",
+          "source": "AMCOR_2023_10K.pdf",
+          "page": 55
+        }
+      ],
+      "latency_ms": 6768.68,
+      "error": null
+    }
+  },
+  {
+    "id": "financebench_id_00684",
+    "wall_s": 7.7,
+    "result": {
+      "question": "Does AMCOR have an improving gross margin profile as of FY2023? If gross margin is not a useful metric for a company like this, then state that and explain why.",
+      "answer": "I couldn't find a supported answer in the provided documents.",
+      "overall_status": "insufficient_evidence",
+      "claims": [],
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "citation_id": "E1",
+          "text": "fiscal year 2023 was an increase of $7 million, or 0%, reflecting price/mix benefits of 3% and unfavorable volumes of (3%). Net income attributable to Amcor plc increased by $243 million, or 30%, in",
+          "source": "AMCOR_2023_10K.pdf",
+          "page": 32
+        },
+        {
+          "citation_id": "E2",
+          "text": "current and historical performance. A reconciliation of reported net income attributable to Amcor plc to Adjusted EBIT and adjusted net income for fiscal years 2023, 2022, and 2021 is as follows:",
+          "source": "AMCOR_2023_10K.pdf",
+          "page": 35
+        },
+        {
+          "citation_id": "E3",
+          "text": "compared to 22. 6 percent in 201 4 . · Operating income margin improvements were driven by higher selling prices and lower raw material costs, along with productivity. · Operating income margins",
+          "source": "3M_2015_10K.pdf",
+          "page": 28
+        }
+      ],
+      "latency_ms": 7684.62,
+      "error": null
+    }
+  },
+  {
+    "id": "financebench_id_00222",
+    "wall_s": 7.0,
+    "result": {
+      "question": "Does AMD have a reasonably healthy liquidity profile based on its quick ratio for FY22? If the quick ratio is not relevant to measure liquidity, please state that and explain why.",
+      "answer": "I couldn't find a supported answer in the provided documents.",
+      "overall_status": "insufficient_evidence",
+      "claims": [],
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "citation_id": "E1",
+          "text": "of AMD’s revenue in the future. For a discussion of the factors that could cause actual results to differ materially from the forward-looking statements, see “Part I, Item 1A-Risk Factors” and the",
+          "source": "AMD_2022_10K.pdf",
+          "page": 4
+        },
+        {
+          "citation_id": "E2",
+          "text": "by reference. *10.40 Value Creation Performance-Based Restricted Stock Unit Grant Notice between Advanced Micro Devices, Inc. and Mark Papermaster, dated August 9, 2019, filed as Exhibit 10.4 to AMD’s",
+          "source": "AMD_2022_10K.pdf",
+          "page": 104
+        },
+        {
+          "citation_id": "E3",
+          "text": "impact of future accounting rules on AMD’s consolidated financial statements; demand for AMD’s products; the growth, change and competitive landscape of the markets in which AMD participates;",
+          "source": "AMD_2022_10K.pdf",
+          "page": 4
+        }
+      ],
+      "latency_ms": 7047.92,
+      "error": null
+    }
+  },
+  {
+    "id": "financebench_id_00995",
+    "wall_s": 6.8,
+    "result": {
+      "question": "What are the major products and services that AMD sells as of FY22?",
+      "answer": "I couldn't find a supported answer in the provided documents.",
+      "overall_status": "insufficient_evidence",
+      "claims": [],
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "citation_id": "E1",
+          "text": "the markets in which AMD participates; international sales will continue to be a significant portion of total sales in the foreseeable future; that AMD’s cash, cash equivalents and short-term",
+          "source": "AMD_2022_10K.pdf",
+          "page": 4
+        },
+        {
+          "citation_id": "E2",
+          "text": "of Advanced Micro Devices, Inc. and its wholly-owned subsidiaries (collectively, “us,” “our” or “AMD”), including a discussion of our results of operations for 2022 compared to 2021, an analysis of",
+          "source": "AMD_2022_10K.pdf",
+          "page": 43
+        },
+        {
+          "citation_id": "E3",
+          "text": "motherboards. Our FPGA and Adaptive SOC products are sold to customers in a very wide range of markets such as Aerospace and Defense, Test and Measurement, Industrial, Automotive, Consumers,",
+          "source": "AMD_2022_10K.pdf",
+          "page": 11
+        }
+      ],
+      "latency_ms": 6786.2,
+      "error": null
+    }
+  },
+  {
+    "id": "financebench_id_01198",
+    "wall_s": 6.0,
+    "result": {
+      "question": "What drove revenue change as of the FY22 for AMD?",
+      "answer": "I couldn't find a supported answer in the provided documents.",
+      "overall_status": "insufficient_evidence",
+      "claims": [],
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "citation_id": "E1",
+          "text": "of AMD’s revenue in the future. For a discussion of the factors that could cause actual results to differ materially from the forward-looking statements, see “Part I, Item 1A-Risk Factors” and the",
+          "source": "AMD_2022_10K.pdf",
+          "page": 4
+        },
+        {
+          "citation_id": "E2",
+          "text": "revenue was driven by higher semi-custom product sales due to higher demand for gaming console SoCs, partially offset by lower gaming graphics sales due to a decrease in unit shipments driven by soft",
+          "source": "AMD_2022_10K.pdf",
+          "page": 49
+        },
+        {
+          "citation_id": "E3",
+          "text": "impact of future accounting rules on AMD’s consolidated financial statements; demand for AMD’s products; the growth, change and competitive landscape of the markets in which AMD participates;",
+          "source": "AMD_2022_10K.pdf",
+          "page": 4
+        }
+      ],
+      "latency_ms": 6036.63,
+      "error": null
+    }
+  },
+  {
+    "id": "financebench_id_00917",
+    "wall_s": 7.4,
+    "result": {
+      "question": "What drove operating margin change as of the FY22 for AMD? If operating margin is not a useful metric for a company like this, then please state that and explain why.",
+      "answer": "I couldn't find a supported answer in the provided documents.",
+      "overall_status": "insufficient_evidence",
+      "claims": [],
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "citation_id": "E1",
+          "text": "compared to 22. 6 percent in 201 4 . · Operating income margin improvements were driven by higher selling prices and lower raw material costs, along with productivity. · Operating income margins",
+          "source": "3M_2015_10K.pdf",
+          "page": 28
+        },
+        {
+          "citation_id": "E2",
+          "text": "Operating margin 13.3 % 14.0 % (0.7) See “Results of Operations – Division Review” for a tabular presentation and discussion of key drivers of net revenue. Operating profit grew 3% while operating",
+          "source": "PEPSICO_2022_10K.pdf",
+          "page": 40
+        },
+        {
+          "citation_id": "E3",
+          "text": "the PC supply chain. Gross margin, as a percentage of net revenue for 2022, was 45%, compared to 48% in 2021. The decrease in gross margin was primarily due to amortization of intangible assets",
+          "source": "AMD_2022_10K.pdf",
+          "page": 43
+        }
+      ],
+      "latency_ms": 7373.96,
+      "error": null
+    }
+  },
+  {
+    "id": "financebench_id_01279",
+    "wall_s": 7.1,
+    "result": {
+      "question": "Among operations, investing, and financing activities, which brought in the most (or lost the least) cash flow for AMD in FY22?",
+      "answer": "I couldn't find a supported answer in the provided documents.",
+      "overall_status": "insufficient_evidence",
+      "claims": [],
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "citation_id": "E1",
+          "text": "made available to AMD and certain of its subsidiaries, our commercial paper program, and our cash flows from operations will be sufficient to fund AMD’s operations including capital expenditures and",
+          "source": "AMD_2022_10K.pdf",
+          "page": 4
+        },
+        {
+          "citation_id": "E2",
+          "text": "including capital expenditures and purchase commitments over the next 12 months and beyond; AMD’s ability to obtain sufficient external financing on favorable terms, or at all; AMD’s expectation that",
+          "source": "AMD_2022_10K.pdf",
+          "page": 4
+        },
+        {
+          "citation_id": "E3",
+          "text": "impact of future accounting rules on AMD’s consolidated financial statements; demand for AMD’s products; the growth, change and competitive landscape of the markets in which AMD participates;",
+          "source": "AMD_2022_10K.pdf",
+          "page": 4
+        }
+      ],
+      "latency_ms": 7050.07,
+      "error": null
+    }
+  },
+  {
+    "id": "financebench_id_00563",
+    "wall_s": 6.8,
+    "result": {
+      "question": "From FY21 to FY22, excluding Embedded, in which AMD reporting segment did sales proportionally increase the most?",
+      "answer": "I couldn't find a supported answer in the provided documents.",
+      "overall_status": "insufficient_evidence",
+      "claims": [],
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "citation_id": "E1",
+          "text": "due to higher sales of our EPYC™ server processors, a 21% increase in Gaming segment revenue primarily due to higher semi-custom product sales, and a significant increase in Embedded segment revenue",
+          "source": "AMD_2022_10K.pdf",
+          "page": 43
+        },
+        {
+          "citation_id": "E2",
+          "text": "the markets in which AMD participates; international sales will continue to be a significant portion of total sales in the foreseeable future; that AMD’s cash, cash equivalents and short-term",
+          "source": "AMD_2022_10K.pdf",
+          "page": 4
+        },
+        {
+          "citation_id": "E3",
+          "text": "of AMD’s revenue in the future. For a discussion of the factors that could cause actual results to differ materially from the forward-looking statements, see “Part I, Item 1A-Risk Factors” and the",
+          "source": "AMD_2022_10K.pdf",
+          "page": 4
+        }
+      ],
+      "latency_ms": 6817.4,
+      "error": null
+    }
+  },
+  {
+    "id": "financebench_id_00757",
+    "wall_s": 7.4,
+    "result": {
+      "question": "Did AMD report customer concentration in FY22?",
+      "answer": "I couldn't find a supported answer in the provided documents.",
+      "overall_status": "insufficient_evidence",
+      "claims": [],
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "citation_id": "E1",
+          "text": "6, among Advanced Micro Devices, Inc., GLOBALFOUNDRIES, Inc. and GLOBALFOUNDRIES U.S., Inc., dated August 30, 2016, filed as Exhibit 10.7 to AMD’s Quarterly Report on Form 10-Q for the fiscal quarter",
+          "source": "AMD_2022_10K.pdf",
+          "page": 105
+        },
+        {
+          "citation_id": "E2",
+          "text": "3, among Advanced Micro Devices, Inc., GLOBALFOUNDRIES Inc. and GLOBALFOUNDRIES U.S. Inc., dated December 6, 2012, filed as Exhibit 10.4 to AMD’s Quarterly Report on Form 10-Q for the fiscal quarter",
+          "source": "AMD_2022_10K.pdf",
+          "page": 105
+        },
+        {
+          "citation_id": "E3",
+          "text": "21, 2019, filed as Exhibit 10.7 to AMD’s Quarterly Report on Form 10-Q for the fiscal quarter ended September 28, 2019, is hereby incorporated by reference. *10.43 Form of Performance-based Restricted",
+          "source": "AMD_2022_10K.pdf",
+          "page": 104
+        }
+      ],
+      "latency_ms": 7444.01,
+      "error": null
+    }
+  },
+  {
+    "id": "financebench_id_00476",
+    "wall_s": 8.0,
+    "result": {
+      "question": "Which debt securities are registered to trade on a national securities exchange under American Express' name as of 2022?",
+      "answer": "I couldn't find a supported answer in the provided documents.",
+      "overall_status": "insufficient_evidence",
+      "claims": [],
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "citation_id": "E1",
+          "text": "EXHIBIT 21 SUBSIDIARIES OF AMERICAN EXPRESS COMPANY as of December 31, 2022 Unless otherwise indicated by an asterisk (*), all of the voting securities of these subsidiaries are directly or indirectly",
+          "source": "AMERICANEXPRESS_2022_10K.pdf",
+          "page": 252
+        },
+        {
+          "citation_id": "E2",
+          "text": "securities: U.S. government agency securities $ 108 $ — $ 108 $ — Foreign government agency securities 95 — 95 — Corporate debt securities 619 — 619 — Certificates of deposit/time deposits 41 — 41 —",
+          "source": "3M_2015_10K.pdf",
+          "page": 100
+        },
+        {
+          "citation_id": "E3",
+          "text": "31, (Millions) 2015 2014 U.S. government agency securities $ — $ 108 Foreign government agency securities 10 95 Corporate debt securities 10 619 Commercial paper 12 — Certificates of deposit/time",
+          "source": "3M_2015_10K.pdf",
+          "page": 77
+        }
+      ],
+      "latency_ms": 7987.71,
+      "error": null
+    }
+  },
+  {
+    "id": "financebench_id_01028",
+    "wall_s": 7.7,
+    "result": {
+      "question": "What are the geographies that American Express primarily operates in as of 2022?",
+      "answer": "I couldn't find a supported answer in the provided documents.",
+      "overall_status": "insufficient_evidence",
+      "claims": [],
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "citation_id": "E1",
+          "text": "2022 were as follows: (Millions) 2023 2024 2025 2026 2027 Thereafter Total American Express Company (Parent Company only) $ 5,750 $ 7,500 $ 5,250 $ 2,450 $ 4,911 $ 4,273 $ 30,134 American Express",
+          "source": "AMERICANEXPRESS_2022_10K.pdf",
+          "page": 126
+        },
+        {
+          "citation_id": "E2",
+          "text": "the United Kingdom (UK), the European Union (EU), Australia, Japan, Canada and Mexico. For the year ended December 31, 2022, worldwide billed business (spending on American Express cards issued by us)",
+          "source": "AMERICANEXPRESS_2022_10K.pdf",
+          "page": 5
+        },
+        {
+          "citation_id": "E3",
+          "text": "Gurgaon, India, Brighton, England, Manila, Philippines, Tokyo, Japan, Kuala Lumpur, Malaysia and Sydney, Australia; the American Express data centers in Phoenix, Arizona and Greensboro, North",
+          "source": "AMERICANEXPRESS_2022_10K.pdf",
+          "page": 40
+        }
+      ],
+      "latency_ms": 7731.32,
+      "error": null
+    }
+  },
+  {
+    "id": "financebench_id_00723",
+    "wall_s": 7.3,
+    "result": {
+      "question": "Does AMEX have an improving operating margin profile as of 2022? If operating margin is not a useful metric for a company like this, then state that and explain why.",
+      "answer": "I couldn't find a supported answer in the provided documents.",
+      "overall_status": "insufficient_evidence",
+      "claims": [],
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "citation_id": "E1",
+          "text": "compared to 22. 6 percent in 201 4 . · Operating income margin improvements were driven by higher selling prices and lower raw material costs, along with productivity. · Operating income margins",
+          "source": "3M_2015_10K.pdf",
+          "page": 28
+        },
+        {
+          "citation_id": "E2",
+          "text": "losses in our Amex Ventures equity investments and may experience further losses in the future. As of December 31, 2022, we held approximately $4.6 billion of investment securities, primarily",
+          "source": "AMERICANEXPRESS_2022_10K.pdf",
+          "page": 39
+        },
+        {
+          "citation_id": "E3",
+          "text": "margin when measuring inventory. For 3M, this standard is effective prospectively beginning January 1, 2017, with early adoption permitted. The Company is currently assessing this ASU’s impacts on",
+          "source": "3M_2015_10K.pdf",
+          "page": 63
+        }
+      ],
+      "latency_ms": 7274.37,
+      "error": null
+    }
+  },
+  {
+    "id": "financebench_id_00720",
+    "wall_s": 8.0,
+    "result": {
+      "question": "What drove gross margin change as of the FY2022 for American Express? If gross margin is not a useful metric for a company like this, then please state that and explain why.",
+      "answer": "I couldn't find a supported answer in the provided documents.",
+      "overall_status": "insufficient_evidence",
+      "claims": [],
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "citation_id": "E1",
+          "text": "the PC supply chain. Gross margin, as a percentage of net revenue for 2022, was 45%, compared to 48% in 2021. The decrease in gross margin was primarily due to amortization of intangible assets",
+          "source": "AMD_2022_10K.pdf",
+          "page": 43
+        },
+        {
+          "citation_id": "E2",
+          "text": "as a percentage of net revenue was 45% in 2022 compared to 48% in 2021. The decrease in gross margin was primarily due to amortization of intangible assets associated with the Xilinx acquisition. 46",
+          "source": "AMD_2022_10K.pdf",
+          "page": 49
+        },
+        {
+          "citation_id": "E3",
+          "text": "compared to 22. 6 percent in 201 4 . · Operating income margin improvements were driven by higher selling prices and lower raw material costs, along with productivity. · Operating income margins",
+          "source": "3M_2015_10K.pdf",
+          "page": 28
+        }
+      ],
+      "latency_ms": 7983.68,
+      "error": null
+    }
+  },
+  {
+    "id": "financebench_id_01351",
+    "wall_s": 7.5,
+    "result": {
+      "question": "How much has the effective tax rate of American Express changed between FY2021 and FY2022?",
+      "answer": "I couldn't find a supported answer in the provided documents.",
+      "overall_status": "insufficient_evidence",
+      "claims": [],
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "citation_id": "E1",
+          "text": "effective tax rates of 14% and (95)% respectively. The income tax provision in 2021 was a result of higher income in the U.S. and increase in foreign taxes, partially offset by $147 million of FDII",
+          "source": "AMD_2022_10K.pdf",
+          "page": 86
+        },
+        {
+          "citation_id": "E2",
+          "text": "to 2022 and a decrease of 1.9 percentage points from 2020 to 2021. The primary factor that decreased the effective tax rate for 2022 was the tax efficient structure associated with the gain on the",
+          "source": "3M_2022_10K.pdf",
+          "page": 73
+        },
+        {
+          "citation_id": "E3",
+          "text": "income mix and favorable adjustments in 2021 related to impacts of U.S. international tax provisions. • On an adjusted basis (as discussed below), the effective tax rates for 2022, 2021, and 2020 were",
+          "source": "3M_2022_10K.pdf",
+          "page": 22
+        }
+      ],
+      "latency_ms": 7518.34,
+      "error": null
+    }
+  },
+  {
+    "id": "financebench_id_01964",
+    "wall_s": 7.1,
+    "result": {
+      "question": "What was the largest liability in American Express's Balance Sheet in 2022?",
+      "answer": "I couldn't find a supported answer in the provided documents.",
+      "overall_status": "insufficient_evidence",
+      "claims": [],
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "citation_id": "E1",
+          "text": "Changes in estimates (16) (14) Ending balance – December 31 $1,864 $2,940 The liability balance of $1.9 billion at December 31, 2022 includes $1.6 billion of contracted customer concessions and other",
+          "source": "BOEING_2022_10K.pdf",
+          "page": 87
+        },
+        {
+          "citation_id": "E2",
+          "text": "“Consolidated Financial Statements” for additional information. The following table presents American Express Company's regulatory risk-based capital and risk-weighted assets as of December 31, 2022:",
+          "source": "AMERICANEXPRESS_2022_10K.pdf",
+          "page": 65
+        },
+        {
+          "citation_id": "E3",
+          "text": "2021, and require management’s judgment. These figures may not be indicative of future fair values, nor can the fair value of American Express be estimated by aggregating the amounts presented. 2022",
+          "source": "AMERICANEXPRESS_2022_10K.pdf",
+          "page": 139
+        }
+      ],
+      "latency_ms": 7139.61,
+      "error": null
+    }
+  },
+  {
+    "id": "financebench_id_01981",
+    "wall_s": 6.6,
+    "result": {
+      "question": "Was American Express able to retain card members during 2022?",
+      "answer": "I couldn't find a supported answer in the provided documents.",
+      "overall_status": "insufficient_evidence",
+      "claims": [],
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "citation_id": "E1",
+          "text": "to issue local currency American Express-branded cards in their countries and/or serve as the merchant acquirer for local merchants on our network. For the year ended December 31, 2022, worldwide",
+          "source": "AMERICANEXPRESS_2022_10K.pdf",
+          "page": 6
+        },
+        {
+          "citation_id": "E2",
+          "text": "Our Card Members value the ability to use their cards where and when they want to, and we, therefore, take steps to meet our Card Members’ expectations and to protect the American Express brand by",
+          "source": "AMERICANEXPRESS_2022_10K.pdf",
+          "page": 29
+        },
+        {
+          "citation_id": "E3",
+          "text": "could fail to gain market acceptance and American Express cards could become less desirable to consumers and businesses generally due to surcharging, steering or other forms of discrimination, which",
+          "source": "AMERICANEXPRESS_2022_10K.pdf",
+          "page": 29
+        }
+      ],
+      "latency_ms": 6634.72,
+      "error": null
+    }
+  },
+  {
+    "id": "financebench_id_00685",
+    "wall_s": 7.6,
+    "result": {
+      "question": "Are Best Buy's gross margins historically consistent (not fluctuating more than roughly 2% each year)? If gross margins are not a relevant metric for a company like this, then please state that and explain why.",
+      "answer": "I couldn't find a supported answer in the provided documents.",
+      "overall_status": "insufficient_evidence",
+      "claims": [],
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "citation_id": "E1",
+          "text": "and assumptions used in the future revenue projections were consistent with the strategy and long-range plans for the Best Buy Health reporting unit. · With the assistance of our fair value",
+          "source": "BESTBUY_2023_10K.pdf",
+          "page": 37
+        },
+        {
+          "citation_id": "E2",
+          "text": "income margins were 30.9 percent in 2014, compared to 31.3 percent in 2013, with acquisition impacts reducing operating income margins by 0.3 percentage points. · T he gain from sale of a",
+          "source": "3M_2015_10K.pdf",
+          "page": 29
+        },
+        {
+          "citation_id": "E3",
+          "text": "compared to 22. 6 percent in 201 4 . · Operating income margin improvements were driven by higher selling prices and lower raw material costs, along with productivity. · Operating income margins",
+          "source": "3M_2015_10K.pdf",
+          "page": 28
+        }
+      ],
+      "latency_ms": 7572.79,
+      "error": null
+    }
+  },
+  {
+    "id": "financebench_id_01077",
+    "wall_s": 6.8,
+    "result": {
+      "question": "What are major acquisitions that Best Buy has done in FY2023, FY2022 and FY2021?",
+      "answer": "I couldn't find a supported answer in the provided documents.",
+      "overall_status": "insufficient_evidence",
+      "claims": [],
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "citation_id": "E1",
+          "text": "2022, and our International segment is comprised of all operations in Canada under the brand names Best Buy, Best Buy Mobile and Geek Squad and the domain name bestbuy.ca. In fiscal 2022, we acquired",
+          "source": "BESTBUY_2023_10K.pdf",
+          "page": 4
+        },
+        {
+          "citation_id": "E2",
+          "text": "While we believe these acquisitions will result in certain benefits, including certain operational synergies and cost efficiencies, and drive product innovations, achieving these anticipated benefits",
+          "source": "AMD_2022_10K.pdf",
+          "page": 35
+        },
+        {
+          "citation_id": "E3",
+          "text": "including news releases, events and presentations, and filings with the SEC, please visit: https://investors.bestbuy.com. · For the latest information from Best Buy, including press releases, please",
+          "source": "BESTBUY_2023_10K.pdf",
+          "page": 8
+        }
+      ],
+      "latency_ms": 6770.56,
+      "error": null
+    }
+  },
+  {
+    "id": "financebench_id_01275",
+    "wall_s": 7.5,
+    "result": {
+      "question": "Among operations, investing, and financing activities, which brought in the most (or lost the least) cash flow for Best Buy in FY2023?",
+      "answer": "I couldn't find a supported answer in the provided documents.",
+      "overall_status": "insufficient_evidence",
+      "claims": [],
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "citation_id": "E1",
+          "text": "was $379 million and $269 million as of January 28, 2023, and January 29, 2022, respectively. The increase in restricted cash was primarily due to our Best Buy Totaltech membership offering and growth",
+          "source": "BESTBUY_2023_10K.pdf",
+          "page": 30
+        },
+        {
+          "citation_id": "E2",
+          "text": "the Financial Statements We have audited the accompanying consolidated balance sheets of Best Buy Co., Inc. and subsidiaries (the \"Company\") as of January 28, 2023 and January 29, 2022, the related",
+          "source": "BESTBUY_2023_10K.pdf",
+          "page": 36
+        },
+        {
+          "citation_id": "E3",
+          "text": "including news releases, events and presentations, and filings with the SEC, please visit: https://investors.bestbuy.com. · For the latest information from Best Buy, including press releases, please",
+          "source": "BESTBUY_2023_10K.pdf",
+          "page": 8
+        }
+      ],
+      "latency_ms": 7537.63,
+      "error": null
+    }
+  },
+  {
+    "id": "financebench_id_00517",
+    "wall_s": 9.4,
+    "result": {
+      "question": "Are there any product categories / service categories that represent more than 20% of Boeing's revenue for FY2022?",
+      "answer": "I couldn't find a supported answer in the provided documents.",
+      "overall_status": "insufficient_evidence",
+      "claims": [],
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "citation_id": "E1",
+          "text": "Services 17,611 16,328 15,543 Boeing Capital 199 272 261 Unallocated items, eliminations and other (231) (347) (65) Total $66,608 $62,286 $58,158 Revenues increased by $4,322 million in 2022 compared",
+          "source": "BOEING_2022_10K.pdf",
+          "page": 24
+        },
+        {
+          "citation_id": "E2",
+          "text": "(49,954) (54,568) Cost of services (9,109) (9,283) (9,232) Boeing Capital interest expense (28) (32) (43) Total costs and expenses (63,106) (59,269) (63,843) 3,502 3,017 (5,685) (Loss)/income from",
+          "source": "BOEING_2022_10K.pdf",
+          "page": 55
+        },
+        {
+          "citation_id": "E3",
+          "text": "$508 $535 $559 Defense, Space & Security 238 233 251 Global Services 346 414 408 Boeing Capital Corporation 46 59 66 Centrally Managed Assets 841 903 962 Total $1,979 $2,144 $2,246 Amounts shown in",
+          "source": "BOEING_2022_10K.pdf",
+          "page": 118
+        }
+      ],
+      "latency_ms": 9383.54,
+      "error": null
+    }
+  },
+  {
+    "id": "financebench_id_01091",
+    "wall_s": 7.0,
+    "result": {
+      "question": "Has Boeing reported any materially important ongoing legal battles from FY2022?",
+      "answer": "I couldn't find a supported answer in the provided documents.",
+      "overall_status": "insufficient_evidence",
+      "claims": [],
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "citation_id": "E1",
+          "text": "I, Brian J. West, certify that: 1. I have reviewed this annual report on Form 10-K of The Boeing Company; 2. Based on my knowledge, this report does not contain any untrue statement of a material fact",
+          "source": "BOEING_2022_10K.pdf",
+          "page": 188
+        },
+        {
+          "citation_id": "E2",
+          "text": "I, David L. Calhoun, certify that: 1. I have reviewed this annual report on Form 10-K of The Boeing Company; 2. Based on my knowledge, this report does not contain any untrue statement of a material",
+          "source": "BOEING_2022_10K.pdf",
+          "page": 187
+        },
+        {
+          "citation_id": "E3",
+          "text": "ethics or safety violations. We address employee concerns and take appropriate actions that uphold our Boeing values. Competition The commercial jet aircraft market and the airline industry remain",
+          "source": "BOEING_2022_10K.pdf",
+          "page": 5
+        }
+      ],
+      "latency_ms": 6998.7,
+      "error": null
+    }
+  },
+  {
+    "id": "financebench_id_00678",
+    "wall_s": 7.5,
+    "result": {
+      "question": "Does Boeing have an improving gross margin profile as of FY2022? If gross margin is not a useful metric for a company like this, then state that and explain why.",
+      "answer": "I couldn't find a supported answer in the provided documents.",
+      "overall_status": "insufficient_evidence",
+      "claims": [],
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "citation_id": "E1",
+          "text": "the PC supply chain. Gross margin, as a percentage of net revenue for 2022, was 45%, compared to 48% in 2021. The decrease in gross margin was primarily due to amortization of intangible assets",
+          "source": "AMD_2022_10K.pdf",
+          "page": 43
+        },
+        {
+          "citation_id": "E2",
+          "text": "compared to 22. 6 percent in 201 4 . · Operating income margin improvements were driven by higher selling prices and lower raw material costs, along with productivity. · Operating income margins",
+          "source": "3M_2015_10K.pdf",
+          "page": 28
+        },
+        {
+          "citation_id": "E3",
+          "text": "margins (5.3) % (4.7) % (22.0) % Effective income tax rate (0.6) % 14.8 % 17.5 % Net loss attributable to Boeing Shareholders ($4,935) ($4,202) ($11,873) Diluted loss per share ($8.30) ($7.15)",
+          "source": "BOEING_2022_10K.pdf",
+          "page": 24
+        }
+      ],
+      "latency_ms": 7459.4,
+      "error": null
+    }
+  },
+  {
+    "id": "financebench_id_01290",
+    "wall_s": 7.0,
+    "result": {
+      "question": "Who are the primary customers of Boeing as of FY2022?",
+      "answer": "I couldn't find a supported answer in the provided documents.",
+      "overall_status": "insufficient_evidence",
+      "claims": [],
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "citation_id": "E1",
+          "text": "30, 2019, among The Boeing Company, for itself and on behalf of its Subsidiaries, as a Borrower, the Lenders party hereto, Citibank, N.A., as administrative agent, JPMorgan Chase Bank, N.A., as",
+          "source": "BOEING_2022_10K.pdf",
+          "page": 132
+        },
+        {
+          "citation_id": "E2",
+          "text": "and lessor customers. We continue to monitor developments and potential Boeing impacts, and take mitigating actions as appropriate. 21",
+          "source": "BOEING_2022_10K.pdf",
+          "page": 23
+        },
+        {
+          "citation_id": "E3",
+          "text": "from March 2014 to February 2015; Corporate Vice President, Boeing International and Chairman and President of Boeing (China) Co., Ltd. from March 2011 to March 2014; and Vice President, Global Law",
+          "source": "BOEING_2022_10K.pdf",
+          "page": 127
+        }
+      ],
+      "latency_ms": 7006.73,
+      "error": null
+    }
+  },
+  {
+    "id": "financebench_id_00464",
+    "wall_s": 7.0,
+    "result": {
+      "question": "Is Boeing's business subject to cyclicality?",
+      "answer": "I couldn't find a supported answer in the provided documents.",
+      "overall_status": "insufficient_evidence",
+      "claims": [],
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "citation_id": "E1",
+          "text": "portion of our business is considered to be seasonal. Executive Officers of the Registrant See “Item 10. Directors, Executive Officers and Corporate Governance” in Part III. Other Information Boeing",
+          "source": "BOEING_2022_10K.pdf",
+          "page": 7
+        },
+        {
+          "citation_id": "E2",
+          "text": "remains stalled as economic and national security concerns continue to be a challenge. China is a significant market for commercial aircraft. Boeing has long-standing relationships with our Chinese",
+          "source": "BOEING_2022_10K.pdf",
+          "page": 12
+        },
+        {
+          "citation_id": "E3",
+          "text": "Table of Contents The Boeing Company and Subsidiaries Notes to the Consolidated Financial Statements Summary of Business Segment Data (Dollars in millions) Years ended December 31, 2022 2021 2020",
+          "source": "BOEING_2022_10K.pdf",
+          "page": 62
+        }
+      ],
+      "latency_ms": 7010.63,
+      "error": null
+    }
+  },
+  {
+    "id": "financebench_id_00494",
+    "wall_s": 7.0,
+    "result": {
+      "question": "What production rate changes is Boeing forecasting for FY2023?",
+      "answer": "I couldn't find a supported answer in the provided documents.",
+      "overall_status": "insufficient_evidence",
+      "claims": [],
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "citation_id": "E1",
+          "text": "to adjust production rates on several of our commercial aircraft programs. The 787 program is currently producing at low rates and we expect to gradually increase to 5 per month in 2023. Production of",
+          "source": "BOEING_2022_10K.pdf",
+          "page": 9
+        },
+        {
+          "citation_id": "E2",
+          "text": "program's normal progress of obtaining additional orders and delivering airplanes. We increased the production rate to 31 per month in 2022, and expect to implement further gradual production rate",
+          "source": "BOEING_2022_10K.pdf",
+          "page": 33
+        },
+        {
+          "citation_id": "E3",
+          "text": "2020 driven by lower deliveries due to the COVID-19 pandemic and the 737 MAX grounding. In 2021, inventory growth slowed as the continued buildup of 787 aircraft caused by production issues and 777X",
+          "source": "BOEING_2022_10K.pdf",
+          "page": 43
+        }
+      ],
+      "latency_ms": 6970.72,
+      "error": null
+    }
+  },
+  {
+    "id": "financebench_id_00585",
+    "wall_s": 7.5,
+    "result": {
+      "question": "How does Boeing's effective tax rate in FY2022 compare to FY2021?",
+      "answer": "I couldn't find a supported answer in the provided documents.",
+      "overall_status": "insufficient_evidence",
+      "claims": [],
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "citation_id": "E1",
+          "text": "in the above tax rate reconciliation table. For fiscal year 2023, the Company's effective tax rate was 15.4% as compared to the effective tax rates of 26.9% and 21.9% for fiscal years 2022 and 2021,",
+          "source": "AMCOR_2023_10K.pdf",
+          "page": 93
+        },
+        {
+          "citation_id": "E2",
+          "text": "effective tax rates of 14% and (95)% respectively. The income tax provision in 2021 was a result of higher income in the U.S. and increase in foreign taxes, partially offset by $147 million of FDII",
+          "source": "AMD_2022_10K.pdf",
+          "page": 86
+        },
+        {
+          "citation_id": "E3",
+          "text": "to 2022 and a decrease of 1.9 percentage points from 2020 to 2021. The primary factor that decreased the effective tax rate for 2022 was the tax efficient structure associated with the gain on the",
+          "source": "3M_2022_10K.pdf",
+          "page": 73
+        }
+      ],
+      "latency_ms": 7473.76,
+      "error": null
+    }
+  },
+  {
+    "id": "financebench_id_00790",
+    "wall_s": 6.9,
+    "result": {
+      "question": "Is CVS Health a capital-intensive business based on FY2022 data?",
+      "answer": "I couldn't find a supported answer in the provided documents.",
+      "overall_status": "insufficient_evidence",
+      "claims": [],
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "citation_id": "E1",
+          "text": "as an equity instrument and was recorded within capital surplus. In February 2022, the Company received approximately 2.7 million shares of CVS Health Corporation’s common stock, representing the",
+          "source": "CVSHEALTH_2022_10K.pdf",
+          "page": 69
+        },
+        {
+          "citation_id": "E2",
+          "text": "as an equity instrument and was recorded within capital surplus. In February 2022, the Company received approximately 2.7 million shares of CVS Health Corporation’s common stock, representing the",
+          "source": "CVSHEALTH_2022_10K.pdf",
+          "page": 92
+        },
+        {
+          "citation_id": "E3",
+          "text": "CVS Health Corporation, together with its subsidiaries (collectively, “CVS Health,” the “Company,” “we,” “our” or “us”), is a leading diversified health solutions company reshaping health care to help",
+          "source": "CVSHEALTH_2022_10K.pdf",
+          "page": 71
+        }
+      ],
+      "latency_ms": 6858.02,
+      "error": null
+    }
+  },
+  {
+    "id": "financebench_id_01107",
+    "wall_s": 7.0,
+    "result": {
+      "question": "Has CVS Health reported any materially important ongoing legal battles from 2022, 2021 and 2020?",
+      "answer": "I couldn't find a supported answer in the provided documents.",
+      "overall_status": "insufficient_evidence",
+      "claims": [],
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "citation_id": "E1",
+          "text": "reporting of CVS Health Corporation included in this Annual Report (Form 10-K) of CVS Health Corporation for the year ended December 31, 2022. /s/ Ernst & Young LLP Boston, Massachusetts February 8,",
+          "source": "CVSHEALTH_2022_10K.pdf",
+          "page": 209
+        },
+        {
+          "citation_id": "E2",
+          "text": "dated February 8, 2023, with respect to the consolidated financial statements of CVS Health Corporation and the effectiveness of internal control over financial reporting of CVS Health Corporation",
+          "source": "CVSHEALTH_2022_10K.pdf",
+          "page": 209
+        },
+        {
+          "citation_id": "E3",
+          "text": "Exhibit 31.1 Certification I, Karen S. Lynch, President and Chief Executive Officer of CVS Health Corporation, certify that: 1. I have reviewed this annual report on Form 10-K of CVS Health",
+          "source": "CVSHEALTH_2022_10K.pdf",
+          "page": 210
+        }
+      ],
+      "latency_ms": 7043.73,
+      "error": null
+    }
+  },
+  {
+    "id": "financebench_id_01244",
+    "wall_s": 8.4,
+    "result": {
+      "question": "Has CVS Health paid dividends to common shareholders in Q2 of FY2022?",
+      "answer": "I couldn't find a supported answer in the provided documents.",
+      "overall_status": "insufficient_evidence",
+      "claims": [],
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "citation_id": "E1",
+          "text": "CVS Health Corporation’s common stock is listed on the New York Stock Exchange under the symbol “CVS.” Dividends During 2022, 2021 and 2020, the quarterly cash dividend was $0.55, $0.50 and $0.50 per",
+          "source": "CVSHEALTH_2022_10K.pdf",
+          "page": 68
+        },
+        {
+          "citation_id": "E2",
+          "text": "8 of this 10-K for information regarding CVS Health Corporation’s dividends. Holders of Common Stock As of February 1, 2023, there were 24,142 registered holders of the registrant’s common stock",
+          "source": "CVSHEALTH_2022_10K.pdf",
+          "page": 68
+        },
+        {
+          "citation_id": "E3",
+          "text": "per share effective in 2023. CVS Health Corporation has paid cash dividends every quarter since becoming a public company. Future dividends will depend on the Company’s earnings, capital requirements,",
+          "source": "CVSHEALTH_2022_10K.pdf",
+          "page": 68
+        }
+      ],
+      "latency_ms": 8363.38,
+      "error": null
+    }
+  },
+  {
+    "id": "financebench_id_01009",
+    "wall_s": 7.5,
+    "result": {
+      "question": "What are the geographies that Pepsico primarily operates in as of FY2022?",
+      "answer": "I couldn't find a supported answer in the provided documents.",
+      "overall_status": "insufficient_evidence",
+      "claims": [],
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "citation_id": "E1",
+          "text": "20, 2022: PepsiCo, Inc. Bare Foods Co. Bottling Group, LLC C&I Leasing, Inc. CytoSport, Inc. FL Transportation Frito Lay North America, Inc. Frito Lay, Inc. Golden Grain Co. Grayhawk Leasing, LLC",
+          "source": "PEPSICO_2022_10K.pdf",
+          "page": 478
+        },
+        {
+          "citation_id": "E2",
+          "text": "domestic and international locations and in a variety of roles, including Senior Vice President of Frito-Lay North America’s West region from 2009 to 2013, Vice President, Sales of PepsiCo U.K. and",
+          "source": "PEPSICO_2022_10K.pdf",
+          "page": 29
+        },
+        {
+          "citation_id": "E3",
+          "text": "States, Delaware PepsiCo Caribbean, Inc. Puerto Rico PepsiCo Consulting Polska Sp. z o.o. Poland PepsiCo de Argentina S.R.L. Argentina PepsiCo De Bolivia S.R.L. Bolivia PepsiCo de Mexico S. de R.L. de",
+          "source": "PEPSICO_2022_10K.pdf",
+          "page": 488
+        }
+      ],
+      "latency_ms": 7456.17,
+      "error": null
+    }
+  },
+  {
+    "id": "financebench_id_00735",
+    "wall_s": 8.2,
+    "result": {
+      "question": "Has Pepsico reported any materially important ongoing legal battles from FY2022 and FY2021?",
+      "answer": "I couldn't find a supported answer in the provided documents.",
+      "overall_status": "insufficient_evidence",
+      "claims": [],
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "citation_id": "E1",
+          "text": "PepsiCo Organization’s best interests, including violating the Company’s Code of Conduct, engaging in unlawful trading in the securities of the Company or of any other company based on information",
+          "source": "PEPSICO_2022_10K.pdf",
+          "page": 266
+        },
+        {
+          "citation_id": "E2",
+          "text": "on May 3, 2019. 3.2 By-laws of PepsiCo, Inc., as amended and restated, effective as of April 15, 2020, which are incorporated herein by reference to Exhibit 3.2 to PepsiCo, Inc.’s Current Report on",
+          "source": "PEPSICO_2022_10K.pdf",
+          "page": 122
+        },
+        {
+          "citation_id": "E3",
+          "text": "and the effectiveness of internal control over financial reporting as of December 31, 2022, which report appears in the December 31, 2022 annual report on Form 10-K of PepsiCo, Inc. Description,",
+          "source": "PEPSICO_2022_10K.pdf",
+          "page": 495
+        }
+      ],
+      "latency_ms": 8150.28,
+      "error": null
+    }
+  },
+  {
+    "id": "financebench_id_01328",
+    "wall_s": 7.4,
+    "result": {
+      "question": "What is the quantity of restructuring costs directly outlined in Pepsico's income statements for FY2022? If restructuring costs are not explicitly outlined then state 0.",
+      "answer": "I couldn't find a supported answer in the provided documents.",
+      "overall_status": "insufficient_evidence",
+      "claims": [],
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "citation_id": "E1",
+          "text": "$5 million to other restructuring expenses, and $4 million to restructuring related expenses. During fiscal year 2022, the Company recorded $57 million in restructuring and related expenses classified",
+          "source": "AMCOR_2023_10K.pdf",
+          "page": 68
+        },
+        {
+          "citation_id": "E2",
+          "text": "restructuring charges were recorded in the income statement as follows: (Millions) 2015 Cost of sales 40 Selling, general and administrative expenses 62 Research, development and related expenses 12",
+          "source": "3M_2015_10K.pdf",
+          "page": 68
+        },
+        {
+          "citation_id": "E3",
+          "text": "and 2021 respectively. The net expenses related to restructuring activities have been presented on the consolidated statements of income as part of restructuring, impairment, and other related",
+          "source": "AMCOR_2023_10K.pdf",
+          "page": 67
+        }
+      ],
+      "latency_ms": 7437.41,
+      "error": null
+    }
+  },
+  {
+    "id": "financebench_id_03620",
+    "wall_s": 13.9,
+    "result": {
+      "question": "What is the FY2022 unadjusted EBITDA less capex for PepsiCo? Define unadjusted EBITDA as unadjusted operating income + depreciation and amortization [from cash flow statement]. Answer in USD millions. Respond to the question by assuming the perspective of an investment analyst who can only use the details shown within the statement of cash flows and the income statement.",
+      "answer": "I couldn't find a supported answer in the provided documents.",
+      "overall_status": "insufficient_evidence",
+      "claims": [],
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "citation_id": "E1",
+          "text": "loss attributable to PepsiCo are as follows: Currency Translation Adjustment Cash Flow Hedges Pension and Retiree Medical Other Accumulated Other Comprehensive Loss Attributable to PepsiCo Balance as",
+          "source": "PEPSICO_2022_10K.pdf",
+          "page": 104
+        },
+        {
+          "citation_id": "E2",
+          "text": "for the fiscal year 2023 was a decrease of $91 million, or (3%), reflecting price/mix benefits of approximately 1%, offset by unfavorable volumes (4%). Adjusted EBIT decreased by $24 million, or 8%,",
+          "source": "AMCOR_2023_10K.pdf",
+          "page": 33
+        },
+        {
+          "citation_id": "E3",
+          "text": "in adjusted EBIT for the fiscal year 2023 was a decrease of $22 million, or 8%, with favorable price/mix of 20%, more than offset by unfavorable volumes of (12%), unfavorable plant costs of (11%) and",
+          "source": "AMCOR_2023_10K.pdf",
+          "page": 33
+        }
+      ],
+      "latency_ms": 13889.72,
+      "error": null
+    }
+  },
+  {
+    "id": "financebench_id_04481",
+    "wall_s": 13.3,
+    "result": {
+      "question": "What is the FY2022 unadjusted EBITDA % margin for PepsiCo? Calculate unadjusted EBITDA using unadjusted operating income and D&A (from cash flow statement). Give a response to the question by relying on the details shown in the statement of cash flows and the P&L statement.",
+      "answer": "I couldn't find a supported answer in the provided documents.",
+      "overall_status": "insufficient_evidence",
+      "claims": [],
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "citation_id": "E1",
+          "text": "2021 Change Net income attributable to PepsiCo per common share – diluted, GAAP measure $ 6.42 $ 5.49 17 % Mark-to-market net impact 0.03 0.01 Restructuring and impairment charges 0.24 0.15",
+          "source": "PEPSICO_2022_10K.pdf",
+          "page": 49
+        },
+        {
+          "citation_id": "E2",
+          "text": "in adjusted EBIT for the fiscal year 2023 was a decrease of $22 million, or 8%, with favorable price/mix of 20%, more than offset by unfavorable volumes of (12%), unfavorable plant costs of (11%) and",
+          "source": "AMCOR_2023_10K.pdf",
+          "page": 33
+        },
+        {
+          "citation_id": "E3",
+          "text": "divided by Adjusted EBITDA. As of June 30, 2023, and 2022, the Company was in compliance with all debt covenants. 86",
+          "source": "AMCOR_2023_10K.pdf",
+          "page": 86
+        }
+      ],
+      "latency_ms": 13310.65,
+      "error": null
+    }
+  },
+  {
+    "id": "UNSUP-1",
+    "wall_s": 16.1,
+    "result": {
+      "question": "Who will be Boeing's CEO in 2035?",
+      "answer": "I couldn't find a supported answer in the provided documents.",
+      "overall_status": "insufficient_evidence",
+      "claims": [],
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "citation_id": "E1",
+          "text": "Vice President and Chief Financial Officer of Boeing Commercial Airplanes from December 2020 to March 2022; Vice President and Chief Financial Officer of Boeing Global Services from January 2017 to",
+          "source": "BOEING_2022_10K.pdf",
+          "page": 129
+        },
+        {
+          "citation_id": "E2",
+          "text": "from April 2019 to October 2020; Senior Vice President and President, Boeing International from February 2015 to April 2019; President of Boeing Capital Corporation from March 2014 to February 2015;",
+          "source": "BOEING_2022_10K.pdf",
+          "page": 127
+        },
+        {
+          "citation_id": "E3",
+          "text": "Officer, Boeing Global Services from October 2019 to March 2022; Chief Information Officer and Senior Vice President, Information Technology & Data Analytics from April 2016 to October 2019; Chief",
+          "source": "BOEING_2022_10K.pdf",
+          "page": 128
+        }
+      ],
+      "latency_ms": 16072.74,
+      "error": null
+    }
+  },
+  {
+    "id": "UNSUP-2",
+    "wall_s": 9.0,
+    "result": {
+      "question": "What was PepsiCo's customer satisfaction score in 2022?",
+      "answer": "I couldn't find a supported answer in the provided documents.",
+      "overall_status": "insufficient_evidence",
+      "claims": [],
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "citation_id": "E1",
+          "text": "be effective as of January 1, 2022 or as otherwise stated herein. PEPSICO, INC. By: /s/ Ronald Schellekens Ronald Schellekens Executive Vice President and Chief Human Resources Officer APPROVED By:",
+          "source": "PEPSICO_2022_10K.pdf",
+          "page": 338
+        },
+        {
+          "citation_id": "E2",
+          "text": "as of January 1, 2019. This document is again amended and restated effective as of January 1, 2022. PEPSICO, INC. By: /s/ Ronald Schellekens Ronald Schellekens Executive Vice President and Chief Human",
+          "source": "PEPSICO_2022_10K.pdf",
+          "page": 476
+        },
+        {
+          "citation_id": "E3",
+          "text": "effective as of January 1, 2019, which is incorporated by reference to Exhibit 10.26 to PepsiCo, Inc.’s Annual Report on Form 10-K for the fiscal year ended December 29, 2018.* 10.12 PepsiCo Director",
+          "source": "PEPSICO_2022_10K.pdf",
+          "page": 127
+        }
+      ],
+      "latency_ms": 9035.26,
+      "error": null
+    }
+  },
+  {
+    "id": "UNSUP-3",
+    "wall_s": 9.4,
+    "result": {
+      "question": "What will AMD's total revenue be in fiscal year 2030?",
+      "answer": "I couldn't find a supported answer in the provided documents.",
+      "overall_status": "insufficient_evidence",
+      "claims": [],
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "citation_id": "E1",
+          "text": "was as follows ($ in millions): 2023 2022 2021 Revenue by reportable segment Domestic $ 42,794 $ 47,830 $ 43,293 International 3,504 3,931 3,969 Total revenue $ 46,298 $ 51,761 $ 47,262 62",
+          "source": "BESTBUY_2023_10K.pdf",
+          "page": 62
+        },
+        {
+          "citation_id": "E2",
+          "text": "(i.e., December 27, 2020). December 31, 2022 December 25, 2021 (in millions) Net revenue $ 24,117 $ 20,150 Net income $ 2,311 $ 8 70",
+          "source": "AMD_2022_10K.pdf",
+          "page": 73
+        },
+        {
+          "citation_id": "E3",
+          "text": "of Operations” in Part II, Item 7 of our Annual Report on Form 10-K for the fiscal year ended December 25, 2021. Overview 2022 was a transformative year for AMD as we took several major steps that",
+          "source": "AMD_2022_10K.pdf",
+          "page": 43
+        }
+      ],
+      "latency_ms": 9376.5,
+      "error": null
+    }
+  },
+  {
+    "id": "CONTRA-1",
+    "wall_s": 9.0,
+    "result": {
+      "question": "AMD's balance sheet shows total current liabilities of $9,369 million at December 31, 2022. Is that correct?",
+      "answer": "I couldn't find a supported answer in the provided documents.",
+      "overall_status": "insufficient_evidence",
+      "claims": [],
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "citation_id": "E1",
+          "text": "Balance Sheet as part of current and long-term liabilities, are estimated at approximately $ 48 million at December 31, 2022, and $ 48 million at December 31, 2021. Further information on product",
+          "source": "3M_2022_10K.pdf",
+          "page": 94
+        },
+        {
+          "citation_id": "E2",
+          "text": "December 31, 2022, respectively, of which $4.8 billion was recorded in other long-term liabilities on the consolidated balance sheet. In addition, the Company expects the cash impact in 2023 and 2024",
+          "source": "CVSHEALTH_2022_10K.pdf",
+          "page": 175
+        },
+        {
+          "citation_id": "E3",
+          "text": "of $39 million which have been accounted for as liabilities held for sale and are included in liabilities held for sale on the consolidated balance sheet at December 31, 2022. See Note 2",
+          "source": "CVSHEALTH_2022_10K.pdf",
+          "page": 150
+        }
+      ],
+      "latency_ms": 8962.52,
+      "error": null
+    }
+  },
+  {
+    "id": "CONTRA-2",
+    "wall_s": 7.8,
+    "result": {
+      "question": "AMD reported total current assets of $12,019 million at December 31, 2022, correct?",
+      "answer": "I couldn't find a supported answer in the provided documents.",
+      "overall_status": "insufficient_evidence",
+      "claims": [],
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "citation_id": "E1",
+          "text": "was $1.9 billion and $2.3 billion at December 31, 2022 and 2021, respectively (of which 1.6% and 2.0% at December 31, 2022 and 2021, respectively, supported experience-rated products). At December 31,",
+          "source": "CVSHEALTH_2022_10K.pdf",
+          "page": 104
+        },
+        {
+          "citation_id": "E2",
+          "text": "assets in the year ended December 31, 2022. See Note 1 for further information. (a) 78",
+          "source": "PEPSICO_2022_10K.pdf",
+          "page": 80
+        },
+        {
+          "citation_id": "E3",
+          "text": "of Operations” in Part II, Item 7 of our Annual Report on Form 10-K for the fiscal year ended December 25, 2021. Overview 2022 was a transformative year for AMD as we took several major steps that",
+          "source": "AMD_2022_10K.pdf",
+          "page": 43
+        }
+      ],
+      "latency_ms": 7787.8,
+      "error": null
+    }
+  }
+]
