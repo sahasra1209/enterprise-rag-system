@@ -1,206 +1,266 @@
-Evaluation framework
 
+# Evaluation Framework
 
+This folder contains the evaluation framework for measuring the performance of the Enterprise RAG pipeline in `backend/app/` using FinanceBench 10-K financial filings.
 
-Evaluates the Enterprise RAG pipeline in backend/app/ on FinanceBench 10-K filings. Nothing in backend/app/ is modified: scripts import the pipeline and, where an experiment needs different settings (prompt, retrieval pool), patch the relevant function at run time inside the script.
+No files in `backend/app/` were modified for these experiments. Evaluation scripts import the existing pipeline and apply experimental changes, such as alternative prompts and retrieval settings, at runtime.
 
+The experimental findings, analysis, limitations, and recommendations are documented in [REPORT.md](REPORT.md).
 
+## Requirements
 
-Findings are in REPORT.md.
+- Python 3.12
+- Repository virtual environment
+- Ollama running locally
+- FinanceBench open-source dataset
+- Required Python packages:
+  - pandas
+  - scipy
+  - chromadb
+  - ollama
+  - sentence-transformers
 
+Install dependencies:
 
+```powershell
+pip install -r requirements.txt
+```
 
-Requirements
+Pull the Ollama model:
 
-Python 3.12 and the repository's virtual environment (pip install -r requirements.txt). The evaluation scripts also need pandas, scipy, chromadb, ollama and sentence-transformers; make sure these are in requirements.txt.
+```powershell
+ollama pull qwen2.5:3b
+```
 
-Ollama running locally, with the model the pipeline uses:
+Make sure Ollama is running before executing the evaluation scripts.
 
-powershell
+## FinanceBench Dataset
 
-&#x20; ollama pull qwen2.5:3b
+Download the FinanceBench open-source dataset from:
 
-The FinanceBench open-source sample (github.com/patronus-ai/financebench): the data/financebench\_open\_source.jsonl file and the pdfs/ folder. Do not commit the PDFs or the chroma\_db/ folder.
+https://github.com/patronus-ai/financebench
 
-Paths to edit
+The evaluation uses:
 
+- `data/financebench_open_source.jsonl`
+- `pdfs/` containing the corresponding financial filings
 
+Do not commit downloaded PDF files or the `chroma_db/` directory.
 
-Several scripts contain hard-coded Windows paths near the top. Change them to where you downloaded FinanceBench:
+## Paths to Configure
 
+Some scripts contain hard-coded Windows paths. Update these paths near the top of the relevant scripts to match your local FinanceBench download location.
 
+| Variable | Scripts |
+|---|---|
+| `PDF_DIR` | `index_financebench.py`, `chunk_size_experiment.py`, `add_unsupported.py` |
+| `SRC` | `build_dataset.py`, `run_oracle.py`, `llm_probe.py` |
 
-Variable	Used in
+## Reproducing the Experiments
 
-PDF\_DIR (folder of PDFs)	index\_financebench.py, chunk\_size\_experiment.py, add\_unsupported.py
+Run all commands from the repository root with the virtual environment activated and Ollama running.
 
-SRC (path to financebench\_open\_source.jsonl)	build\_dataset.py, run\_oracle.py, llm\_probe.py
+### 1. Index the FinanceBench Corpus
 
-Reproducing the results
+```powershell
+python evaluation\index_financebench.py
+```
 
+This indexes the financial filings into the `policy_documents` ChromaDB collection using the default 200-character chunk size.
 
+Already indexed filings are skipped. The complete corpus contains approximately 38,000 chunks.
 
-Run from the repository root, with the virtual environment active and Ollama running. Order matters.
+### 2. Build the Evaluation Dataset
 
+```powershell
+python evaluation\build_dataset.py
+python evaluation\add_unsupported.py
+```
 
+The dataset builder creates:
 
-1\. Index the corpus (200-character chunks, the pipeline's default)
+`evaluation/dataset_financebench.json`
 
-powershell
+It contains supported questions and starter unsupported and contradictory cases.
 
-python evaluation\\index\_financebench.py
+Important: Run `add_unsupported.py` after `build_dataset.py`, because the dataset builder overwrites the output file.
 
+Unsupported questions are initially screened using keyword searches. Confirm their absence manually against the relevant PDF filings.
 
+### 3. Run the Baseline Evaluation
 
-Writes to the policy\_documents collection in ./chroma\_db. Already-indexed filings are skipped. Takes several minutes (about 38,000 chunks).
+```powershell
+python evaluation\run_evaluation.py --out evaluation\results\run_baseline.json
 
+python evaluation\score_results.py evaluation\results\run_baseline.json
+```
 
+Optional arguments:
 
-2\. Build the test set
+- `--limit N`: Evaluate only N questions.
+- `--category supported`: Evaluate supported questions.
+- `--category unsupported`: Evaluate unsupported questions.
+- `--category contradictory`: Evaluate contradictory questions.
 
-powershell
+Reusing an existing output file allows an interrupted run to resume.
 
-python evaluation\\build\_dataset.py
+### 4. Retrieval, Reranker and Chunk-Size Experiments
 
-python evaluation\\add\_unsupported.py
+Run:
 
+```powershell
+python evaluation\retrieval_experiment.py
 
+python evaluation\retrieval_experiment.py --scoped
 
-build\_dataset.py writes evaluation/dataset\_financebench.json (39 supported questions plus starter unsupported and contradictory cases) and prints the page-number offset it detected. It overwrites the file, so run add\_unsupported.py after it, never before. add\_unsupported.py adds unsupported questions only if their keywords do not appear together on any page of the filing; confirm each added question by hand.
+python evaluation\significance.py
 
+python evaluation\chunk_size_experiment.py
+```
 
+These experiments evaluate:
 
-3\. Baseline: pipeline as shipped
+- Retrieval depth and evidence-page recall.
+- Vector search versus reranking.
+- Retrieval restricted to the correct filing.
+- Chunk sizes of 200, 600 and 1,000 characters.
 
-powershell
+The `--scoped` option restricts retrieval to the correct filing.
 
-python evaluation\\run\_evaluation.py --out evaluation\\results\\run\_baseline.json
+The chunk-size experiment builds separate ChromaDB collections named `eval_c600` and `eval_c1000` for four filings. It does not modify the default `policy_documents` collection.
 
-python evaluation\\score\_results.py evaluation\\results\\run\_baseline.json
+### 5. Diagnose Generation and Verification
 
+Run:
 
+```powershell
+python evaluation\diagnose_hits.py
 
-Options for run\_evaluation.py: --limit N, --category supported|unsupported|contradictory. Re-using an --out file resumes an interrupted run. The scorer also writes evaluation/results/per\_case\_<run>.csv.
+python evaluation\run_oracle.py
 
+python evaluation\llm_probe.py
 
+python evaluation\verifier_test.py
+```
 
-4\. Retrieval, reranker, chunk size
+Purpose of each experiment:
 
-powershell
+- `diagnose_hits.py`: Identifies retrieval failures.
+- `run_oracle.py`: Supplies gold evidence passages directly to the pipeline to isolate generation performance.
+- `llm_probe.py`: Compares the original pipeline prompt with an alternative financial-document prompt.
+- `verifier_test.py`: Evaluates the hallucination verifier using verbatim, altered-number and unrelated claims.
 
-python evaluation\\retrieval\_experiment.py
+### 6. Run Alternative Prompt Experiments
 
-python evaluation\\retrieval\_experiment.py --scoped
+Run:
 
-python evaluation\\significance.py
+```powershell
+python evaluation\run_best_config.py
 
-python evaluation\\chunk\_size\_experiment.py
+python evaluation\run_prompt_c.py
 
-\--scoped restricts retrieval to the correct filing.
+python evaluation\run_prompt_d.py
 
-significance.py reads retrieval\_experiment\_scoped.json (paired tests, reranker versus vector).
+python evaluation\probe_empty_claims.py
+```
 
-chunk\_size\_experiment.py builds two extra collections, eval\_c600 and eval\_c1000, for four filings (AMD, American Express, Boeing, Amcor). It does not touch policy\_documents. The prompt runs below need eval\_c1000.
+These experiments use:
 
-5\. Where the pipeline loses answers
+- 1,000-character chunks.
+- A retrieval pool of 20 candidates.
+- Reranking to the top 3 candidates.
+- Retrieval restricted to the correct filing.
+- Alternative prompt instructions.
 
-powershell
+The prompt configurations are:
 
-python evaluation\\diagnose\_hits.py
+| Run | Description |
+|---|---|
+| Pipeline prompt (A) | Original pipeline prompt |
+| Prompt B | Financial-document-specific prompt |
+| Prompt C | Prompt B with sentence-level citation requirements |
+| Prompt D | Prompt C with an explicit rule against citation-only answers |
 
-python evaluation\\run\_oracle.py
+Output files are saved under `evaluation/results/`.
 
-python evaluation\\llm\_probe.py
+### 7. Score and Analyse Results
 
-python evaluation\\verifier\_test.py
+Run:
 
-run\_oracle.py gives the pipeline the gold evidence passages instead of its own retrieval.
+```powershell
+python evaluation\score_results.py evaluation\results\run_prompt_d.json
 
-llm\_probe.py compares the pipeline's prompt with a reworded prompt on gold evidence.
+python evaluation\error_analysis.py evaluation\results\run_prompt_d.json
 
-verifier\_test.py tests the hallucination detector alone on verbatim, number-altered, and unrelated claims.
+python evaluation\compare_runs.py
+```
 
-6\. End-to-end runs with larger chunks and alternative prompts
+These scripts:
 
-powershell
+- Calculate retrieval and answer-generation metrics.
+- Analyse claim-level verification failures.
+- Identify where questions fail in the evaluation pipeline.
+- Compare the baseline and alternative prompt configurations.
+- Calculate confidence intervals for reported proportions.
 
-python evaluation\\run\_best\_config.py
+The comparison script generates:
 
-python evaluation\\run\_prompt\_c.py
+`evaluation/results/comparison.md`
 
-python evaluation\\run\_prompt\_d.py
+The error-analysis script generates:
 
-python evaluation\\probe\_empty\_claims.py
+`evaluation/results/error_analysis.csv`
 
+Note that `error_analysis.csv` is overwritten each time the error-analysis script runs. Copy it before adding manual labels if you need to preserve previous annotations.
 
+## Project Files
 
-Each uses 1,000-character chunks (eval\_c1000), retrieves 20 candidates inside the correct filing, reranks to 3, and runs the pipeline with a modified prompt. run\_best\_config.py is prompt B and writes run\_best\_config.json. Prompts C and D are defined at the top of their scripts. probe\_empty\_claims.py re-runs four questions and prints the raw model output.
+| File | Purpose |
+|---|---|
+| `dataset_financebench.json` | Evaluation questions, reference answers, evidence pages and categories |
+| `build_dataset.py` | Builds the supported-question dataset |
+| `add_unsupported.py` | Adds unsupported questions |
+| `index_financebench.py` | Indexes FinanceBench PDFs into ChromaDB |
+| `run_evaluation.py` | Runs the original pipeline against the dataset |
+| `score_results.py` | Calculates evaluation metrics |
+| `retrieval_experiment.py` | Evaluates retrieval depth and reranking |
+| `significance.py` | Performs paired statistical comparisons |
+| `chunk_size_experiment.py` | Compares different chunk sizes |
+| `run_oracle.py` | Tests generation with gold evidence |
+| `llm_probe.py` | Compares prompt configurations |
+| `probe_empty_claims.py` | Investigates citation-only responses |
+| `verifier_test.py` | Tests the hallucination verifier independently |
+| `run_best_config.py` | Runs Prompt B |
+| `run_prompt_c.py` | Runs Prompt C |
+| `run_prompt_d.py` | Runs Prompt D |
+| `diagnose_hits.py` | Diagnoses retrieval performance |
+| `error_analysis.py` | Analyses answer and verification failures |
+| `compare_runs.py` | Generates experiment comparison tables |
+| `results/` | Stores raw experiment outputs, CSV files and comparison results |
 
+The earlier prototype, `backend/app/evaluate_retrieval.py`, covers retrieval only. The evaluation scripts in this folder provide the expanded evaluation framework.
 
+## Using the Results
 
-7\. Analysis and comparison
+The `results/per_case_*.csv` files contain per-question evaluation information, including:
 
-powershell
+- Question ID and category.
+- Pipeline status.
+- Evidence-page retrieval results.
+- Claim and citation counts.
+- Response latency.
 
-python evaluation\\score\_results.py evaluation\\results\\run\_prompt\_d.json
+These CSV files can be loaded into external analysis tools or dashboards.
 
-python evaluation\\error\_analysis.py evaluation\\results\\run\_prompt\_d.json
+## Limitations and Notes
 
-python evaluation\\compare\_runs.py
+- Evaluation runs use a local Qwen 2.5 3B model through Ollama.
+- Each question typically takes approximately 10–20 seconds to evaluate.
+- FinanceBench evidence page numbers are zero-based, while the document index uses one-based page numbers.
+- `build_dataset.py` detects and applies the required page-number offset.
+- Chunk sizes are measured in characters, not tokens.
+- Prompt B, C and D were developed while examining the same evaluation questions, introducing a risk of prompt-tuning bias.
+- Results should be interpreted cautiously because of the relatively small evaluation sample.
+- The experimental retrieval configurations differ from the original shipped pipeline, so improvements cannot be attributed to a single change.
 
-error\_analysis.py prints the failure funnel and writes evaluation/results/error\_analysis.csv (overwritten on every run; copy it first if you add hand labels, for example to error\_analysis\_promptD.csv).
-
-compare\_runs.py builds the comparison tables and 95% confidence intervals from the run files and writes evaluation/results/comparison.md.
-
-Files
-
-File	Purpose
-
-dataset\_financebench.json	Test set: questions, reference answers, evidence pages, categories
-
-build\_dataset.py, add\_unsupported.py	Build and extend the test set
-
-index\_financebench.py	Index FinanceBench PDFs into ChromaDB in batches (ChromaDB limits a single call to 5,461 records)
-
-run\_evaluation.py	Run the pipeline as shipped over the dataset and save raw outputs
-
-score\_results.py	Score a run: retrieval hit, answer status, verification, citations
-
-retrieval\_experiment.py, significance.py	Page-level retrieval and reranker comparison with paired tests
-
-chunk\_size\_experiment.py	Compare 200, 600 and 1,000-character chunks
-
-run\_oracle.py, llm\_probe.py, probe\_empty\_claims.py	Diagnose the generation step
-
-verifier\_test.py	Test the hallucination detector in isolation
-
-run\_best\_config.py, run\_prompt\_c.py, run\_prompt\_d.py	End-to-end runs with larger chunks and alternative prompts
-
-error\_analysis.py, diagnose\_hits.py, compare\_runs.py	Failure analysis and run comparison
-
-results/	Raw run files (run\_\*.json), per-case CSVs, experiment outputs, comparison.md
-
-dataset.json	Early 4-question prototype on the 3M 2015 filing, kept for reference
-
-
-
-The earlier prototype script backend/app/evaluate\_retrieval.py was added in the first pull request and covers retrieval only; the scripts above supersede it.
-
-
-
-Using the results elsewhere
-
-
-
-results/per\_case\_\*.csv has one row per question (category, tier, status, page hit, claims and citations counts, latency) and can be loaded directly by the dashboard.
-
-
-
-Notes
-
-Evaluation runs call a local 3B model and take roughly 10 to 20 seconds per question.
-
-Page numbers: FinanceBench evidence pages are 0-based; the index is 1-based. build\_dataset.py detects the offset (+1) from the data.
-
-Chunk sizes are in characters, not tokens.
-
+For detailed experimental results, statistical analysis, failure cases and recommendations, see [REPORT.md](REPORT.md).
