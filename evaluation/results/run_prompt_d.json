@@ -1,7 +1,7 @@
 [
   {
     "id": "financebench_id_00799",
-    "wall_s": 15.4,
+    "wall_s": 16.1,
     "result": {
       "question": "Has AMCOR's quick ratio improved or declined between FY2023 and FY2022? If the quick ratio is not something that a financial analyst would ask about a company like this, then state that and explain why.",
       "answer": "I couldn't find a supported answer in the provided documents.",
@@ -28,13 +28,13 @@
           "page": 114
         }
       ],
-      "latency_ms": 15415.19,
+      "latency_ms": 16080.51,
       "error": null
     }
   },
   {
     "id": "financebench_id_01079",
-    "wall_s": 10.5,
+    "wall_s": 9.8,
     "result": {
       "question": "What are major acquisitions that AMCOR has done in FY2023, FY2022 and FY2021?",
       "answer": "I couldn't find a supported answer in the provided documents.",
@@ -61,13 +61,13 @@
           "page": 11
         }
       ],
-      "latency_ms": 10452.09,
+      "latency_ms": 9839.01,
       "error": null
     }
   },
   {
     "id": "financebench_id_01148",
-    "wall_s": 18.0,
+    "wall_s": 14.7,
     "result": {
       "question": "What industry does AMCOR primarily operate in?",
       "answer": "I couldn't find a supported answer in the provided documents.",
@@ -121,13 +121,13 @@
           "page": 37
         }
       ],
-      "latency_ms": 18018.44,
+      "latency_ms": 14728.24,
       "error": null
     }
   },
   {
     "id": "financebench_id_00684",
-    "wall_s": 12.2,
+    "wall_s": 12.3,
     "result": {
       "question": "Does AMCOR have an improving gross margin profile as of FY2023? If gross margin is not a useful metric for a company like this, then state that and explain why.",
       "answer": "I couldn't find a supported answer in the provided documents.",
@@ -154,13 +154,13 @@
           "page": 55
         }
       ],
-      "latency_ms": 12225.43,
+      "latency_ms": 12272.42,
       "error": null
     }
   },
   {
     "id": "financebench_id_00222",
-    "wall_s": 10.8,
+    "wall_s": 10.0,
     "result": {
       "question": "Does AMD have a reasonably healthy liquidity profile based on its quick ratio for FY22? If the quick ratio is not relevant to measure liquidity, please state that and explain why.",
       "answer": "I couldn't find a supported answer in the provided documents.",
@@ -187,13 +187,13 @@
           "page": 4
         }
       ],
-      "latency_ms": 10759.27,
+      "latency_ms": 10048.08,
       "error": null
     }
   },
   {
     "id": "financebench_id_00995",
-    "wall_s": 12.8,
+    "wall_s": 17.5,
     "result": {
       "question": "What are the major products and services that AMD sells as of FY22?",
       "answer": "I couldn't find a supported answer in the provided documents.",
@@ -247,13 +247,13 @@
           "page": 11
         }
       ],
-      "latency_ms": 12840.18,
+      "latency_ms": 14686.66,
       "error": null
     }
   },
   {
     "id": "financebench_id_01198",
-    "wall_s": 9.2,
+    "wall_s": 10.0,
     "result": {
       "question": "What drove revenue change as of the FY22 for AMD?",
       "answer": "I couldn't find a supported answer in the provided documents.",
@@ -280,13 +280,13 @@
           "page": 5
         }
       ],
-      "latency_ms": 9211.48,
+      "latency_ms": 10035.8,
       "error": null
     }
   },
   {
     "id": "financebench_id_00917",
-    "wall_s": 4.8,
+    "wall_s": 4.6,
     "result": {
       "question": "What drove operating margin change as of the FY22 for AMD? If operating margin is not a useful metric for a company like this, then please state that and explain why.",
       "answer": "I couldn't find a supported answer in the provided documents.",
@@ -313,13 +313,13 @@
           "page": 4
         }
       ],
-      "latency_ms": 4801.41,
+      "latency_ms": 4552.58,
       "error": null
     }
   },
   {
     "id": "financebench_id_01279",
-    "wall_s": 12.7,
+    "wall_s": 12.0,
     "result": {
       "question": "Among operations, investing, and financing activities, which brought in the most (or lost the least) cash flow for AMD in FY22?",
       "answer": "I couldn't find a supported answer in the provided documents.",
@@ -373,13 +373,13 @@
           "page": 59
         }
       ],
-      "latency_ms": 12684.77,
+      "latency_ms": 12007.77,
       "error": null
     }
   },
   {
     "id": "financebench_id_00563",
-    "wall_s": 14.6,
+    "wall_s": 13.4,
     "result": {
       "question": "From FY21 to FY22, excluding Embedded, in which AMD reporting segment did sales proportionally increase the most?",
       "answer": "I couldn't find a supported answer in the provided documents.",
@@ -433,13 +433,13 @@
           "page": 43
         }
       ],
-      "latency_ms": 14541.65,
+      "latency_ms": 13389.38,
       "error": null
     }
   },
   {
     "id": "financebench_id_00757",
-    "wall_s": 12.8,
+    "wall_s": 12.4,
     "result": {
       "question": "Did AMD report customer concentration in FY22?",
       "answer": "I couldn't find a supported answer in the provided documents.",
@@ -466,13 +466,13 @@
           "page": 106
         }
       ],
-      "latency_ms": 12833.19,
+      "latency_ms": 12376.11,
       "error": null
     }
   },
   {
     "id": "financebench_id_00476",
-    "wall_s": 16.8,
+    "wall_s": 15.0,
     "result": {
       "question": "Which debt securities are registered to trade on a national securities exchange under American Express' name as of 2022?",
       "answer": "I couldn't find a supported answer in the provided documents.",
@@ -526,13 +526,13 @@
           "page": 69
         }
       ],
-      "latency_ms": 16765.68,
+      "latency_ms": 14955.39,
       "error": null
     }
   },
   {
     "id": "financebench_id_01028",
-    "wall_s": 12.7,
+    "wall_s": 11.7,
     "result": {
       "question": "What are the geographies that American Express primarily operates in as of 2022?",
       "answer": "I couldn't find a supported answer in the provided documents.",
@@ -586,13 +586,13 @@
           "page": 5
         }
       ],
-      "latency_ms": 12755.58,
+      "latency_ms": 11743.75,
       "error": null
     }
   },
   {
     "id": "financebench_id_00723",
-    "wall_s": 11.1,
+    "wall_s": 11.3,
     "result": {
       "question": "Does AMEX have an improving operating margin profile as of 2022? If operating margin is not a useful metric for a company like this, then state that and explain why.",
       "answer": "I couldn't find a supported answer in the provided documents.",
@@ -619,13 +619,13 @@
           "page": 9
         }
       ],
-      "latency_ms": 11129.13,
+      "latency_ms": 11324.0,
       "error": null
     }
   },
   {
     "id": "financebench_id_00720",
-    "wall_s": 13.8,
+    "wall_s": 12.2,
     "result": {
       "question": "What drove gross margin change as of the FY2022 for American Express? If gross margin is not a useful metric for a company like this, then please state that and explain why.",
       "answer": "I couldn't find a supported answer in the provided documents.",
@@ -652,13 +652,13 @@
           "page": 162
         }
       ],
-      "latency_ms": 13820.41,
+      "latency_ms": 12226.06,
       "error": null
     }
   },
   {
     "id": "financebench_id_01351",
-    "wall_s": 17.7,
+    "wall_s": 15.2,
     "result": {
       "question": "How much has the effective tax rate of American Express changed between FY2021 and FY2022?",
       "answer": "I couldn't find a supported answer in the provided documents.",
@@ -699,13 +699,13 @@
           "page": 150
         }
       ],
-      "latency_ms": 17659.56,
+      "latency_ms": 15222.25,
       "error": null
     }
   },
   {
     "id": "financebench_id_01964",
-    "wall_s": 17.4,
+    "wall_s": 15.1,
     "result": {
       "question": "What was the largest liability in American Express's Balance Sheet in 2022?",
       "answer": "I couldn't find a supported answer in the provided documents.",
@@ -759,13 +759,13 @@
           "page": 126
         }
       ],
-      "latency_ms": 17417.82,
+      "latency_ms": 15103.53,
       "error": null
     }
   },
   {
     "id": "financebench_id_01981",
-    "wall_s": 11.5,
+    "wall_s": 9.9,
     "result": {
       "question": "Was American Express able to retain card members during 2022?",
       "answer": "I couldn't find a supported answer in the provided documents.",
@@ -792,13 +792,13 @@
           "page": 6
         }
       ],
-      "latency_ms": 11535.88,
+      "latency_ms": 9882.31,
       "error": null
     }
   },
   {
     "id": "financebench_id_00517",
-    "wall_s": 23.6,
+    "wall_s": 21.3,
     "result": {
       "question": "Are there any product categories / service categories that represent more than 20% of Boeing's revenue for FY2022?",
       "answer": "I couldn't find a supported answer in the provided documents.",
@@ -852,13 +852,13 @@
           "page": 24
         }
       ],
-      "latency_ms": 23556.58,
+      "latency_ms": 21347.46,
       "error": null
     }
   },
   {
     "id": "financebench_id_01091",
-    "wall_s": 11.0,
+    "wall_s": 9.6,
     "result": {
       "question": "Has Boeing reported any materially important ongoing legal battles from FY2022?",
       "answer": "I couldn't find a supported answer in the provided documents.",
@@ -885,13 +885,13 @@
           "page": 188
         }
       ],
-      "latency_ms": 11006.87,
+      "latency_ms": 9553.48,
       "error": null
     }
   },
   {
     "id": "financebench_id_00678",
-    "wall_s": 9.9,
+    "wall_s": 9.0,
     "result": {
       "question": "Does Boeing have an improving gross margin profile as of FY2022? If gross margin is not a useful metric for a company like this, then state that and explain why.",
       "answer": "I couldn't find a supported answer in the provided documents.",
@@ -918,13 +918,13 @@
           "page": 56
         }
       ],
-      "latency_ms": 9883.54,
+      "latency_ms": 9035.64,
       "error": null
     }
   },
   {
     "id": "financebench_id_01290",
-    "wall_s": 12.3,
+    "wall_s": 11.4,
     "result": {
       "question": "Who are the primary customers of Boeing as of FY2022?",
       "answer": "I couldn't find a supported answer in the provided documents.",
@@ -978,13 +978,13 @@
           "page": 129
         }
       ],
-      "latency_ms": 12265.66,
+      "latency_ms": 11392.66,
       "error": null
     }
   },
   {
     "id": "financebench_id_00464",
-    "wall_s": 11.7,
+    "wall_s": 10.0,
     "result": {
       "question": "Is Boeing's business subject to cyclicality?",
       "answer": "I couldn't find a supported answer in the provided documents.",
@@ -1038,13 +1038,13 @@
           "page": 16
         }
       ],
-      "latency_ms": 11665.51,
+      "latency_ms": 9987.01,
       "error": null
     }
   },
   {
     "id": "financebench_id_00494",
-    "wall_s": 12.5,
+    "wall_s": 11.1,
     "result": {
       "question": "What production rate changes is Boeing forecasting for FY2023?",
       "answer": "I couldn't find a supported answer in the provided documents.",
@@ -1098,13 +1098,13 @@
           "page": 9
         }
       ],
-      "latency_ms": 12460.18,
+      "latency_ms": 11072.06,
       "error": null
     }
   },
   {
     "id": "financebench_id_00585",
-    "wall_s": 14.9,
+    "wall_s": 14.4,
     "result": {
       "question": "How does Boeing's effective tax rate in FY2022 compare to FY2021?",
       "answer": "I couldn't find a supported answer in the provided documents.",
@@ -1158,13 +1158,13 @@
           "page": 56
         }
       ],
-      "latency_ms": 14951.31,
+      "latency_ms": 14408.83,
       "error": null
     }
   },
   {
     "id": "UNSUP-1",
-    "wall_s": 11.0,
+    "wall_s": 10.8,
     "result": {
       "question": "Who will be Boeing's CEO in 2035?",
       "answer": "I couldn't find a supported answer in the provided documents.",
@@ -1191,13 +1191,13 @@
           "page": 128
         }
       ],
-      "latency_ms": 11008.48,
+      "latency_ms": 10770.75,
       "error": null
     }
   },
   {
     "id": "UNSUP-3",
-    "wall_s": 11.5,
+    "wall_s": 11.6,
     "result": {
       "question": "What will AMD's total revenue be in fiscal year 2030?",
       "answer": "I couldn't find a supported answer in the provided documents.",
@@ -1224,13 +1224,13 @@
           "page": 43
         }
       ],
-      "latency_ms": 11494.93,
+      "latency_ms": 11620.73,
       "error": null
     }
   },
   {
     "id": "UNSUP-6",
-    "wall_s": 12.5,
+    "wall_s": 12.0,
     "result": {
       "question": "What was Boeing's customer satisfaction survey score in 2022?",
       "answer": "I couldn't find a supported answer in the provided documents.",
@@ -1257,13 +1257,13 @@
           "page": 43
         }
       ],
-      "latency_ms": 12467.92,
+      "latency_ms": 12010.12,
       "error": null
     }
   },
   {
     "id": "UNSUP-7",
-    "wall_s": 17.4,
+    "wall_s": 9.6,
     "result": {
       "question": "How many engineers did Boeing hire in India in 2022?",
       "answer": "I couldn't find a supported answer in the provided documents.",
@@ -1290,13 +1290,13 @@
           "page": 5
         }
       ],
-      "latency_ms": 17352.05,
+      "latency_ms": 9561.89,
       "error": null
     }
   },
   {
     "id": "UNSUP-8",
-    "wall_s": 14.9,
+    "wall_s": 12.6,
     "result": {
       "question": "What was American Express's market share of Japanese card transactions in 2022?",
       "answer": "I couldn't find a supported answer in the provided documents.",
@@ -1323,13 +1323,13 @@
           "page": 99
         }
       ],
-      "latency_ms": 14854.76,
+      "latency_ms": 12648.99,
       "error": null
     }
   },
   {
     "id": "UNSUP-9",
-    "wall_s": 11.1,
+    "wall_s": 10.1,
     "result": {
       "question": "How many customer service calls did American Express handle in 2022?",
       "answer": "I couldn't find a supported answer in the provided documents.",
@@ -1356,13 +1356,13 @@
           "page": 5
         }
       ],
-      "latency_ms": 11100.12,
+      "latency_ms": 10072.7,
       "error": null
     }
   },
   {
     "id": "UNSUP-10",
-    "wall_s": 18.9,
+    "wall_s": 17.4,
     "result": {
       "question": "What dividend per share will American Express pay in 2030?",
       "answer": "I couldn't find a supported answer in the provided documents.",
@@ -1389,13 +1389,13 @@
           "page": 157
         }
       ],
-      "latency_ms": 18863.82,
+      "latency_ms": 17379.88,
       "error": null
     }
   },
   {
     "id": "UNSUP-11",
-    "wall_s": 17.0,
+    "wall_s": 16.3,
     "result": {
       "question": "What is Amcor's forecast net sales for fiscal 2030?",
       "answer": "I couldn't find a supported answer in the provided documents.",
@@ -1422,13 +1422,13 @@
           "page": 50
         }
       ],
-      "latency_ms": 17011.55,
+      "latency_ms": 16294.9,
       "error": null
     }
   },
   {
     "id": "UNSUP-13",
-    "wall_s": 9.5,
+    "wall_s": 9.7,
     "result": {
       "question": "What was Amcor's customer churn rate in fiscal 2023?",
       "answer": "I couldn't find a supported answer in the provided documents.",
@@ -1455,7 +1455,7 @@
           "page": 30
         }
       ],
-      "latency_ms": 9536.57,
+      "latency_ms": 9715.93,
       "error": null
     }
   }
